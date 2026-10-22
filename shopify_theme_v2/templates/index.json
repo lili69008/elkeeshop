@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-video"
+    },
+    "marquee": {
+      "type": "marquee-heritage"
+    },
+    "transmission": {
+      "type": "text-transmission"
+    },
+    "split_1": {
+      "type": "split-image-text"
+    },
+    "video_unbreakable": {
+      "type": "video-unbreakable"
+    },
+    "featured": {
+      "type": "featured-collections"
+    },
+    "stone_grid": {
+      "type": "stone-grid"
+    },
+    "duo_split": {
+      "type": "duo-split"
+    },
+    "cta": {
+      "type": "private-jeweller-cta"
+    }
+  },
+  "order": [
+    "hero",
+    "marquee",
+    "transmission",
+    "split_1",
+    "video_unbreakable",
+    "featured",
+    "stone_grid",
+    "duo_split",
+    "cta"
+  ]
+}

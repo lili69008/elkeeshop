@@ -1,0 +1,214 @@
+<style>
+    :root {
+        --section-spacing: clamp(10rem, 15vw, 18rem);
+    }
+
+    .unbreakable-page {
+        background: var(--bg);
+        color: var(--fg);
+    }
+
+    /* Hero Refinement */
+    .hero-video-container {
+        height: 95vh;
+        clip-path: inset(0 0 0 0);
+    }
+
+    .hero-content .kicker {
+        font-size: 0.8rem;
+        letter-spacing: 0.5em;
+        opacity: 0.9;
+    }
+
+    .hero-content h1 {
+        font-weight: 300;
+        margin-top: 1.5rem;
+    }
+
+    /* Section Layouts */
+    .refined-section {
+        padding: var(--section-spacing) 10%;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .story-quote {
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .story-quote p {
+        font-family: var(--font-serif);
+        font-size: clamp(1.5rem, 3vw, 2.2rem);
+        line-height: 1.6;
+        font-style: italic;
+        color: var(--fg);
+    }
+
+    /* Editions Grid - Epure & Organized */
+    .editions-intro {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto 8rem;
+    }
+
+    .editions-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12vw;
+        align-items: flex-start;
+    }
+
+    .edition-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edition-item.offset {
+        margin-top: 15rem;
+    }
+
+    .edition-image {
+        position: relative;
+        margin-bottom: 4rem;
+        overflow: hidden;
+        background: #f9f9f9;
+    }
+
+    .edition-image img {
+        width: 100%;
+        display: block;
+        transition: transform 1.2s var(--ease-out);
+        mix-blend-mode: multiply;
+    }
+
+    .edition-item:hover .edition-image img {
+        transform: scale(1.05);
+    }
+
+    .edition-text {
+        max-width: 400px;
+    }
+
+    .edition-text h3 {
+        font-size: 2.2rem;
+        font-weight: 300;
+        letter-spacing: 0.1em;
+        margin: 1.5rem 0;
+    }
+
+    .edition-text p {
+        font-size: 0.95rem;
+        line-height: 1.8;
+        color: var(--muted);
+        margin-bottom: 2.5rem;
+    }
+
+    /* Product Grid Header */
+    .catalog-header {
+        text-align: center;
+        padding: 10rem 10% 4rem;
+        border-top: 1px solid var(--border);
+        margin-top: 10rem;
+    }
+
+    @media (max-width: 768px) {
+        .editions-grid {
+            grid-template-columns: 1fr;
+            gap: 8rem;
+        }
+        .edition-item.offset {
+            margin-top: 0;
+        }
+    }
+</style>
+
+<div class="unbreakable-page">
+    <!-- 1. Hero Cinematic -->
+    <div class="hero-video-container hero-collection">
+        <video autoplay muted loop playsinline class="video-full-bg">
+            <source src="{{ '5dcc0929850b4fbea015c0e5b29ea8a4.mp4' | asset_url }}" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="kicker">CO-CREATION EXCLUSIVE</span>
+            <h1 class="reveal-text">UNBREAKABLE</h1>
+            <div class="divider"></div>
+            <p class="reveal-text">LA RÉSILIENCE TRANSFORMÉE EN ÉCLAT</p>
+        </div>
+    </div>
+
+    <!-- 2. The Narrative -->
+    <section class="refined-section reveal">
+        <div class="story-quote">
+            <span class="kicker">MANIFESTO</span>
+            <p>"Le projet Unbreakable est né d'un désir profond d'incarner un parcours de vie. En collaboration avec Elke Berr, Paul et Zulay Pogba ont façonné des talismans de résilience, où chaque diamant témoigne d'une force inaltérable."</p>
+            <div style="width: 1px; height: 80px; background: var(--accent); margin: 4rem auto 0; opacity: 0.4;"></div>
+        </div>
+    </section>
+
+    <!-- 3. The Dual Collection -->
+    <section class="refined-section reveal" style="padding-top: 5rem;">
+        <div class="editions-intro">
+            <span class="kicker">DEUX MONDES, UNE ÂME</span>
+            <h2 style="font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 300; margin-top: 1.5rem;">LES ÉDITIONS</h2>
+            <p style="margin-top: 2.5rem; color: var(--muted); line-height: 2;">La collection Unbreakable se décline en deux expressions distinctes, reflets de la force intérieure et de la grâce lumineuse. Chaque pièce est numérotée et conçue dans nos ateliers genevois.</p>
+        </div>
+
+        <div class="editions-grid">
+            <div class="edition-item">
+                <a href="/pages/unbreakable-paul" class="edition-image">
+                    <img src="{{ 'unbreakable_hero.png' | asset_url }}" alt="Edition Paul Pogba">
+                </a>
+                <div class="edition-text">
+                    <span class="kicker">ÉDITION MASCULINE</span>
+                    <h3>PAUL POGBA</h3>
+                    <p>L'expression d'une force brute. Argent massif, spinelles noirs et lignes architecturales pour un style affirmé et intemporel.</p>
+                    <a href="/pages/unbreakable-paul" class="link-arrow">Explorer l'Édition</a>
+                </div>
+            </div>
+
+            <div class="edition-item offset">
+                <a href="/pages/unbreakable-zulay" class="edition-image">
+                    <img src="{{ 'launch_zulay.jpg' | asset_url }}" alt="Edition Zulay Pogba" style="object-position: center top;">
+                </a>
+                <div class="edition-text">
+                    <span class="kicker">ÉDITION FÉMININE</span>
+                    <h3>ZULAY POGBA</h3>
+                    <p>La lumière à l'état pur. Or 18 carats et diamants de haute joaillerie, une célébration de la résilience et de l'élégance éternelle.</p>
+                    <a href="/pages/unbreakable-zulay" class="link-arrow">Explorer l'Édition</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Curated Catalog -->
+    <div class="catalog-header reveal">
+        <span class="kicker">LE CATALOGUE</span>
+        <h2 style="font-weight: 300; margin-top: 1rem;">PIÈCES SIGNÉES</h2>
+    </div>
+    <section class="reveal" style="padding-top: 0;">
+        <div class="grid-3">
+            {% assign collection_handle = 'unbreakable' %}
+            {% if collections[collection_handle].products.size > 0 %}
+                {% for product in collections[collection_handle].products limit: 12 %}
+                    <a href="{{ product.url }}" class="card reveal bg-lifestyle">
+                        <div class="card-img-wrapper"><img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ product.title | escape }}"></div>
+                        <span class="kicker">UNBREAKABLE</span>
+                        <h3>{{ product.title }}</h3>
+                    </a>
+                {% endfor %}
+            {% else %}
+                <p style="text-align: center; grid-column: 1 / -1; color: var(--muted);">Les produits de cette collection seront bientôt disponibles.</p>
+            {% endif %}
+        </div>
+    </section>
+</div>
+
+{% schema %}
+{
+  "name": "Unbreakable Landing",
+  "settings": []
+}
+{% endschema %}

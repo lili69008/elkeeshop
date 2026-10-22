@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "unbreakable-paul",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

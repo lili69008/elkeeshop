@@ -1,0 +1,68 @@
+<section class="reveal" style="padding-top: 18rem; padding-bottom: 8rem; text-align: center;">
+    <span class="kicker">Expertise & Exception</span>
+    <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 0.25em; font-weight: 400; margin-bottom: 3rem;">HAUTE JOAILLERIE</h1>
+    <div style="width: 40px; height: 1px; background: var(--fg); margin: 0 auto 3rem;"></div>
+    <p style="max-width: 650px; margin: 0 auto; line-height: 2; color: var(--muted); font-weight: 300; font-size: 0.95rem; letter-spacing: 0.02em;">Des pièces uniques, sculptées autour de gemmes rares, témoins d'un savoir-faire d'exception.</p>
+</section>
+
+<section id="catalog-grid" class="reveal" style="padding: 0 8vw 15rem;">
+    <div class="grid-3">
+        <div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;">
+            <h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">High Jewelry</h2>
+        </div>
+
+        {% assign collection_handle = section.settings.collection_id | default: 'haute-joaillerie' %}
+        {% assign hj_collection = collections[collection_handle] %}
+
+        {% if hj_collection.products.size > 0 %}
+            {% for product in hj_collection.products limit: 100 %}
+                <a href="{{ product.url }}" style="text-decoration:none; color:inherit;" class="bg-white">
+                    <div class="card reveal">
+                        <div class="card-img-wrapper">
+                            <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ product.title | escape }}">
+                        </div>
+                        <span class="kicker">HIGH JEWELRY</span>
+                        <h3>{{ product.title }}</h3>
+                    </div>
+                </a>
+            {% endfor %}
+        {% else %}
+            <!-- Fallback showing the layout for preview without data -->
+            <a href="#" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="{{ 'bague_saphir.png' | asset_url }}"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>BAGUE RUBIS AMORE</h3>
+                </div>
+            </a>
+            <a href="#" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="{{ 'bague_saphir.png' | asset_url }}"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ZEPHYRIS RING</h3>
+                </div>
+            </a>
+            <p style="grid-column: 1 / -1; text-align: center; color: var(--muted); margin-top: 4rem;">
+                <em>Les produits s'afficheront ici une fois la collection "{{ collection_handle }}" configurée.</em>
+            </p>
+        {% endif %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Haute Joaillerie",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection_id",
+      "label": "Collection Haute Joaillerie"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Haute Joaillerie"
+    }
+  ]
+}
+{% endschema %}

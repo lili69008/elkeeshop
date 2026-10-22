@@ -1,0 +1,69 @@
+<nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+    <a href="{{ routes.root_url }}" class="logo-container" aria-label="{{ shop.name }}">
+        <span class="logo-main">ELKE BERR</span>
+        <span class="logo-sub">GENÈVE</span>
+    </a>
+    <ul class="nav-links">
+        <li><a href="{{ routes.root_url }}">Accueil</a></li>
+        <li>
+            <a href="/pages/unbreakable">Unbreakable</a>
+            <div class="dropdown-menu">
+                <a href="/pages/unbreakable">Unbreakable</a>
+                <a href="/pages/unbreakable-paul">Elke Berr × Paul Pogba</a>
+                <a href="/pages/unbreakable-zulay">Elke Berr × Zulay Pogba</a>
+                <a href="/pages/unbreakable-story">L'Histoire</a>
+                <a href="/pages/unbreakable-villa">Lancement Villa Forbes</a>
+            </div>
+        </li>
+        <li><a href="/pages/private-jeweller">Joaillerie Privée</a></li>
+        <li class="has-mega">
+            <a href="/collections/haute-joaillerie">Haute Joaillerie</a>
+            <div class="mega-menu">
+                <div class="mega-column">
+                    <h4>Catégories</h4>
+                    <ul>
+                        <li><a href="/collections/haute-joaillerie">Haute Joaillerie</a></li>
+                        <li><a href="/collections/haute-joaillerie-colliers">Colliers</a></li>
+                        <li><a href="/collections/haute-joaillerie-bagues">Bagues</a></li>
+                        <li><a href="/collections/haute-joaillerie-boucles">Boucles d'oreilles</a></li>
+                        <li><a href="/collections/haute-joaillerie-bracelets">Bracelets</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="has-mega">
+            <a href="/collections/all">Bijoux</a>
+            <div class="mega-menu">
+                <div class="mega-column">
+                    <h4>Catégorie</h4>
+                    <ul>
+                        <li><a href="/collections/all">Tous les Bijoux</a></li>
+                        <li><a href="/collections/bagues">Bagues</a></li>
+                        <li><a href="/collections/colliers">Colliers</a></li>
+                        <li><a href="/collections/boucles">Boucles d'oreilles</a></li>
+                        <li><a href="/collections/bracelets">Bracelets</a></li>
+                    </ul>
+                </div>
+                <div class="mega-column">
+                    <h4>Collection</h4>
+                    <ul>
+                        <li><a href="/collections/rockn-rose">Rock'N Rose</a></li>
+                        <li><a href="/collections/singular">Singular</a></li>
+                        <li><a href="/collections/mysteria">Mysteria</a></li>
+                        <li><a href="/collections/waves">Waves</a></li>
+                        <li><a href="/collections/dolce">Dolce</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li><a href="/pages/contact">Contact</a></li>
+    </ul>
+</nav>
+
+{% schema %}
+{
+  "name": "Header",
+  "class": "section-header",
+  "settings": []
+}
+{% endschema %}

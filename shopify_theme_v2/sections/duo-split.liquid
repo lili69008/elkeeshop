@@ -1,0 +1,39 @@
+<section class="reveal flush-section" style="padding:0;">
+    <div style="text-align:center;padding:10rem var(--pad-x) 6rem;background:var(--bg-alt);">
+        <span class="kicker">COLLABORATION EXCLUSIVE</span>
+        <h2 style="font-size:clamp(2rem,4vw,3.2rem);font-weight:400;margin-top:1rem;">Deux Âmes,<br>Une Collection</h2>
+        <p style="max-width:600px;margin:2.5rem auto 0;font-size:0.95rem;line-height:2;color:var(--muted);">La collection Unbreakable est née d'une rencontre entre la vision d'Elke Berr et deux personnalités d'exception. Deux éditions distinctes, deux expressions d'une même résilience.</p>
+    </div>
+    <div class="duo-split">
+        <a href="/pages/unbreakable-paul" class="duo-panel">
+            <img src="{{ 'unbreakable_hero.png' | asset_url }}" alt="Edition Paul Pogba — Unbreakable par Elke Berr" loading="lazy">
+            <div class="duo-panel-text">
+                <span class="kicker kicker--light">ÉDITION MASCULINE</span>
+                <h3>Paul<br>Pogba</h3>
+                <p style="font-size:0.85rem;color:rgba(255,255,255,0.6);line-height:1.8;margin-bottom:1.5rem;">Argent massif, spinelles noirs. La puissance à l'état pur — une force qui ne plie jamais.</p>
+                <span class="link-arrow" style="color:#fff;font-size:0.6rem;">Explorer l'Édition</span>
+            </div>
+        </a>
+        <a href="/pages/unbreakable-zulay" class="duo-panel">
+            <img src="{{ 'launch_zulay.jpg' | asset_url }}" alt="Edition Zulay Pogba — Unbreakable par Elke Berr" loading="lazy">
+            <div class="duo-panel-text">
+                <span class="kicker kicker--light">ÉDITION FÉMININE</span>
+                <h3>Zulay<br>Pogba</h3>
+                <p style="font-size:0.85rem;color:rgba(255,255,255,0.6);line-height:1.8;margin-bottom:1.5rem;">Or 18 carats, diamants de haute joaillerie. La grâce lumineuse qui transcende l'adversité.</p>
+                <span class="link-arrow" style="color:#fff;font-size:0.6rem;">Explorer l'Édition</span>
+            </div>
+        </a>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Duo Split",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Duo Split"
+    }
+  ]
+}
+{% endschema %}

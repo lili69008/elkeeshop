@@ -1,0 +1,129 @@
+<div class="product-container" style="display: flex; align-items: stretch; min-height: calc(100vh - 80px); background-color: var(--bg); padding: 0;">
+    <!-- Gallery -->
+    <div class="product-gallery-custom" style="flex: 0 0 50%; background-color: var(--bg); display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 2rem; box-sizing: border-box; position: sticky; top: 80px; height: calc(100vh - 80px); align-self: flex-start;">
+        <div class="product-gallery-wrapper" style="display: flex; flex-direction: row; gap: 2rem; width: 100%; height: 70vh; max-height: 600px;">
+            <div class="gallery-thumbnails" style="display: flex; flex-direction: column; gap: 1rem; width: 80px; flex-shrink: 0; justify-content: center; overflow-y: auto; scrollbar-width: none;">
+                {% for image in product.images %}
+                    <div class="thumbnail-item {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}" style="width: 80px; height: 80px; border: 1px solid var(--border); cursor: pointer; opacity: 0.6; transition: all 0.3s var(--ease-out); background-color: var(--bg); display: flex; align-items: center; justify-content: center; padding: 0.25rem; box-sizing: border-box;">
+                        <img src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="gallery-main-view" style="flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative; border: 1px solid var(--border); background-color: var(--bg); overflow: hidden; height: 100%;">
+                {% for image in product.images %}
+                    <img src="{{ image.src | img_url: 'master' }}" id="main-img-{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}" alt="{{ image.alt | escape }}" style="max-width: 90%; max-height: 90%; object-fit: contain; position: absolute; opacity: 0; transition: opacity 0.4s var(--ease-out), transform 0.4s var(--ease-out); transform: scale(0.98); pointer-events: none;">
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Info -->
+    <div class="product-info reveal" style="flex: 0 0 50%; display: flex; flex-direction: column; justify-content: center; padding: 4rem 8% 4rem 4rem; box-sizing: border-box;">
+        <span class="product-collection" style="font-size: 0.7rem; letter-spacing: 0.35em; color: var(--accent); text-transform: uppercase; margin-bottom: 1rem; font-weight: 400;">
+            {{ product.vendor | default: "BIJOUX" }}
+        </span>
+        <h1 class="product-title" style="font-size: clamp(2rem, 3vw, 2.6rem); font-family: var(--font-serif); margin-bottom: 1rem; font-weight: 400; line-height: 1.25; letter-spacing: 0.04em; color: var(--fg);">
+            {{ product.title }}
+        </h1>
+        <div class="product-price" id="variant-price-display" style="font-size: 1.2rem; color: var(--muted); margin-bottom: 2rem; font-weight: 300; letter-spacing: 0.08em; font-family: var(--font-sans);">
+            {{ product.selected_or_first_available_variant.price | money }}
+        </div>
+        
+        <div class="product-description" style="font-size: 0.9rem; line-height: 1.9; color: var(--fg); margin-bottom: 2.5rem; font-weight: 300; max-width: 440px;">
+            {{ product.description }}
+        </div>
+        
+        <!-- Options de Personnalisation -->
+        {% form 'product', product, id: 'add-to-cart-form' %}
+            <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+            
+            {% unless product.has_only_default_variant %}
+                <div class="variant-selection" style="margin-bottom: 2.5rem; max-width: 420px; border-top: 1px solid var(--border); padding-top: 1.5rem;">
+                    {% for option in product.options_with_values %}
+                        <div class="selector-group" style="margin-bottom: 1.5rem;">
+                            <div class="selector-label" style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 0.75rem; font-family: var(--font-sans);">
+                                {{ option.name }} : <span>{{ option.selected_value }}</span>
+                            </div>
+                            <div class="options-row" style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                                {% for value in option.values %}
+                                    <button type="button" class="option-btn {% if option.selected_value == value %}active{% endif %}" data-value="{{ value | escape }}" style="padding: 0.75rem 1.5rem; border: 1px solid var(--border); background-color: transparent; color: var(--fg); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.15em; font-family: var(--font-sans); cursor: pointer; transition: all 0.3s var(--ease-out);">
+                                        {{ value }}
+                                    </button>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endunless %}
+            
+            <div class="actions-group" style="display: flex; flex-direction: column; gap: 0.8rem; max-width: 420px; margin-bottom: 2.5rem;">
+                <button type="submit" name="add" class="btn-add-cart" style="padding: 1.25rem; background-color: var(--fg); color: var(--bg); text-align: center; text-decoration: none; text-transform: uppercase; letter-spacing: 0.25em; font-size: 0.65rem; transition: all 0.4s var(--ease-out); cursor: pointer; border: 1px solid var(--fg); font-family: var(--font-sans); font-weight: 400;" {% unless product.selected_or_first_available_variant.available %}disabled{% endunless %}>
+                    {% if product.selected_or_first_available_variant.available %}Acheter en ligne{% else %}Épuisé{% endif %}
+                </button>
+                <a href="/pages/contact" class="btn-bespoke" style="display:block; padding: 1.25rem; background-color: transparent; color: var(--fg); text-align: center; text-decoration: none; text-transform: uppercase; letter-spacing: 0.25em; font-size: 0.65rem; transition: all 0.4s var(--ease-out); cursor: pointer; border: 1px solid var(--border); font-family: var(--font-sans); font-weight: 400;">Prendre rendez-vous</a>
+            </div>
+        {% endform %}
+        
+        <div class="spec-list" style="margin-top: 3rem; border-top: 1px solid var(--border); padding-top: 2rem; max-width: 420px;">
+            <div class="spec-item" style="display: flex; justify-content: space-between; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 1.2rem; color: var(--muted); font-family: var(--font-sans);">
+                <span>Provenance</span>
+                <span>{{ product.metafields.custom.provenance | default: "Ateliers Genevois" }}</span>
+            </div>
+            <div class="spec-item" style="display: flex; justify-content: space-between; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 1.2rem; color: var(--muted); font-family: var(--font-sans);">
+                <span>Métal</span>
+                <span id="spec-metal-val">{{ product.metafields.custom.metal | default: "Or 18K" }}</span>
+            </div>
+            <div class="spec-item" style="display: flex; justify-content: space-between; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 1.2rem; color: var(--muted); font-family: var(--font-sans);">
+                <span>Pierres</span>
+                <span>{{ product.metafields.custom.pierres | default: "Haute Joaillerie" }}</span>
+            </div>
+        </div>
+        
+        <p style="margin-top: 4rem; font-size: 0.65rem; color: var(--muted); line-height: 1.6; font-style: italic;">
+            Chaque création est unique. Des variations de couleur et de texture peuvent apparaître sur les pierres naturelles.
+        </p>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.thumbnail-item').forEach(thumb => {
+        thumb.addEventListener('click', function() {
+            const index = this.getAttribute('data-index');
+            document.querySelectorAll('.thumbnail-item').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.gallery-main-view img').forEach(img => {
+                img.classList.remove('active');
+                img.style.opacity = '0';
+            });
+            
+            this.classList.add('active');
+            const mainImg = document.getElementById('main-img-' + index);
+            if(mainImg) {
+                mainImg.classList.add('active');
+                mainImg.style.opacity = '1';
+            }
+        });
+    });
+
+    const firstMainImg = document.getElementById('main-img-0');
+    if(firstMainImg) {
+        firstMainImg.style.opacity = '1';
+    }
+
+    document.querySelectorAll('.option-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            const siblings = this.parentElement.querySelectorAll('.option-btn');
+            siblings.forEach(s => s.classList.remove('active'));
+            this.classList.add('active');
+            
+            const labelSpan = this.closest('.selector-group').querySelector('.selector-label span');
+            if(labelSpan) labelSpan.textContent = this.getAttribute('data-value');
+        });
+    });
+</script>
+
+{% schema %}
+{
+  "name": "Produit Principal",
+  "settings": []
+}
+{% endschema %}

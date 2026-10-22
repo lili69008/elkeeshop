@@ -1,0 +1,35 @@
+<section class="reveal" style="padding: 10rem var(--pad-x) 4rem; text-align: center;">
+    <h1 style="font-family: var(--font-serif); font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1rem; color: var(--fg); font-weight: 300;">{{ collection.title }}</h1>
+    {% if collection.description != blank %}
+        <div style="max-width: 600px; margin: 0 auto 4rem; color: var(--muted); font-size: 0.95rem; line-height: 1.8;">
+            {{ collection.description }}
+        </div>
+    {% endif %}
+</section>
+
+<section style="padding: 0 var(--pad-x) 10rem;">
+    <div class="grid-3" style="gap: 3rem;">
+        {% for product in collection.products %}
+            <div class="card reveal">
+                <a href="{{ product.url }}" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="card-img-wrapper" style="aspect-ratio: 4/5; background: #fdfcf8; border: 1px solid var(--border); margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; padding: 2rem;">
+                        <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ product.title | escape }}" loading="lazy" style="max-width: 100%; max-height: 100%; object-fit: contain; transition: transform 0.6s var(--ease-out);">
+                    </div>
+                    <div style="text-align: center;">
+                        <h3 style="font-family: var(--font-sans); font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem; font-weight: 400;">{{ product.title }}</h3>
+                        <p style="color: var(--muted); font-size: 0.8rem;">{{ product.price | money }}</p>
+                    </div>
+                </a>
+            </div>
+        {% else %}
+            <p style="text-align: center; grid-column: 1 / -1; color: var(--muted);">Aucun produit dans cette collection pour le moment.</p>
+        {% endfor %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Grille Collection",
+  "settings": []
+}
+{% endschema %}

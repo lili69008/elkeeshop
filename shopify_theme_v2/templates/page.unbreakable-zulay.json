@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "unbreakable-zulay",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,175 @@
+<!-- Hero -->
+<div class="hero-video-container hero-collection" style="background: url('{{ 'launch_zulay.jpg' | asset_url }}') no-repeat center 20%; background-size: cover; height: 80vh;">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="kicker kicker--light">CO-CRÉATION EXCLUSIVE</span>
+        <h1>ZULAY POGBA<span>× ELKE BERR</span></h1>
+        <div class="hero-divider"></div>
+        <p>Unbreakable Collection</p>
+    </div>
+</div>
+
+<!-- Editorial intro -->
+<section class="airy-section reveal" style="text-align: center; padding: 6rem 2rem;">
+    <div style="max-width: 820px; margin: 0 auto;">
+        <span class="kicker">LA COLLECTION</span>
+        <h2 style="font-size: 3rem; margin-bottom: 4rem; font-family: var(--font-serif); font-weight: 400;">Une Vision Féminine de l'Indestructible</h2>
+        <div style="width: 1px; height: 80px; background: var(--border); margin: 0 auto 4rem;"></div>
+        <p style="font-size: 1.15rem; line-height: 2; color: var(--muted); font-family: var(--font-serif); font-style: italic; margin-bottom: 3rem;">
+            "Zulay Pogba incarne une féminité souveraine — force, grâce et profondeur. Ensemble, nous avons traduit cette essence en bijoux d'or et de diamants conçus pour traverser les générations."
+        </p>
+        <p style="font-size: 0.9rem; line-height: 2; color: var(--muted);">
+            Chaque pièce de cette collection exclusive est réalisée à la main dans l'atelier genevois d'Elke Berr, en or 18 carats et diamants sélectionnés à la source. Une co-création où l'identité de Zulay rencontre 35 ans d'expertise gemmologique.
+        </p>
+    </div>
+</section>
+
+<!-- Cross-link to Paul collection -->
+<div class="reveal" style="text-align: center; padding: 0 10% 4rem;">
+    <a href="/pages/unbreakable-paul" style="font-size: 0.7rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; transition: color 0.3s, border-color 0.3s;">
+        Découvrir aussi la collection Paul Pogba →
+    </a>
+</div>
+
+<!-- Colliers & Pendentifs -->
+<section class="reveal" style="padding: 4vw 8vw 2vw;">
+    <div class="category-header" style="border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 3.5rem; margin-top: 2rem;">
+        <span class="kicker" style="margin-bottom: 0.5rem;">CO-CRÉATION ZULAY POGBA</span>
+        <h2 style="font-family: var(--font-serif); font-size: 2.2rem; font-weight: 300; letter-spacing: 0.05em; color: var(--fg); text-transform: uppercase;">Colliers &amp; Pendentifs</h2>
+    </div>
+    <div class="grid-3">
+        {% assign items = "epure-necklace|ÉPURE NECKLACE|zp_unbreakable_epure_necklace.png,linfini-necklace|L'INFINI NECKLACE|zp_unbreakable_linfini_necklace.png" | split: "," %}
+        {% for item in items %}
+            {% assign parts = item | split: "|" %}
+            {% assign handle = parts[0] %}
+            {% assign title = parts[1] %}
+            {% assign img = parts[2] %}
+            {% assign product = all_products[handle] %}
+            <a href="{% if product != empty %}{{ product.url }}{% else %}/products/{{ handle }}{% endif %}" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper">
+                        {% if product != empty and product.featured_image %}
+                            <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ title }}">
+                        {% else %}
+                            <img src="{{ img | asset_url }}" alt="{{ title }}">
+                        {% endif %}
+                    </div>
+                    <span class="kicker">UNBREAKABLE — ZULAY POGBA</span>
+                    <h3>{{ title }}</h3>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Bagues -->
+<section class="reveal" style="padding: 4vw 8vw 2vw;">
+    <div class="category-header" style="border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 3.5rem;">
+        <span class="kicker" style="margin-bottom: 0.5rem;">CO-CRÉATION ZULAY POGBA</span>
+        <h2 style="font-family: var(--font-serif); font-size: 2.2rem; font-weight: 300; letter-spacing: 0.05em; color: var(--fg); text-transform: uppercase;">Bagues</h2>
+    </div>
+    <div class="grid-3">
+        {% assign items = "alma-ring|ALMA RING|zp_unbreakable_alma_ring.png,tresor-ring|TRÉSOR RING|zp_unbreakable_tresor_ring.png" | split: "," %}
+        {% for item in items %}
+            {% assign parts = item | split: "|" %}
+            {% assign handle = parts[0] %}
+            {% assign title = parts[1] %}
+            {% assign img = parts[2] %}
+            {% assign product = all_products[handle] %}
+            <a href="{% if product != empty %}{{ product.url }}{% else %}/products/{{ handle }}{% endif %}" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper">
+                        {% if product != empty and product.featured_image %}
+                            <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ title }}">
+                        {% else %}
+                            <img src="{{ img | asset_url }}" alt="{{ title }}">
+                        {% endif %}
+                    </div>
+                    <span class="kicker">UNBREAKABLE — ZULAY POGBA</span>
+                    <h3>{{ title }}</h3>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Bracelets -->
+<section class="reveal" style="padding: 4vw 8vw 2vw;">
+    <div class="category-header" style="border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 3.5rem;">
+        <span class="kicker" style="margin-bottom: 0.5rem;">CO-CRÉATION ZULAY POGBA</span>
+        <h2 style="font-family: var(--font-serif); font-size: 2.2rem; font-weight: 300; letter-spacing: 0.05em; color: var(--fg); text-transform: uppercase;">Bracelets</h2>
+    </div>
+    <div class="grid-3">
+        {% assign items = "complice-bangle|COMPLICE BANGLE|zp_unbreakable_complice_bangle.png,echo-bangle|ECHO BANGLE|zp_unbreakable_echo_bangle.png,essentiel-bangle|ESSENTIEL BANGLE|zp_unbreakable_essentiel_bangle.png" | split: "," %}
+        {% for item in items %}
+            {% assign parts = item | split: "|" %}
+            {% assign handle = parts[0] %}
+            {% assign title = parts[1] %}
+            {% assign img = parts[2] %}
+            {% assign product = all_products[handle] %}
+            <a href="{% if product != empty %}{{ product.url }}{% else %}/products/{{ handle }}{% endif %}" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper">
+                        {% if product != empty and product.featured_image %}
+                            <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ title }}">
+                        {% else %}
+                            <img src="{{ img | asset_url }}" alt="{{ title }}">
+                        {% endif %}
+                    </div>
+                    <span class="kicker">UNBREAKABLE — ZULAY POGBA</span>
+                    <h3>{{ title }}</h3>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Boucles d'oreilles -->
+<section class="reveal" style="padding: 4vw 8vw 2vw;">
+    <div class="category-header" style="border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 3.5rem;">
+        <span class="kicker" style="margin-bottom: 0.5rem;">CO-CRÉATION ZULAY POGBA</span>
+        <h2 style="font-family: var(--font-serif); font-size: 2.2rem; font-weight: 300; letter-spacing: 0.05em; color: var(--fg); text-transform: uppercase;">Boucles d'oreilles</h2>
+    </div>
+    <div class="grid-3">
+        {% assign items = "eclat-earrings|ÉCLAT EARRINGS|zp_unbreakable_eclat_earrings.png,bond-earrings|BOND EARRINGS|zp_unbreakable_bond_earrings.png,link-earrings|LINK EARRINGS|zp_unbreakable_link_earrings.png" | split: "," %}
+        {% for item in items %}
+            {% assign parts = item | split: "|" %}
+            {% assign handle = parts[0] %}
+            {% assign title = parts[1] %}
+            {% assign img = parts[2] %}
+            {% assign product = all_products[handle] %}
+            <a href="{% if product != empty %}{{ product.url }}{% else %}/products/{{ handle }}{% endif %}" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper">
+                        {% if product != empty and product.featured_image %}
+                            <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ title }}">
+                        {% else %}
+                            <img src="{{ img | asset_url }}" alt="{{ title }}">
+                        {% endif %}
+                    </div>
+                    <span class="kicker">UNBREAKABLE — ZULAY POGBA</span>
+                    <h3>{{ title }}</h3>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="airy-section reveal" style="text-align: center; background: var(--bg-alt); padding: 6rem 2rem;">
+    <div style="max-width: 700px; margin: 0 auto;">
+        <span class="kicker">SUR COMMANDE</span>
+        <h2 style="font-size: 2.5rem; margin-bottom: 3rem; font-family: var(--font-serif); font-weight: 400;">Chaque Pièce, Unique</h2>
+        <p style="color: var(--muted); font-size: 1rem; line-height: 2; margin-bottom: 4rem;">
+            Toutes les créations de la collection Zulay Pogba sont disponibles sur commande. Contactez notre équipe pour organiser une présentation privée dans notre showroom genevois.
+        </p>
+        <a href="/pages/contact" class="btn-outline" style="display: inline-block; padding: 1rem 2rem; border: 1px solid var(--border); text-decoration: none; color: var(--fg); text-transform: uppercase; letter-spacing: 0.15em; font-size: 0.8rem;">Prendre rendez-vous</a>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Unbreakable Zulay",
+  "settings": []
+}
+{% endschema %}

@@ -1,0 +1,351 @@
+<style>
+    :root {
+        --bg-private: #FBFBF9;
+        --text-luxe: #1A1A1A;
+        --accent-gold-deep: #C5A059;
+        --section-padding: 12rem;
+    }
+    
+    .private-hero {
+        height: 90vh;
+        /* RÈGLE ABSOLUE : jamais couper un visage — toujours ancrer au sommet */
+        background: url('{{ 'launch_elke_2x.jpg' | asset_url }}') no-repeat center top;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+    .private-hero::after {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0,0,0,0.25);
+    }
+    .hero-content {
+        position: relative;
+        z-index: 10;
+        color: #fff;
+        max-width: 1200px;
+        padding: 0 4rem;
+    }
+    .hero-content h1 {
+        font-size: clamp(3.5rem, 10vw, 5.5rem);
+        margin-bottom: 2.5rem;
+        letter-spacing: 0.2em;
+        font-weight: 200;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .intro-section {
+        padding: var(--section-padding) 22vw;
+        text-align: center;
+        background: #fff;
+    }
+    .intro-section p {
+        font-size: 1.5rem;
+        line-height: 2.5;
+        color: var(--text-luxe);
+        font-style: italic;
+        font-family: 'Playfair Display', serif;
+        font-weight: 300;
+    }
+
+    .process-section {
+        padding: var(--section-padding) 10vw;
+        background: var(--bg-private);
+    }
+    .process-header {
+        text-align: center;
+        margin-bottom: 8rem;
+    }
+    .process-grid-steps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6rem 4rem;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .step-card {
+        flex: 0 1 320px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .step-number-container {
+        width: 90px;
+        height: 90px;
+        border: 1px solid rgba(197, 160, 89, 0.15);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+        transition: all 0.6s ease;
+    }
+    .step-card:hover .step-number-container {
+        border-color: var(--accent-gold-deep);
+        background: #fff;
+        transform: translateY(-5px);
+    }
+    .step-number {
+        font-size: 1.8rem;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--accent-gold-deep);
+        font-weight: 200;
+    }
+    .step-card h3 {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        font-weight: 400;
+        color: var(--text-luxe);
+    }
+    .step-card p {
+        font-size: 0.85rem;
+        line-height: 2;
+        color: #666;
+        font-weight: 300;
+    }
+
+    .metamorphose-section {
+        padding: var(--section-padding) 0;
+        background: #fff;
+    }
+    .metamorphose-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8vw;
+        max-width: 1400px;
+        margin: 0 auto 12rem;
+        padding: 0 5vw;
+    }
+    .metamorphose-row.reverse {
+        flex-direction: row-reverse;
+    }
+    .m-image {
+        flex: 0 0 480px;
+        width: 480px;
+        height: 480px;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid rgba(0,0,0,0.04);
+        box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+        background: #111;
+    }
+    .m-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        display: block;
+        transition: transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+    .m-image:hover img {
+        transform: scale(1.04);
+    }
+    .m-text {
+        flex: 0 1 450px;
+    }
+    .m-text h3 {
+        font-size: 0.8rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--accent-gold-deep);
+        margin-bottom: 2rem;
+    }
+    .m-text p {
+        font-size: 1.1rem;
+        line-height: 2;
+        color: #555;
+        font-weight: 300;
+    }
+    
+    .transition-narrative {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto 12rem;
+        position: relative;
+    }
+    .transition-line {
+        width: 1px;
+        height: 100px;
+        background: linear-gradient(to bottom, var(--accent-gold-deep), transparent);
+        margin: 0 auto 3rem;
+    }
+    .transition-narrative p {
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        font-style: italic;
+        color: var(--text-luxe);
+        line-height: 1.6;
+    }
+
+    .video-reveal-section {
+        padding: 4rem 0 5rem;
+        background: var(--bg-private);
+        text-align: center;
+    }
+    .video-container {
+        width: fit-content;
+        margin: 0 auto;
+        position: relative;
+        box-shadow: 0 40px 80px rgba(0,0,0,0.14);
+    }
+    .video-container video {
+        display: block;
+        width: auto;
+        max-width: 82vw;
+        max-height: 62vh;
+    }
+
+    @media (max-width: 1024px) {
+        .metamorphose-row, .metamorphose-row.reverse { 
+            flex-direction: column; 
+            text-align: center;
+            margin-bottom: 8rem;
+        }
+        .m-image { flex: 0 0 340px; width: 340px; height: 340px; }
+        .m-text { flex: 1; padding: 0 2rem; }
+        .hero-content h1 { font-size: 3rem; }
+        .intro-section { padding: 6rem 10vw; }
+        .video-container { width: 95vw; }
+    }
+    @media (max-width: 600px) {
+        .m-image { flex: 0 0 280px; width: 280px; height: 280px; }
+    }
+</style>
+
+<header class="private-hero">
+    <div class="hero-content">
+        <span class="kicker" style="color: #fff; border-bottom: 1px solid rgba(255,255,255,0.4); letter-spacing: 0.4em;">CONFIDENTIALITÉ & EXCELLENCE</span>
+        <h1>JOAILLIER PRIVÉ</h1>
+        <p style="color: #fff; opacity: 0.8; font-size: 1rem; letter-spacing: 0.15em; font-weight: 300;">L'art de la création sur-mesure au service de vos rêves les plus précieux.</p>
+    </div>
+</header>
+
+<section class="intro-section">
+    <p>
+        "Elke Berr propose un service de bijouterie privée sur mesure, transformant vos visions les plus chères en chefs-d'œuvre intemporels. 
+        Des croquis initiaux à la révélation finale, notre processus est ancré dans l'artisanat, la collaboration et une attention méticuleuse à chaque détail."
+    </p>
+</section>
+
+<section class="process-section">
+    <div class="process-header">
+        <span class="kicker" style="letter-spacing: 0.5em;">LE SAVOIR-FAIRE</span>
+        <h2 style="font-size: 2.5rem; margin-top: 2rem; font-family: 'Playfair Display', serif; font-weight: 300;">VOTRE PARCOURS DE CRÉATION</h2>
+    </div>
+    
+    <div class="process-grid-steps">
+        <div class="step-card">
+            <div class="step-number-container">
+                <span class="step-number">01</span>
+            </div>
+            <h3>Concept & Découverte</h3>
+            <p>Nous commençons par une consultation personnelle pour comprendre votre histoire, votre style et vos désirs, capturant l'essence de votre vision.</p>
+        </div>
+        <div class="step-card">
+            <div class="step-number-container">
+                <span class="step-number">02</span>
+            </div>
+            <h3>Conception et savoir-faire</h3>
+            <p>Nos designers donnent vie à votre idée avec des croquis et des modèles dessinés à la main, garantissant que chaque détail est parfaitement adapté.</p>
+        </div>
+        <div class="step-card">
+            <div class="step-number-container">
+                <span class="step-number">03</span>
+            </div>
+            <h3>Sélection de pierres</h3>
+            <p>En tant qu'experts en pierres précieuses fines, nous sélectionnons une sélection de pierres d'origine éthique qui incarnent le mieux votre création.</p>
+        </div>
+        <div class="step-card">
+            <div class="step-number-container">
+                <span class="step-number">04</span>
+            </div>
+            <h3>Création d’exception</h3>
+            <p>Nos artisans fabriquent méticuleusement votre pièce, alliant techniques traditionnelles et innovation moderne.</p>
+        </div>
+        <div class="step-card">
+            <div class="step-number-container">
+                <span class="step-number">05</span>
+            </div>
+            <h3>Le chef-d'œuvre final</h3>
+            <p>Votre vision se réalise sous la forme d'un chef-d'œuvre unique en son genre, conçu avec passion et expertise.</p>
+        </div>
+    </div>
+</section>
+
+<section class="metamorphose-section">
+    <div class="process-header">
+        <span class="kicker" style="letter-spacing: 0.5em;">MÉTAMORPHOSE</span>
+        <h2 style="font-size: 3rem; margin-top: 2rem; font-family: 'Playfair Display', serif; font-weight: 300;">DU CROQUIS À LA RÉALITÉ</h2>
+    </div>
+
+    <div class="metamorphose-row">
+        <div class="m-image">
+            <img src="{{ 'private_sketch_real.png' | asset_url }}" alt="Croquis technique diamant jaune 5.01 carats">
+        </div>
+        <div class="m-text">
+            <h3>L'Épure de Précision</h3>
+            <p>La vision prend forme avec ce croquis technique détaillé d'un diamant jaune de 5.01 carats. Chaque trait définit l'architecture précise en or jaune 18k et platine qui accueillera cette pierre exceptionnelle.</p>
+        </div>
+    </div>
+
+    <div class="transition-narrative">
+        <div class="transition-line"></div>
+        <p>"La métamorphose d'une pierre d'exception en un héritage éternel."</p>
+    </div>
+
+    <div class="metamorphose-row reverse">
+        <div class="m-image">
+            <img src="{{ 'private_final_clean.png' | asset_url }}" alt="Chef-d'œuvre diamant jaune 5.01 carats">
+        </div>
+        <div class="m-text">
+            <h3>Le Chef-d'œuvre Réalisé</h3>
+            <p>L'alliance parfaite du platine et de l'or jaune sublime l'éclat solaire du diamant central. Accompagnée de 50 diamants taille brillant, la création finale incarne l'excellence du sur-mesure.</p>
+        </div>
+    </div>
+</section>
+
+<section class="video-reveal-section">
+    <div class="process-header" style="margin-bottom: 2.5rem;">
+        <span class="kicker" style="letter-spacing: 0.5em;">LA RÉVÉLATION</span>
+        <h2 style="font-size: 3rem; margin-top: 2rem; font-family: 'Playfair Display', serif; font-weight: 300;">LE CHEF-D'ŒUVRE EN MOUVEMENT</h2>
+    </div>
+    <div class="video-container">
+        <video id="revealVideo" muted loop playsinline poster="{{ 'private_final_clean.png' | asset_url }}">
+            <source src="{{ '78a9e26ace7b4160a614f82bf3b37297.mp4' | asset_url }}" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const video = document.getElementById('revealVideo');
+        if (video && window.IntersectionObserver) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        video.play().catch(e => console.log("Autoplay blocked or video missing"));
+                    } else {
+                        video.pause();
+                    }
+                });
+            }, { threshold: 0.3 });
+            observer.observe(video);
+        }
+    });
+</script>
+
+{% schema %}
+{
+  "name": "Private Jeweller",
+  "settings": []
+}
+{% endschema %}

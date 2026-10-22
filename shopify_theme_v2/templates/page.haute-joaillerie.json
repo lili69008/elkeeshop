@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "haute-joaillerie",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

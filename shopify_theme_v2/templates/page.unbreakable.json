@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "unbreakable-landing",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

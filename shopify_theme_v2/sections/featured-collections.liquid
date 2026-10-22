@@ -1,0 +1,52 @@
+<section class="reveal" style="padding:14rem var(--pad-x);">
+    <div style="text-align:center;margin-bottom:8rem;">
+        <span class="kicker">NOS UNIVERS</span>
+        <h2 style="font-size:clamp(2rem,4vw,3.5rem);font-weight:400;margin-top:1rem;">L'Expression du Luxe</h2>
+    </div>
+    <div class="grid-3">
+        <a href="/collections/haute-joaillerie" style="text-decoration:none;">
+            <div class="card reveal">
+                <div class="card-img-wrapper">
+                    <img src="{{ 'bague_saphir.png' | asset_url }}" alt="Haute Joaillerie Elke Berr — Bague saphir" loading="lazy">
+                </div>
+                <span class="kicker">HAUTE JOAILLERIE</span>
+                <h3>Pierres de Collection</h3>
+                <p>Créations Uniques & Gemmes Rares</p>
+            </div>
+        </a>
+        <a href="/pages/unbreakable" style="text-decoration:none;">
+            <div class="card reveal" style="margin-top:4rem;">
+                <div class="card-img-wrapper">
+                    <video autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;" aria-hidden="true">
+                        <source src="{{ 'video_42f4.mp4' | asset_url }}" type="video/mp4">
+                    </video>
+                </div>
+                <span class="kicker">COLLECTION</span>
+                <h3>Unbreakable</h3>
+                <p>Le Lien Éternel entre Force et Grâce</p>
+            </div>
+        </a>
+        <a href="/pages/private-jeweller" style="text-decoration:none;">
+            <div class="card reveal">
+                <div class="card-img-wrapper">
+                    <img src="{{ 'launch_showcase.jpg' | asset_url }}" alt="Joaillerie Privée — Création sur-mesure" loading="lazy">
+                </div>
+                <span class="kicker">SUR-MESURE</span>
+                <h3>Joaillerie Privée</h3>
+                <p>Votre Vision, Notre Savoir-Faire</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Collections Vedettes",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Collections Vedettes"
+    }
+  ]
+}
+{% endschema %}

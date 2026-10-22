@@ -1,0 +1,38 @@
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <div class="footer-logo-main">ELKE BERR</div>
+            <div class="footer-logo-sub">GENÈVE</div>
+            <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+            <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+        </div>
+        <div class="footer-nav-col">
+            <h4>Collections</h4>
+            <ul>
+                <li><a href="/collections/haute-joaillerie">Haute Joaillerie</a></li>
+                <li><a href="/pages/unbreakable">Unbreakable</a></li>
+                <li><a href="/collections/all">Bijoux</a></li>
+                <li><a href="/pages/private-jeweller">Joaillerie Privée</a></li>
+            </ul>
+        </div>
+        <div class="footer-nav-col">
+            <h4>Informations</h4>
+            <ul>
+                <li><a href="/pages/mentions-legales">Mentions Légales</a></li>
+                <li><a href="/pages/confidentialite">Confidentialité</a></li>
+                <li><a href="/pages/cgv">CGV</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ shop.name }}. Tous droits réservés. · Genève, Suisse</p>
+    </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "class": "section-footer",
+  "settings": []
+}
+{% endschema %}
