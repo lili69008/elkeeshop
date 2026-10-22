@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les événements, expositions et soirées exclusives de la Maison de Haute Joaillerie Elke Berr Genève.">
+    <title>Événements — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .events-hero {
+            height: 60vh;
+            background: url('img/launch_hero.jpg') no-repeat center 30%;
+            background-size: cover;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 8rem;
+        }
+        .events-hero::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.4);
+        }
+        .events-hero-content {
+            position: relative;
+            z-index: 2;
+            color: #fff;
+            padding: 0 4vw;
+        }
+        .events-hero-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            margin: 0;
+            color: #ffffff;
+        }
+        .events-hero-content p {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            margin-top: 1.5rem;
+            opacity: 0.9;
+        }
+        
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4rem 3rem;
+            padding: 0 6vw 10rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .event-card {
+            background: transparent;
+            border: 1px solid var(--border);
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .event-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+            border-color: var(--primary);
+        }
+        .event-card-img-wrapper {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+        .event-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .event-card:hover img {
+            transform: scale(1.05);
+        }
+        .event-card-content {
+            padding: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .event-card-kicker {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        .event-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+        .event-card-desc {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 2rem;
+            flex-grow: 1;
+        }
+        .event-card-link {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s;
+            margin-top: auto;
+        }
+        .event-card-link:hover {
+            color: var(--primary);
+        }
+        
+        @media (max-width: 1024px) {
+            .events-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 3rem;
+            }
+        }
+        @media (max-width: 768px) {
+            .events-hero { height: 50vh; margin-bottom: 5rem; }
+            .events-hero-content h1 { font-size: 2.8rem; }
+        }
+        @media (max-width: 600px) {
+            .events-grid {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+                padding: 0 4vw 8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav aria-label="Navigation principale" class="nav-bar" role="navigation">
+<a aria-label="Elke Berr — Accueil" class="logo-container" href="index.html">
+<span class="logo-main">ELKE BERR</span>
+<span class="logo-sub">GENÈVE</span>
+</a>
+<ul class="nav-links">
+<li><a href="index.html">Accueil</a></li>
+<li>
+<a href="unbreakable.html">Unbreakable</a>
+<div class="dropdown-menu">
+<a href="unbreakable.html">Unbreakable</a>
+<a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+<a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+<a href="unbreakable-story.html">L'Histoire</a>
+<a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+</div>
+</li>
+<li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+<li class="has-mega">
+<a href="haute-joaillerie.html">Haute Joaillerie</a>
+<div class="mega-menu">
+<div class="mega-column">
+<h4>Catégories</h4>
+<ul>
+<li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+<li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+<li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+<li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+<li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="has-mega">
+<a href="bijoux.html">Bijoux</a>
+<div class="mega-menu">
+<div class="mega-column">
+<h4>Catégorie</h4>
+<ul>
+<li><a href="bijoux.html">Tous les Bijoux</a></li>
+<li><a href="bagues.html">Bagues</a></li>
+<li><a href="colliers.html">Colliers</a></li>
+<li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+<li><a href="bracelets.html">Bracelets</a></li>
+</ul>
+</div>
+<div class="mega-column">
+<h4>Collection</h4>
+<ul>
+<li><a href="rockn-rose.html">Rock'N Rose</a></li>
+<li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+<li><a href="singular.html">Singular</a></li>
+<li><a href="mysteria.html">Mysteria</a></li>
+<li><a href="waves.html">Waves</a></li>
+<li><a href="dolce.html">Dolce</a></li>
+<li><a href="me-you.html">Me &amp; You</a></li>
+<li><a href="milky-way.html">Milky Way</a></li>
+</ul>
+</div>
+<div class="mega-column">
+<h4>Idées Cadeaux</h4>
+<ul>
+<li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<a href="news.html">Actualités</a>
+<div class="dropdown-menu">
+<a href="news.html">Actualités</a>
+<a href="presse.html">Presse</a>
+<a href="evenements.html">Événements</a>
+</div>
+</li>
+<li>
+<a href="maison.html">La Maison</a>
+<div class="dropdown-menu">
+<a href="maison.html">La Maison</a>
+<a href="maison-histoire.html">Notre Histoire</a>
+<a href="maison-savoir-faire.html">Savoir-Faire</a>
+<a href="private-jeweller.html">Joaillerie Privée</a>
+</div>
+</li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+    <script src="js/main.js"></script>
+
+    <div class="events-hero">
+        <div class="events-hero-content">
+            <h1>ÉVÉNEMENTS</h1>
+            <p>Maison Elke Berr Genève</p>
+        </div>
+    </div>
+
+    <div class="events-grid">
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/unbreakable-launch.jpg" alt="UNBREAKABLE LAUNCH — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">CANNES</span>
+                <h3 class="event-card-title">UNBREAKABLE LAUNCH</h3>
+                <p class="event-card-desc">The launch of the Unbreakable jewellery collection by Paul and Zulay Pogba, crafted by Elke Berr, took place at Villa Forbes during Cannes.</p>
+                <a href="unbreakable-launch.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/cannes-film-festival/image00006.jpg" alt="FESTIVAL DE CANNES 2025 — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">CANNES 2025</span>
+                <h3 class="event-card-title">FESTIVAL DE CANNES 2025</h3>
+                <p class="event-card-desc">Paul et Zulay Pogba ont fait sensation à Cannes en 2025 avec Elke Berr Joaillerie, lors du Global Gift Gala d'Eva Longoria à Genève, à l'événement GQ × Roberto Cavalli, puis à nouveau sur le tapis rouge de Cannes.</p>
+                <a href="cannes-film-festival.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/paris-blockchain-week.jpg" alt="PARIS BLOCKCHAIN WEEK — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">PBW 2025</span>
+                <h3 class="event-card-title">PARIS BLOCKCHAIN WEEK</h3>
+                <p class="event-card-desc">Lors de la Paris Blockchain Week, Elke Berr est montée sur scène lors d'un événement organisé par LCX, Tiamonds et SANDBOX au bureau de SANDBOX pour annoncer la collaboration passionnante entre Berr & Partners et Tiamonds.</p>
+                <a href="paris-blockchain-week-2025.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/opera-for-peace.jpg" alt="Opera for Peace — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">ROME 2025</span>
+                <h3 class="event-card-title">Opera for Peace</h3>
+                <p class="event-card-desc">Elke Berr proudly sponsored the Opera for Peace Gala, celebrating harmony, culture, and artistic excellence on the world stage.</p>
+                <a href="opera-for-peace-2025.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/most-influential-women.jpg" alt="Femmes influentes du monde 2024 — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">PARIS 2024</span>
+                <h3 class="event-card-title">Femmes influentes du monde 2024</h3>
+                <p class="event-card-desc">Elke Berr a été honorée du prestigieux titre de « Femme la plus influente » lors de la cérémonie de remise des prix à Paris.</p>
+                <a href="most-influential-women-of-the-world.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/chateau-de-cremat.jpg" alt="Château de Créema 2023 — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">NICE 2023</span>
+                <h3 class="event-card-title">Château de Créema 2023</h3>
+                <p class="event-card-desc">Lors de la White Art Party au Château de Crémat, Elke Berr a présenté nos collections de bijoux emblématiques et inédites, célébrant l'élégance et la créativité dans un cadre Riviera époustouflant.</p>
+                <a href="chateau-de-creema-2023.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/gem-geneve.jpg" alt="GEM GENÈVE 2023 — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">GENÈVE 2023</span>
+                <h3 class="event-card-title">GEM GENÈVE 2023</h3>
+                <p class="event-card-desc">Elke Berr était fière de présenter la nouvelle collection capsule « Rock'n Rose » aux côtés de nos pièces sur mesure à GemGeneve dans le cadre de l'exposition « Designer Village ».</p>
+                <a href="gem-geneve-2023.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/monaco-film-festival.jpg" alt="Festival du Film de Monaco 2022 — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">MONACO 2022</span>
+                <h3 class="event-card-title">Festival du Film de Monaco 2022</h3>
+                <p class="event-card-desc">Elke Berr a fièrement servi en tant que partenaire officiel de la joaillerie, ornant l'événement de ses exquises créations de haute joaillerie.</p>
+                <a href="monaco-film-2022.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/better-world-fund-2022/Screenshot_2025-02-12_at_11.03.37.png" alt="Fonds pour un monde meilleur 2022 — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">CANNES 2022</span>
+                <h3 class="event-card-title">Fonds pour un monde meilleur 2022</h3>
+                <p class="event-card-desc">Elke Berr a participé à l'événement du Better World Fund, en offrant ses magnifiques bijoux à la vente aux enchères caritative, dirigée par Sharon Stone.</p>
+                <a href="better-world-fund-2022.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/cannes-festival-2021/gettyimages-1327677406-1024x1024.jpg" alt="CANNES FILM FESTIVAL 2021 — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">CANNES 2021</span>
+                <h3 class="event-card-title">CANNES FILM FESTIVAL 2021</h3>
+                <p class="event-card-desc">Lors du Festival de Cannes 2021, Frédérique Bel et Moussa Maaskri ont brillé sur le tapis rouge en portant de sublimes bijoux signés Elke Berr.</p>
+                <a href="cannes-festival-2021.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/cannes-festival-2019.jpg" alt="Festival de Cannes 2019 — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">CANNES 2019</span>
+                <h3 class="event-card-title">Festival de Cannes 2019</h3>
+                <p class="event-card-desc">L'actrice Frédérique Bel a foulé le tapis rouge vêtue d'Elke Berr.</p>
+                <a href="cannes-festival-2019.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+        <div class="event-card">
+            <div class="event-card-img-wrapper">
+                <img src="img/evenements/vacheron-constantin.jpg" alt="Atelier Vacheron Constantin 2014 — Elke Berr Genève" loading="lazy">
+            </div>
+            <div class="event-card-content">
+                <span class="event-card-kicker">GENÈVE 2014</span>
+                <h3 class="event-card-title">Atelier Vacheron Constantin 2014</h3>
+                <p class="event-card-desc">Elke Berr a animé un atelier pour le personnel de Vacheron Constantin, les guidant sur la manière d'engager les clients dans des conversations sur les pierres précieuses et de les vendre efficacement.</p>
+                <a href="vacheron-constantin-workshop-2016.html" class="event-card-link">Découvrir l'événement →</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+<div class="footer-inner">
+<div class="footer-brand">
+<div class="footer-logo-main">ELKE BERR</div>
+<div class="footer-logo-sub">GENÈVE</div>
+<p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+<p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+</div>
+<div class="footer-nav-col">
+<h4>Collections</h4>
+<ul>
+<li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+<li><a href="unbreakable.html">Unbreakable</a></li>
+<li><a href="bijoux.html">Tous les Bijoux</a></li>
+<li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+<li><a href="bespoke.html">Bespoke</a></li>
+</ul>
+</div>
+<div class="footer-nav-col">
+<h4>La Maison</h4>
+<ul>
+<li><a href="maison.html">Notre Histoire</a></li>
+<li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+<li><a href="news.html">Actualités</a></li>
+<li><a href="presse.html">Presse</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-nav-col">
+<h4>Informations</h4>
+<ul>
+<li><a href="mentions-legales.html">Mentions Légales</a></li>
+<li><a href="confidentialite.html">Confidentialité</a></li>
+<li><a href="cgv.html">CGV</a></li>
+<li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="footer-social">
+<a aria-label="Instagram" href="https://www.instagram.com/elkeberr_official/" rel="noopener" target="_blank">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" fill="currentColor" r="0.5" stroke="none"></circle></svg>
+</a>
+<a aria-label="LinkedIn" href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" rel="noopener" target="_blank">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect height="12" width="4" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+</a>
+<a aria-label="X (Twitter)" href="https://x.com/elkeberr_off" rel="noopener" target="_blank">
+<svg fill="currentColor" viewbox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"></path></svg>
+</a>
+</div>
+<p>© 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+</div>
+</footer>
+</body>
+</html>

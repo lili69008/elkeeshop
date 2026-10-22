@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .unbreakable-hero { height: 100vh; display: grid; grid-template-columns: 1fr 1fr; background: var(--bg); color: var(--fg); overflow: hidden; }
+        .hero-text { display: flex; flex-direction: column; justify-content: center; padding: 10%; background: var(--bg); color: var(--fg); }
+        .hero-img { background: url('img/unbreakable_hero.png') no-repeat center center; background-size: cover; height: 100%; }
+        
+        .story-section { padding: 15rem 10%; text-align: center; max-width: 900px; margin: 0 auto; }
+        .story-section h2 { font-size: 3rem; margin-bottom: 3rem; }
+        .story-section p { font-size: 1.4rem; line-height: 1.8; color: var(--muted); }
+        
+        .process-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 8vw; align-items: center; padding: 10rem 10%; background: var(--bg-alt); }
+        .process-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
+        .step h4 { color: var(--gold); margin-bottom: 1rem; font-size: 0.8rem; letter-spacing: 0.1em; }
+        
+        .collection-split { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--border); }
+        .collection-card { background: var(--bg); padding: 10%; text-align: center; }
+        .collection-card img { width: 100%; height: 500px; object-fit: cover; margin-bottom: 3rem; border: 1px solid var(--border); }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    
+
+    <div class="hero-video-container" style="height: 60vh; background: var(--bg-alt);">
+        <div class="hero-content">
+            <span class="kicker">L'UNIVERS ELKE BERR</span>
+            <h1 style="font-size: clamp(3rem, 7vw, 5.5rem); letter-spacing: 0.2em;">NOS COLLECTIONS</h1>
+            <div style="width: 60px; height: 1px; background: var(--border); margin: 3rem auto;"></div>
+        </div>
+    </div>
+
+    <section class="airy-section reveal" style="padding-top: 0;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--border);">
+            
+            <!-- Unbreakable -->
+            <div class="collection-card" style="padding: 0; background: var(--bg); position: relative; overflow: hidden; height: 75vh;">
+                <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                    <source src="shopify_media/5dcc0929850b4fbea015c0e5b29ea8a4.mp4" type="video/mp4">
+                </video>
+                <div style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 10%; background: linear-gradient(transparent, rgba(0,0,0,0.6)); color: white; text-align: left;">
+                    <span class="kicker" style="color: rgba(255,255,255,0.8);">COLLECTION ICONIQUE</span>
+                    <h2 style="font-size: 2.5rem; margin: 1rem 0; letter-spacing: 0.1em;">UNBREAKABLE</h2>
+                    <p style="margin-bottom: 2rem; opacity: 0.9; max-width: 400px;">Une collaboration exclusive avec Paul & Zulay Pogba. La force de l'âme gravée dans l'argent et l'or.</p>
+                    <a href="unbreakable.html" class="btn-outline" style="border-color: white; color: white;">Découvrir</a>
+                </div>
+            </div>
+
+            <!-- Rock'N Rose -->
+            <div class="collection-card" style="padding: 0; background: var(--bg); position: relative; overflow: hidden; height: 75vh;">
+                <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                    <source src="shopify_media/78a9e26ace7b4160a614f82bf3b37297.mp4" type="video/mp4">
+                </video>
+                <div style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 10%; background: linear-gradient(transparent, rgba(0,0,0,0.6)); color: white; text-align: left;">
+                    <span class="kicker" style="color: rgba(255,255,255,0.8);">L'AUDACE</span>
+                    <h2 style="font-size: 2.5rem; margin: 1rem 0; letter-spacing: 0.1em;">ROCK'N ROSE</h2>
+                    <p style="margin-bottom: 2rem; opacity: 0.9; max-width: 400px;">L'équilibre parfait entre la délicatesse d'une fleur et l'énergie brute du rock.</p>
+                    <a href="rockn-rose.html" class="btn-outline" style="border-color: white; color: white;">Découvrir</a>
+                </div>
+            </div>
+
+            <!-- Singular -->
+            <div class="collection-card" style="padding: 0; background: var(--bg); position: relative; overflow: hidden; height: 75vh;">
+                <img src="img/produits/umba-ring/Bague3.png" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                <div style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 10%; background: linear-gradient(transparent, rgba(0,0,0,0.6)); color: white; text-align: left;">
+                    <span class="kicker" style="color: rgba(255,255,255,0.8);">PIÈCES UNIQUES</span>
+                    <h2 style="font-size: 2.5rem; margin: 1rem 0; letter-spacing: 0.1em;">SINGULAR</h2>
+                    <p style="margin-bottom: 2rem; opacity: 0.9; max-width: 400px;">Des créations conçues autour de gemmes exceptionnelles dont il n'existe qu'un seul exemplaire au monde.</p>
+                    <a href="singular.html" class="btn-outline" style="border-color: white; color: white;">Découvrir</a>
+                </div>
+            </div>
+
+            <!-- Mysteria -->
+            <div class="collection-card" style="padding: 0; background: var(--bg); position: relative; overflow: hidden; height: 75vh;">
+                <img src="img/produits/mysteria-ring/Mysteriaring2ndphoto.png" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 10%; background: linear-gradient(transparent, rgba(0,0,0,0.6)); color: white; text-align: left;">
+                    <span class="kicker" style="color: rgba(255,255,255,0.8);">LE MYSTÈRE</span>
+                    <h2 style="font-size: 2.5rem; margin: 1rem 0; letter-spacing: 0.1em;">MYSTERIA</h2>
+                    <p style="margin-bottom: 2rem; opacity: 0.9; max-width: 400px;">Une exploration des jeux d'ombres et de lumières à travers des sertissages complexes.</p>
+                    <a href="mysteria.html" class="btn-outline" style="border-color: white; color: white;">Découvrir</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="airy-section reveal" style="text-align: center; background: var(--bg-alt);">
+        <div style="max-width: 700px; margin: 0 auto;">
+            <span class="kicker">HAUTE JOAILLERIE</span>
+            <h2 style="font-size: 3rem; margin-bottom: 3rem;">AU-DELÀ DES COLLECTIONS</h2>
+            <p style="color: var(--muted); line-height: 2; margin-bottom: 4rem;">Certaines pierres sont si rares qu'elles méritent un destin à part. Nos pièces de Haute Joaillerie sont le sommet de l'art d'Elke Berr.</p>
+            <a href="haute-joaillerie.html" class="btn-outline">Explorer la Haute Joaillerie</a>
+        </div>
+    </section>
+
+        <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+                </a>
+            </div>
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>
+

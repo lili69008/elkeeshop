@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez toutes les créations Elke Berr Genève — bagues, colliers, boucles d'oreilles et bracelets en or et pierres précieuses.">
+    <meta property="og:title" content="Toutes les Créations — Elke Berr Genève">
+    <meta property="og:description" content="Bagues, colliers, boucles d'oreilles et bracelets en or, argent et pierres précieuses. Collections Rock'N Rose, Mysteria, Waves et plus.">
+    <meta property="og:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elkeberr.com/bijoux.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Toutes les Créations — Elke Berr Genève">
+    <meta name="twitter:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <title>TOUTES LES CRÉATIONS — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="reveal" style="padding-top: 18rem; padding-bottom: 8rem; text-align: center;">
+        <span class="kicker">Showroom EB</span>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 0.25em; font-weight: 400; margin-bottom: 3rem;">TOUTES LES CRÉATIONS</h1>
+        <div style="width: 40px; height: 1px; background: var(--fg); margin: 0 auto 3rem;"></div>
+        <p style="max-width: 650px; margin: 0 auto; line-height: 2; color: var(--muted); font-weight: 300; font-size: 0.95rem; letter-spacing: 0.02em;">Découvrez l'univers complet de la Maison Elke Berr, entre expertise gémologique et audace créative.</p>
+    </section>
+
+    <section id="catalog-grid" class="reveal" style="padding: 0 8vw 15rem;">
+        <div class="grid-3"><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Essentials</h2></div>
+            <a href="produits/essentials/me-you-necklace-original.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-original/Collier_Me_You_-_argent_zircons.jpg" alt="ME & YOU NECKLACE - ORIGINAL"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - ORIGINAL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/epure-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/epure-necklace/3_044d8ac4-0add-4ede-b580-11ab554d4cce.png" alt="ÉPURE NECKLACE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ÉPURE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/echo-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/echo-bangle/Echo_Bangle_Gold.png" alt="ECHO BANGLE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ECHO BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/linfini-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/linfini-necklace/28.png" alt="L'INFINI NECKLACE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L'INFINI NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/essentiel-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/essentiel-bangle/Essentiel_Bangle_Gold.png" alt="ESSENTIEL BANGLE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ESSENTIEL BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/complice-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/complice-bangle/11.png" alt="COMPLICE BANGLE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>COMPLICE BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-black-gold-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-black-gold-copie/Bracelet-6.png" alt="L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie-copie/Bracelet-4.png" alt="L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png" alt="L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-bespoke.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-bespoke/Bracelet-4.png" alt="L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mini.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mini/CollierEBpave.png" alt="ME & YOU NECKLACE - MINI"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MINI</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl-silver-1.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl-silver-1/CollierEB4.png" alt="ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl/CollierEB3.png" alt="ME & YOU NECKLACE - MOTHER-OF-PEARL"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet/Bracelet-1.png" alt="L’ANAMOUR BRACELET"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace/Waveset4.png" alt="ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Unbreakable</h2></div>
+            <a href="produits/unbreakable/ubreakable-pendant-only.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ubreakable-pendant-only/DSC_2911-2.jpg" alt="UNBREAKABLE - PENDANT ONLY"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE - PENDANT ONLY</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-onyx.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-onyx/Phoenixnecklaceonyx.png" alt="PHOENIX NECKLACE - Black Spinel"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - Black Spinel</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace/1_b9b7b776-1c95-4e2e-a623-0a65abbdec74.png" alt="UNBREAKABLE NECKLACE"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-copie/BIJOUXZULAYSITE.png" alt="PHOENIX NECKLACE - GOLD & DIAMONDS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace-gold-diamonds.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace-gold-diamonds/CollierPaul4.png" alt="UNBREAKABLE NECKLACE - GOLD & DIAMONDS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/imperium-necklace-gold.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium-necklace-gold/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png" alt="IMPERIUM NECKLACE - GOLD & DIAMONDS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>IMPERIUM NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/olympia-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/olympia-copie/2_733f4f82-3fac-416f-bee6-53a55fcaf7bb.png" alt="OLYMPIA NECKLACE - GOLD & DIAMONDS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>OLYMPIA NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/olympia.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/olympia/2_733f4f82-3fac-416f-bee6-53a55fcaf7bb.png" alt="OLYMPIA"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>OLYMPIA</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/imperium.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png" alt="IMPERIUM NECKLACE - SILVER"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>IMPERIUM NECKLACE - SILVER</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-ring/6_a0fc6cea-1726-4b5f-bf4f-1d0086e6129d.png" alt="PHOENIX RING"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX RING</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-earrings/5_2ebff012-615d-4ff7-8670-d561d31de8ee.png" alt="PHOENIX EARRINGS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix/BIJOUXZULAYSITE.png" alt="PHOENIX NECKLACE"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-earrings/BIJOUXZULAYSITE_3_e04e1f0d-8616-41bd-85b9-40edf0e44506.png" alt="UNBREAKABLE EARRINGS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/ring-unbreakable.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ring-unbreakable/1_9ba496c6-bf4a-4cfa-be5d-e1710fcff119.png" alt="UNBREAKABLE RING"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE RING</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/bracelet-unbreakable.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bracelet-unbreakable/3_e2d9b7f0-daf3-4f06-a6ee-2bff0d5254b0.png" alt="UNBREAKABLE BRACELET"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-white-black.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-white-black/9_ecfbc702-9d06-4d9b-84b6-41a1985678ab.png" alt="UNBREAKABLE NECKLACE - SILVER & BLACK"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE - SILVER & BLACK</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-silver.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-silver/1_7e5702ad-2f97-4021-b1e4-a3ea31f3e6db.png" alt="UNBREAKABLE NECKLACE"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-black-white.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-black-white/5_843956db-98ff-42b9-94ce-54c003d49c8a.png" alt="UNBREAKABLE NECKLACE - BLACK & SILVER"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE - BLACK & SILVER</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Singular</h2></div>
+            <a href="produits/singular/alma-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/alma-ring/47.png" alt="ALMA RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>ALMA RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/safari-neclace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/safari-neclace/Screenshot2025-03-06at13.49.42.png" alt="OPHIDIA  NECKLACE"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>OPHIDIA  NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/singular/amazonia-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amazonia-ring/Sanstitre-3_1.png" alt="AMAZONIA RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>AMAZONIA RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/african-flame-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/african-flame-ring/Bagueafrica.png" alt="AFRICAN FLAME RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>AFRICAN FLAME RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/umba-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/umba-ring/Bague3.png" alt="UMBA RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>UMBA RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/mogok-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mogok-ring/Bague4.2.png" alt="MOGOK RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>MOGOK RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/tanzania-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tanzania-ring/Designsanstitre_13.png" alt="TANZANIA RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>TANZANIA RING</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Rock'N Rose</h2></div>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-diamond.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-diamond/Collier-9.png" alt="ROCK’N ROSE NECKLACE – DIAMOND"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-spinel.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-spinel/Collier-8.png" alt="ROCK’N ROSE NECKLACE – SPINEL"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – SPINEL</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Waves</h2></div>
+            <a href="produits/waves/ondes-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ondes-ring/Sanstitre-4.png" alt="ONDES RING"></div>
+                    <span class="kicker">WAVES</span>
+                    <h3>ONDES RING</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Mysteria</h2></div>
+            <a href="produits/mysteria/mysteria-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mysteria-ring/Mysteriaring2ndphoto.png" alt="MYSTERIA RING - SAPPHIRE"></div>
+                    <span class="kicker">MYSTERIA</span>
+                    <h3>MYSTERIA RING - SAPPHIRE</h3>
+                </div>
+            </a></div>
+            <a href="produits/essentials/me-you-necklace-original.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-original/Collier_Me_You_-_argent_zircons.jpg" alt="ME & YOU NECKLACE - ORIGINAL"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - ORIGINAL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/epure-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/epure-necklace/3_044d8ac4-0add-4ede-b580-11ab554d4cce.png" alt="ÉPURE NECKLACE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ÉPURE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/echo-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/echo-bangle/Echo_Bangle_Gold.png" alt="ECHO BANGLE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ECHO BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/linfini-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/linfini-necklace/28.png" alt="L'INFINI NECKLACE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L'INFINI NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/essentiel-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/essentiel-bangle/Essentiel_Bangle_Gold.png" alt="ESSENTIEL BANGLE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ESSENTIEL BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/complice-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/complice-bangle/11.png" alt="COMPLICE BANGLE"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>COMPLICE BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-black-gold-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-black-gold-copie/Bracelet-6.png" alt="L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie-copie/Bracelet-4.png" alt="L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png" alt="L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-bespoke.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-bespoke/Bracelet-4.png" alt="L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mini.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mini/CollierEBpave.png" alt="ME & YOU NECKLACE - MINI"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MINI</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl-silver-1.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl-silver-1/CollierEB4.png" alt="ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl/CollierEB3.png" alt="ME & YOU NECKLACE - MOTHER-OF-PEARL"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet/Bracelet-1.png" alt="L’ANAMOUR BRACELET"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace/Waveset4.png" alt="ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Unbreakable</h2></div>
+            <a href="produits/unbreakable/ubreakable-pendant-only.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ubreakable-pendant-only/DSC_2911-2.jpg" alt="UNBREAKABLE - PENDANT ONLY"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE - PENDANT ONLY</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-onyx.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-onyx/Phoenixnecklaceonyx.png" alt="PHOENIX NECKLACE - Black Spinel"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - Black Spinel</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace/1_b9b7b776-1c95-4e2e-a623-0a65abbdec74.png" alt="UNBREAKABLE NECKLACE"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-copie/BIJOUXZULAYSITE.png" alt="PHOENIX NECKLACE - GOLD & DIAMONDS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace-gold-diamonds.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace-gold-diamonds/CollierPaul4.png" alt="UNBREAKABLE NECKLACE - GOLD & DIAMONDS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/imperium-necklace-gold.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium-necklace-gold/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png" alt="IMPERIUM NECKLACE - GOLD & DIAMONDS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>IMPERIUM NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/olympia-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/olympia-copie/2_733f4f82-3fac-416f-bee6-53a55fcaf7bb.png" alt="OLYMPIA NECKLACE - GOLD & DIAMONDS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>OLYMPIA NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/olympia.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/olympia/2_733f4f82-3fac-416f-bee6-53a55fcaf7bb.png" alt="OLYMPIA"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>OLYMPIA</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/imperium.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png" alt="IMPERIUM NECKLACE - SILVER"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>IMPERIUM NECKLACE - SILVER</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-ring/6_a0fc6cea-1726-4b5f-bf4f-1d0086e6129d.png" alt="PHOENIX RING"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX RING</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-earrings/5_2ebff012-615d-4ff7-8670-d561d31de8ee.png" alt="PHOENIX EARRINGS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix/BIJOUXZULAYSITE.png" alt="PHOENIX NECKLACE"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-earrings/BIJOUXZULAYSITE_3_e04e1f0d-8616-41bd-85b9-40edf0e44506.png" alt="UNBREAKABLE EARRINGS"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/ring-unbreakable.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ring-unbreakable/1_9ba496c6-bf4a-4cfa-be5d-e1710fcff119.png" alt="UNBREAKABLE RING"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE RING</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/bracelet-unbreakable.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bracelet-unbreakable/3_e2d9b7f0-daf3-4f06-a6ee-2bff0d5254b0.png" alt="UNBREAKABLE BRACELET"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-white-black.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-white-black/9_ecfbc702-9d06-4d9b-84b6-41a1985678ab.png" alt="UNBREAKABLE NECKLACE - SILVER & BLACK"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE - SILVER & BLACK</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-silver.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-silver/1_7e5702ad-2f97-4021-b1e4-a3ea31f3e6db.png" alt="UNBREAKABLE NECKLACE"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-black-white.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-black-white/5_843956db-98ff-42b9-94ce-54c003d49c8a.png" alt="UNBREAKABLE NECKLACE - BLACK & SILVER"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE - BLACK & SILVER</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Singular</h2></div>
+            <a href="produits/singular/alma-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/alma-ring/47.png" alt="ALMA RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>ALMA RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/safari-neclace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/safari-neclace/Screenshot2025-03-06at13.49.42.png" alt="OPHIDIA  NECKLACE"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>OPHIDIA  NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/singular/amazonia-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amazonia-ring/Sanstitre-3_1.png" alt="AMAZONIA RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>AMAZONIA RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/african-flame-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/african-flame-ring/Bagueafrica.png" alt="AFRICAN FLAME RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>AFRICAN FLAME RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/umba-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/umba-ring/Bague3.png" alt="UMBA RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>UMBA RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/mogok-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mogok-ring/Bague4.2.png" alt="MOGOK RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>MOGOK RING</h3>
+                </div>
+            </a>
+            <a href="produits/singular/tanzania-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tanzania-ring/Designsanstitre_13.png" alt="TANZANIA RING"></div>
+                    <span class="kicker">SINGULAR</span>
+                    <h3>TANZANIA RING</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Rock'N Rose</h2></div>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-diamond.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-diamond/Collier-9.png" alt="ROCK’N ROSE NECKLACE – DIAMOND"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-spinel.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-spinel/Collier-8.png" alt="ROCK’N ROSE NECKLACE – SPINEL"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – SPINEL</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Waves</h2></div>
+            <a href="produits/waves/ondes-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ondes-ring/Sanstitre-4.png" alt="ONDES RING"></div>
+                    <span class="kicker">WAVES</span>
+                    <h3>ONDES RING</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Mysteria</h2></div>
+            <a href="produits/mysteria/mysteria-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mysteria-ring/Mysteriaring2ndphoto.png" alt="MYSTERIA RING - SAPPHIRE"></div>
+                    <span class="kicker">MYSTERIA</span>
+                    <h3>MYSTERIA RING - SAPPHIRE</h3>
+                </div>
+            </a></div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

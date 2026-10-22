@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haute Joaillerie Elke Berr Genève — pièces d'exception serties de diamants et pierres rares, réalisées sur mesure.">
+    <meta property="og:title" content="Haute Joaillerie — Elke Berr Genève">
+    <meta property="og:description" content="Pièces d'exception serties de diamants, rubis, saphirs et émeraudes de collection. Créations uniques sur mesure.">
+    <meta property="og:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elkeberr.com/haute-joaillerie.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Haute Joaillerie — Elke Berr Genève">
+    <meta name="twitter:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <title>HAUTE JOAILLERIE — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="reveal" style="padding-top: 18rem; padding-bottom: 8rem; text-align: center;">
+        <span class="kicker">Expertise & Exception</span>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 0.25em; font-weight: 400; margin-bottom: 3rem;">HAUTE JOAILLERIE</h1>
+        <div style="width: 40px; height: 1px; background: var(--fg); margin: 0 auto 3rem;"></div>
+        <p style="max-width: 650px; margin: 0 auto; line-height: 2; color: var(--muted); font-weight: 300; font-size: 0.95rem; letter-spacing: 0.02em;">Des pièces uniques, sculptées autour de gemmes rares, témoins d'un savoir-faire d'exception.</p>
+    </section>
+
+    <section id="catalog-grid" class="reveal" style="padding: 0 8vw 15rem;">
+        <div class="grid-3"><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">High Jewelry</h2></div>
+            <a href="produits/high-jewelry/bague-rubis-amore.html" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bague-rubis-amore/4b96a6e6-4186-4339-9bae-0defe7647b962.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>Bague Rubis Amore</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/zephyris-ring-1.html" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/bague_saphir.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ZEPHYRIS RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/bubble-cufflinks-white-gold.html" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/bague_saphir.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>BUBBLE CUFFLINKS WHITE GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/requiem-ring.html" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/bague_saphir.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>REQUIEM RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tella-necklace.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tella-necklace/Tella.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TELLA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/nefertity-earrings.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nefertity-earrings/BOnoires.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NEFERTITY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eclat-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eclat-earrings/2_e0f4b6b0-c52b-4874-a9ed-f776e616ba14.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ÉCLAT EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/douceur-earcuff.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/douceur-earcuff/24_4d183a94-935e-44b1-b5f8-03f4648a583d.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DOUCEUR EARCUFF</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/amor-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amor-bangle/Amore_Bracelet_Gold.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AMOR BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lueur-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lueur-ring/32.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LUEUR RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/bond-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bond-earrings/47_9ed2fa9c-9ae6-4c34-809d-a82094a36a7e.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>BOND EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tresor-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tresor-ring/8.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TRÉSOR RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/link-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/link-earrings/1_a37c93ba-18fa-4651-b05e-14b60cadf428.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LINK EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/turquoise-cufflinks.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/turquoise-cufflinks/BM10.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TURQUOISE CUFFLINKS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/onyx-cufflinks.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/onyx-cufflinks/BM12.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ONYX CUFFLINKS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/bubble-cufflinks-yellow-gold.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bubble-cufflinks-yellow-gold/BM8.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>BUBBLE CUFFLINKS YELLOW GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lacryma-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lacryma-ring/WhatsAppImage2025-03-11at13.07.20.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LACRYMA RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/deep-blue-pendant.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/deep-blue-pendant/deepbluenecklace.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DEEP BLUE PENDANT</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/madame-iceberg-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/madame-iceberg-earrings/Screenshot2025-03-06at13.50.55.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ONDARA EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/deep-blue-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/deep-blue-ring/deepbluering.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DEEP BLUE RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/loulou-earrings-1.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-earrings-1/Screenshot2025-02-24at14.38.40_ae269072-8598-4e3e-8c3c-6a4057634c9e.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ECLIPSE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/loulou-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-necklace/Screenshot2025-02-24at14.36.32.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LOULOU NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/stellar-bloom-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/stellar-bloom-ring/Milkyway_rings.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>STELLAR BLOOM RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/night-sky-ring-black.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/night-sky-ring-black/Designsanstitre_22.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NIGHT SKY RING - BLACK</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/night-sky-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/night-sky-ring/Milkyway_rings.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NIGHT SKY RING - WHITE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/stardust-finger-top-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/stardust-finger-top-ring/Milkyway_rings.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>STARDUST FINGER-TOP RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/luna-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/luna-ring/bague4.3.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LUNA RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/nova-phalanx-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nova-phalanx-ring/BagueMilkyWay.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NOVA FINGER-TOP RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/yellow-and-gold-phalanx-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/yellow-and-gold-phalanx-ring/BagueMilkyway2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SUPERNOVA RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-single-ring-sapphire.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-single-ring-sapphire/BagueTwilight.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE SINGLE RING - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-necklace-white-gold.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace-white-gold/Twilightelegancenecklace2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/constellation-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/constellation-necklace/Designsanstitre_16.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CONSTELLATION NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sensuelle-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sensuelle-bracelet/Bracelet-7.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SENSUELLE BRACELET - DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/la-belle-et-le-blues-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/la-belle-et-le-blues-ring/Bague-3.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LA BELLE ET LE BLUES RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/kiss-me-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/kiss-me-necklace/Collir-3.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>KISS ME NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/diabolo-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/diabolo-earrings/Sanstitre-10.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DIABOLO EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/whisper-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/whisper-necklace/CollierDonut4.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>WHISPER NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sweetheart-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sweetheart-necklace/CollierDonut3.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SWEETHEART NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/delicate-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/delicate-necklace/Donutbleucollier.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DELICATE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eleganza-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eleganza-necklace/CollierDonut1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ELEGANZA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/recif-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/recif-bracelet/Sanstitre-2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>RÉCIF BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/icefall-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/icefall-earrings/Waveset2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ICEFALL EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/coral-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/coral-ring/BagueWave2.2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CORAL RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/mermaid-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mermaid-earrings/Screenshot2025-01-30at14.45.07.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>MERMAID EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/aqua-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/aqua-necklace/Screenshot2025-01-30at16.01.51.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AQUA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/cosmos-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/cosmos-ring/Designsanstitre_15.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>COSMOS RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/calchedony-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calchedony-earrings/BO4.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>GRAZIA EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/caramelle-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/caramelle-ring/Bague11.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CARAMELLE RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/calla-lily-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calla-lily-earrings/BO2_3262f8ee-f6e5-4119-9e01-6ccd9713f030.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CALLA LILY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/aqua-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/aqua-ring/Bague2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AQUA RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/ouranos-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ouranos-ring/Designsanstitre_11.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>OURANOS RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sapphire-single-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sapphire-single-bracelet/Sensuelle_blue_sapphire_bracelet_with_back_23f31774-652a-42fa-9254-d6b912fe8742.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SENSUELLE BRACELET - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/snake-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-earrings/BOHJ.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SNAKE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/snake-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-necklace/Bijouxsiteweb.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SNAKE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eternity-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eternity-necklace/Collierprenite.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ETERNITY NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/orbis-lacteus-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orbis-lacteus-ring/BOparaibaetbague.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ORBIS LACTEUS RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lagoon-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lagoon-ring/BagueHJ4.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LAGOON RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/orbis-lacteus-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orbis-lacteus-earrings/BO_ee7ec99a-bb09-4256-93f8-bc92ec9bbb37.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ORBIS LACTEUS EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/azura-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/azura-necklace/Collier2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AZURA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/orchid-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orchid-ring/Baguecrimsoncharm.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ORCHID RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/dolce-noche-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dolce-noche-ring/BagueHJ3.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DOLCE NOCHE RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/prunelle-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/prunelle-ring/BagueHJ2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>PRUNELLE RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/dramatica-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dramatica-ring/Designsanstitre_9.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DRAMATICA RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/rosea-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rosea-ring/Bague12.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ROSEA RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/pink-opulence-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/pink-opulence-ring/BagueHJ5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>PINK OPULENCE RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/pivoine-d-amour-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/pivoine-d-amour-ring/Sanstitre-4_1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>PIVOINE RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/red-s-devotion-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/red-s-devotion-ring/Sanstitre-2_1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>RED’S DEVOTION RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/nymphe-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nymphe-ring/Bague9.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ANTHEA SPINEL RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/burmese-dream-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/burmese-dream-ring/Bague7.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>BURMESES DREAM RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/crimson-charm-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/crimson-charm-ring/Bague5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CRIMSON CHARM RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/serenity-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-earrings/HauteJOparaiba.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SERENITY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/serenity-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-ring/Bagueparaiba2views.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SERENITY RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/daydreaming-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/daydreaming-necklace/Sanstitre-5_1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DAYDREAMING NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/himalaya-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/himalaya-ring/WhatsApp_Image_2025-02-19_at_18.08.26.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>HIMALAYA RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/love-potion-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/love-potion-ring/Bague6.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LOVE POTION RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/crimson-sunset-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/crimson-sunset-earrings/BO5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CRIMSON SUNSET EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tegula-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tegula-bracelet/BlaceletB_W.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TEGULA BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/ombre-celeste-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ombre-celeste-ring/Screenshot2025-01-30at14.48.54.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CELESTE RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/zephyris-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/zephyris-ring/Designsanstitre_14.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ZEPHYRIS RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-double-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-bracelet/Bracelet-19.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE DOUBLE BRACELET - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-earrings/BO2_e3c8f5b8-ae20-4358-bb32-66bf8ff056d5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-single-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-single-ring/Bague-4Gold.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE SINGLE RING - DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-double-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-ring/Bague.5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE DOUBLE RING - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace/CollierSwangold1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - YELLOW GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/hold-up-ear-cuff.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/hold-up-ear-cuff/Screenshot2025-01-30at14.49.57.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>HOLD UP SINGLE EAR CUFF</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/elisa-ear-cuff.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/elisa-ear-cuff/WhatsAppImage2025-02-18at13.42.58.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ELISA SINGLE EAR CUFF</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/dr-jekyll-mr-hyde-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dr-jekyll-mr-hyde-earrings/WhatsAppImage2025-02-18at12.44.44.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DR. JEKYLL & MR. HYDE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/bonnie-clyde-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bonnie-clyde-ring/Bague-1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>BONNIE & CLYDE RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-ring/Bague-2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings/BO1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-earrings-studs.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings-studs/WhatsAppImage2025-02-19at13.47.08.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM EARRINGS STUDS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-bracelet/Bracelet-18.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/ardoise-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ardoise-necklace/Collier-1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ARDOISE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/initials-s-g-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/initials-s-g-necklace/Collier-2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>INITIALS S.G NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/melody-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/melody-necklace/Collier-5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>MELODY NECKLACE-SOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/negative-blues-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/negative-blues-necklace/Collier-6.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NEGATIVE BLUES NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lanthracite-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lanthracite-necklace/Collier-4.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>L'ANTHRACITE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lotus-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lotus-ring/WhatsAppImage2025-02-25at12.28.18_1.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LOTUS RING</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/les-inseparables-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/les-inseparables-earrings/EarcufforblancRNR_addd4305-db38-4711-a804-1e24c5d2f0de.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LES INSÉPARABLES EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/white-black-blues-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/white-black-blues-bracelet/Braceletspirale.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>WHITE & BLACK BLUES BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-choker.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-choker/Designsanstitre_20.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM CHOKER</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/white-black-blues-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/white-black-blues-ring/Baguespirale_1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>WHITE & BLACK BLUES RING</h3>
+                </div>
+            </a></div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

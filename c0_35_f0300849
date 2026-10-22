@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGV — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .legal-content { max-width: 800px; margin: 0 auto; padding-top: 15rem; }
+        .legal-content h2 { margin-top: 3rem; margin-bottom: 1.5rem; font-size: 1.5rem; }
+        .legal-content p { margin-bottom: 1.5rem; color: var(--muted); }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    
+
+    <section class="legal-content">
+        <span class="kicker">LEGAL</span>
+        <h1>TERMS OF SERVICE</h1>
+        <p style="color:var(--gold);font-size:0.75rem;letter-spacing:0.1em;">Effective Date: January 2025</p>
+
+        <h2>Ownership and Editorial Control</h2>
+        <p>Elke Berr has its registered offices at Rue du Cendrier 12, 1201 Genève, Switzerland.</p>
+        <p>These Terms of Use govern your use of the Elke Berr website (the "Platform").</p>
+        <p>The terms "Elke Berr," "we," "us," and "our" refer to the main office of Elke Berr, its affiliates, and subsidiaries. By using the Platform, you acknowledge and agree to abide by these Terms of Use. If you disagree with these terms, you are not permitted to continue using the Platform.</p>
+
+        <h2>Modifications to the Terms</h2>
+        <p>We reserve the right to update or amend these Terms of Use at any time. Please review them regularly for any changes. The latest version of these Terms will always be available on the Platform. Any updated Terms will apply immediately once posted. By continuing to use the Platform after changes are made, you accept the revised Terms.</p>
+
+        <h2>Hosting Services</h2>
+        <p>The website's hosting services are provided by Elke Berr, based in Switzerland. Mobile applications may be hosted by either us or third-party companies; please refer to the respective conditions of those providers.</p>
+
+        <h2>Privacy Policy</h2>
+        <p>The collection and use of your personal information on the Platform are governed by our Privacy Policy. Please refer to the Privacy Policy for detailed information on how we manage your data.</p>
+
+        <h2>e-Boutique – Terms of Sale</h2>
+        <p>Customers purchasing products from the Elke Berr e-Boutique, either online or via phone, must review the Conditions of Sale, which govern such transactions. The limitations of liability outlined in these Terms of Use do not apply to product purchases, which are covered separately under the Conditions of Sale.</p>
+
+        <h2>Use of Platform Materials</h2>
+        <p>The Platform is intended to provide information about Elke Berr's products and services for personal use. While we strive to ensure the accuracy of product representations, minor differences may occur due to factors such as device settings or display variations. Elke Berr is not liable for any such discrepancies between the product images shown on the Platform and the actual products. We recommend visiting our boutique before making a purchase online or over the phone.</p>
+        <p>You are allowed to download one copy of materials from the Platform for personal, non-commercial use, as long as you retain all copyright and trademark notices intact. Unless otherwise stated, all materials on the Platform, including images, text, videos, and other content ("Elke Berr Material"), are protected by copyright and trademark laws.</p>
+        <p>You may not sell, reproduce, distribute, modify, or use any Elke Berr Material for commercial purposes without prior written permission. Any unauthorized use of Elke Berr Material will result in immediate termination of your access to the Platform, and any copies made must be destroyed. Unauthorized use may violate intellectual property laws and other legal protections.</p>
+
+        <h2>Submissions and Unsolicited Communications</h2>
+        <p>Any unsolicited materials or communications, including feedback, suggestions, or comments, that you submit to us through the Platform or other means, will be treated as non-confidential. By submitting such communications, you grant Elke Berr a worldwide, royalty-free, perpetual, and irrevocable license to use, modify, distribute, and display these communications in any form or medium. Elke Berr may also use the information provided for commercial purposes.</p>
+
+        <h2>Limitation of Liability</h2>
+        <p>Elke Berr makes efforts to ensure the accuracy of information on the Platform, but does not guarantee its accuracy, completeness, or reliability. We do not warrant that the functional aspects of the Platform will be error-free, nor do we guarantee that the Platform or the servers hosting them are free from harmful elements such as viruses.</p>
+        <p>The Platform and their content are provided "AS IS" and "AS AVAILABLE," with no warranties of any kind, either express or implied. Elke Berr shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use of the Platform, or for any loss of data or profits, even if we have been advised of the possibility of such damages.</p>
+
+        <h2>Trademarks</h2>
+        <p>All trademarks, logos, and service marks displayed on the Platform are the property of Elke Berr or third parties. No right or license to use these trademarks is granted unless explicitly authorized by Elke Berr. Unauthorized use of these trademarks is prohibited.</p>
+
+        <h2>Copyright</h2>
+        <p>All content on the Platform, including text, images, and multimedia, is protected by copyright and other intellectual property laws. All rights are reserved to Elke Berr or its licensors.</p>
+
+        <h2>Links to Third-Party Websites</h2>
+        <p>The Platform may contain links to external websites. These links are provided for convenience and do not imply endorsement by Elke Berr. We are not responsible for the content or accuracy of any linked third-party sites. Accessing these sites is at your own risk. Additionally, you may not link to the Platform from any third-party websites without prior written consent from Elke Berr.</p>
+
+        <h2>Termination and Suspension</h2>
+        <p>Elke Berr reserves the right to terminate or suspend your access to the Platform if we believe you have violated these Terms of Use. We also reserve the right to modify or discontinue any part of the Platform at our discretion, without notice.</p>
+
+        <h2>General Provisions</h2>
+        <p>If any provision of these Terms of Use is found to be unenforceable, the remaining provisions will continue to apply. These Terms of Use represent the complete agreement between you and Elke Berr regarding the use of the Platform, replacing any prior agreements on the same subject.</p>
+
+        <h2>Applicable Law and Jurisdiction</h2>
+        <p>These Terms of Use are governed by the laws of Switzerland, excluding any conflict of laws principles. Any legal disputes arising from these Terms will be resolved according to Swiss law. If consumer protection laws in your jurisdiction differ, we will ensure similar protection is provided.</p>
+
+        <h2>Contact Information</h2>
+        <p>For any inquiries related to these Terms of Use, or to request access to your personal data, please contact us:</p>
+        <p>
+            Elke Berr<br>
+            Rue du Cendrier 12-14, 1201 Genève, Switzerland<br>
+            <a href="mailto:office@berrandpartners.ch" style="color:var(--gold);">office@berrandpartners.ch</a><br>
+            +41 22 310 61 10
+        </p>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>

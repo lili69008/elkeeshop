@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haute Joaillerie Elke Berr Genève — pièces d'exception serties de diamants et pierres rares, réalisées sur mesure.">
+    <meta property="og:title" content="Haute Joaillerie — Elke Berr Genève">
+    <meta property="og:description" content="Pièces d'exception serties de diamants, rubis, saphirs et émeraudes de collection. Créations uniques sur mesure.">
+    <meta property="og:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elkeberr.com/haute-joaillerie.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Haute Joaillerie — Elke Berr Genève">
+    <meta name="twitter:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <title>LES BAGUES D'EXCEPTION — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+        <section class="reveal" style="padding-top: 18rem; padding-bottom: 8rem; text-align: center;">
+        <span class="kicker">HAUTE JOAILLERIE</span>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 0.25em; font-weight: 400; margin-bottom: 3rem;">LES BAGUES D'EXCEPTION</h1>
+        <div style="width: 40px; height: 1px; background: var(--fg); margin: 0 auto 3rem;"></div>
+        <p style="max-width: 650px; margin: 0 auto; line-height: 2; color: var(--muted); font-weight: 300; font-size: 0.95rem; letter-spacing: 0.02em;">Les bagues Elke Berr sont des créations d'exception où la pierre précieuse est au cœur de l'œuvre. Chaque bague raconte une histoire unique, mêlant expertise gemmologique et design raffiné.</p>
+    </section>
+    <section id="catalog-grid" class="reveal" style="padding: 0 8vw 15rem;">
+        <div class="grid-3">
+            <a href="produits/high-jewelry/bague-rubis-amore.html" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bague-rubis-amore/4b96a6e6-4186-4339-9bae-0defe7647b962.jpg"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>Bague Rubis Amore</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">8'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/zephyris-ring-1.html" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/bague_saphir.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>ZEPHYRIS RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">0.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/requiem-ring.html" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/bague_saphir.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>REQUIEM RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">8'900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lueur-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lueur-ring/32.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>LUEUR RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">1'750.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tresor-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tresor-ring/8.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>TRÉSOR RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">1'850.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lacryma-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lacryma-ring/WhatsAppImage2025-03-11at13.07.20.jpg"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>LACRYMA RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">10'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/deep-blue-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/deep-blue-ring/deepbluering.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>DEEP BLUE RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">6'700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/stellar-bloom-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/stellar-bloom-ring/Milkyway_rings.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>STELLAR BLOOM RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">680.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/night-sky-ring-black.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/night-sky-ring-black/Designsanstitre_22.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>NIGHT SKY RING - BLACK</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">1'600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/night-sky-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/night-sky-ring/Milkyway_rings.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>NIGHT SKY RING - WHITE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">1'600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/stardust-finger-top-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/stardust-finger-top-ring/Milkyway_rings.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>STARDUST FINGER-TOP RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">360.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/luna-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/luna-ring/bague4.3.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>LUNA RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">1'600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/nova-phalanx-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nova-phalanx-ring/BagueMilkyWay.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>NOVA FINGER-TOP RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">680.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/yellow-and-gold-phalanx-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/yellow-and-gold-phalanx-ring/BagueMilkyway2.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>SUPERNOVA RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">0.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-single-ring-sapphire.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-single-ring-sapphire/BagueTwilight.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>TWILIGHT ELEGANCE SINGLE RING - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">2'950.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/la-belle-et-le-blues-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/la-belle-et-le-blues-ring/Bague-3.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>LA BELLE ET LE BLUES RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">4'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/coral-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/coral-ring/BagueWave2.2.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>CORAL RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">4'400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/cosmos-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/cosmos-ring/Designsanstitre_15.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>COSMOS RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">0.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/caramelle-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/caramelle-ring/Bague11.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>CARAMELLE RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">29'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/aqua-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/aqua-ring/Bague2.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>AQUA RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">16'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/ouranos-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ouranos-ring/Designsanstitre_11.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>OURANOS RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">9'200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/orbis-lacteus-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orbis-lacteus-ring/BOparaibaetbague.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>ORBIS LACTEUS RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">22'900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lagoon-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lagoon-ring/BagueHJ4.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>LAGOON RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">11'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/orchid-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orchid-ring/Baguecrimsoncharm.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>ORCHID RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">7'200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/dolce-noche-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dolce-noche-ring/BagueHJ3.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>DOLCE NOCHE RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">19'900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/prunelle-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/prunelle-ring/BagueHJ2.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>PRUNELLE RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">9'900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/dramatica-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dramatica-ring/Designsanstitre_9.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>DRAMATICA RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">18'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/rosea-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rosea-ring/Bague12.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>ROSEA RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">13'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/pink-opulence-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/pink-opulence-ring/BagueHJ5.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>PINK OPULENCE RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">16'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/pivoine-d-amour-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/pivoine-d-amour-ring/Sanstitre-4_1.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>PIVOINE RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">39'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/red-s-devotion-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/red-s-devotion-ring/Sanstitre-2_1.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>RED’S DEVOTION RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">70'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/nymphe-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nymphe-ring/Bague9.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>ANTHEA SPINEL RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">34'900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/burmese-dream-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/burmese-dream-ring/Bague7.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>BURMESES DREAM RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">26'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/crimson-charm-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/crimson-charm-ring/Bague5.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>CRIMSON CHARM RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">32'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/serenity-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-ring/Bagueparaiba2views.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>SERENITY RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">15'900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/himalaya-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/himalaya-ring/WhatsApp_Image_2025-02-19_at_18.08.26.jpg"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>HIMALAYA RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">46'500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/love-potion-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/love-potion-ring/Bague6.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>LOVE POTION RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">70'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/ombre-celeste-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ombre-celeste-ring/Screenshot2025-01-30at14.48.54.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>CELESTE RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">6'200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/zephyris-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/zephyris-ring/Designsanstitre_14.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>ZEPHYRIS RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">2'500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-single-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-single-ring/Bague-4Gold.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>TWILIGHT ELEGANCE SINGLE RING - DIAMOND</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">2'950.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-double-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-ring/Bague.5.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>TWILIGHT ELEGANCE DOUBLE RING - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">2'500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/bonnie-clyde-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bonnie-clyde-ring/Bague-1.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>BONNIE & CLYDE RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">4'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-ring/Bague-2.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>TANDEM RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">4'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lotus-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lotus-ring/WhatsAppImage2025-02-25at12.28.18_1.jpg"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>LOTUS RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">2'550.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/white-black-blues-ring.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/white-black-blues-ring/Baguespirale_1.png"></div>
+                    <span class="kicker">BAGUES</span>
+                    <h3>WHITE & BLACK BLUES RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">7'400.00 CHF</p>
+                </div>
+            </a>
+        </div>
+    </section>
+<footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

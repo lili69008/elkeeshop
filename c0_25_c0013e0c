@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bespoke — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .step-section {
+            padding: 10rem 8%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8rem;
+            align-items: center;
+        }
+        .step-section:nth-child(even) { direction: rtl; }
+        .step-section:nth-child(even) .text { direction: ltr; }
+        .step-number {
+            font-size: 0.8rem;
+            color: var(--gold);
+            margin-bottom: 1rem;
+            display: block;
+            letter-spacing: 0.2em;
+        }
+        .step-image img {
+            width: 100%;
+            height: 60vh;
+            object-fit: cover;
+            border: 1px solid #eee;
+        }
+        @media (max-width: 1000px) {
+            .step-section { grid-template-columns: 1fr; gap: 4rem; padding: 6rem 5%; }
+            .step-section:nth-child(even) { direction: ltr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container" aria-label="Elke Berr — Accueil">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    <section id="bespoke-hero" class="reveal" style="position: relative; height: 75vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #fff; overflow: hidden; background: #1a1a1a;">
+        <img src="img/portrait_elke.jpg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.5; z-index: 0;">
+        <div style="position: relative; z-index: 1;">
+            <span class="kicker" style="color: #fff; opacity: 0.8;">L'ART DU SUR-MESURE</span>
+            <h1 style="font-size: clamp(2.5rem, 6vw, 4.5rem); letter-spacing: 0.25em; color: #fff;">BESPOKE</h1>
+            <div style="width: 60px; height: 1px; background: #fff; margin: 3rem auto;"></div>
+            <p style="max-width: 800px; margin: 0 auto; line-height: 1.8; color: rgba(255,255,255,0.9); font-weight: 300; font-size: 1.1rem; padding: 0 5%;">
+                Le service Bespoke de la Maison Elke Berr Genève est une invitation à créer l'exceptionnel. 
+                Imaginez un bijou unique, reflet de votre histoire, façonné par les mains des meilleurs artisans joailliers.
+            </p>
+        </div>
+    </section>
+
+    <!-- Step 1 -->
+    <section class="step-section reveal">
+        <div class="step-image">
+            <img src="img/launch_showcase.jpg">
+        </div>
+        <div class="text">
+            <span class="step-number">ÉTAPE 01</span>
+            <h2 style="font-size: 2.2rem; margin: 1rem 0; font-family: var(--font-serif);">CONCEPT & DÉCOUVERTE</h2>
+            <p style="line-height: 1.8; color: var(--muted);">Chaque projet débute par une rencontre personnelle. Nous prenons le temps de comprendre vos désirs, votre style et l'émotion que vous souhaitez transmettre à travers cette pièce unique.</p>
+        </div>
+    </section>
+
+    <!-- Step 2 -->
+    <section class="step-section reveal">
+        <div class="step-image">
+            <img src="img/private_sketch_real.png">
+        </div>
+        <div class="text">
+            <span class="step-number">ÉTAPE 02</span>
+            <h2 style="font-size: 2.2rem; margin: 1rem 0; font-family: var(--font-serif);">CONCEPTION & SAVOIR-FAIRE</h2>
+            <p style="line-height: 1.8; color: var(--muted);">Nos designers traduisent vos idées en croquis gouachés à la main. C'est à cette étape que l'architecture du bijou prend vie, alliant équilibre esthétique et contraintes techniques.</p>
+        </div>
+    </section>
+
+    <!-- Step 3 -->
+    <section class="step-section reveal">
+        <div class="step-image">
+            <img src="img/saphir.png">
+        </div>
+        <div class="text">
+            <span class="step-number">ÉTAPE 03</span>
+            <h2 style="font-size: 2.2rem; margin: 1rem 0; font-family: var(--font-serif);">SÉLECTION DES PIERRES</h2>
+            <p style="line-height: 1.8; color: var(--muted);">En tant que gemmologue experte, Elke Berr sélectionne personnellement les pierres les plus rares et précieuses. Chaque gemme est choisie pour sa couleur, sa pureté et son origine éthique.</p>
+        </div>
+    </section>
+
+    <!-- Step 4 -->
+    <section class="step-section reveal">
+        <div class="step-image">
+            <img src="img/launch_elke.jpg">
+        </div>
+        <div class="text">
+            <span class="step-number">ÉTAPE 04</span>
+            <h2 style="font-size: 2.2rem; margin: 1rem 0; font-family: var(--font-serif);">CRÉATION D’EXCEPTION</h2>
+            <p style="line-height: 1.8; color: var(--muted);">La fabrication artisanale commence dans nos ateliers genevois. Nos maîtres joailliers utilisent des techniques ancestrales pour donner corps au métal et sertir les pierres avec une précision millimétrique.</p>
+        </div>
+    </section>
+
+    <!-- Step 5 -->
+    <section class="step-section reveal">
+        <div class="step-image">
+            <img src="img/private_final_real.png">
+        </div>
+        <div class="text">
+            <span class="step-number">ÉTAPE 05</span>
+            <h2 style="font-size: 2.2rem; margin: 1rem 0; font-family: var(--font-serif);">LE CHEF-D'ŒUVRE FINAL</h2>
+            <p style="line-height: 1.8; color: var(--muted);">Le dévoilement de votre création est un moment suspendu. Votre bijou, unique au monde, est désormais prêt à traverser les générations, portant en lui une part de votre éternité.</p>
+            <a href="contact.html" class="btn-outline" style="margin-top: 3rem;">Initier votre projet</a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>

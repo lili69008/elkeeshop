@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bracelets Elke Berr Genève — bangles, bracelets jonc et chaînes en or 18K et pierres précieuses.">
+    <title>LES BRACELETS — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    
+    <section class="reveal" id="bagues-hero" style="padding-top: 18rem; text-align: center;">
+        <span class="kicker">COLLECTIONS</span>
+        <h1 style="font-size: 3.5rem; letter-spacing: 0.2em;">LES BRACELETS</h1>
+        <div style="width: 60px; height: 1px; background: var(--fg); margin: 3rem auto;"></div>
+        <p style="max-width: 700px; margin: 0 auto; line-height: 1.8; color: var(--muted); font-weight: 300;">
+            Des créations fluides et élégantes qui épousent le poignet avec grâce. Chaque bracelet est une déclaration d'indépendance et de style.
+        </p>
+    </section>
+    <section class="reveal" id="bagues-grid" style="padding: 6rem 5% 12rem;">
+        <div class="grid-3"><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Unbreakable</h2></div>
+            <a href="produits/unbreakable/bracelet-unbreakable.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bracelet-unbreakable/3_e2d9b7f0-daf3-4f06-a6ee-2bff0d5254b0.png"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE BRACELET</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Essentials</h2></div>
+            <a href="produits/essentials/echo-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/echo-bangle/Echo_Bangle_Gold.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ECHO BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/essentiel-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/essentiel-bangle/Essentiel_Bangle_Gold.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ESSENTIEL BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/complice-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/complice-bangle/11.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>COMPLICE BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-black-gold-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-black-gold-copie/Bracelet-6.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie-copie/Bracelet-4.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-bespoke.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-bespoke/Bracelet-4.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet/Bracelet-1.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">High Jewelry</h2></div>
+            <a href="produits/high-jewelry/amor-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amor-bangle/Amore_Bracelet_Gold.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AMOR BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sensuelle-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sensuelle-bracelet/Bracelet-7.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SENSUELLE BRACELET - DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/recif-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/recif-bracelet/Sanstitre-2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>RÉCIF BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sapphire-single-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sapphire-single-bracelet/Sensuelle_blue_sapphire_bracelet_with_back_23f31774-652a-42fa-9254-d6b912fe8742.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SENSUELLE BRACELET - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tegula-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tegula-bracelet/BlaceletB_W.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TEGULA BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-double-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-bracelet/Bracelet-19.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE DOUBLE BRACELET - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-bracelet/Bracelet-18.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/white-black-blues-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/white-black-blues-bracelet/Braceletspirale.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>WHITE & BLACK BLUES BRACELET</h3>
+                </div>
+            </a></div>
+            <a href="produits/unbreakable/bracelet-unbreakable.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bracelet-unbreakable/3_e2d9b7f0-daf3-4f06-a6ee-2bff0d5254b0.png"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE BRACELET</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Essentials</h2></div>
+            <a href="produits/essentials/echo-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/echo-bangle/Echo_Bangle_Gold.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ECHO BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/essentiel-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/essentiel-bangle/Essentiel_Bangle_Gold.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ESSENTIEL BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/complice-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/complice-bangle/11.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>COMPLICE BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-black-gold-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-black-gold-copie/Bracelet-6.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie-copie/Bracelet-4.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-bespoke.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-bespoke/Bracelet-4.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet/Bracelet-1.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">High Jewelry</h2></div>
+            <a href="produits/high-jewelry/amor-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amor-bangle/Amore_Bracelet_Gold.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AMOR BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sensuelle-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sensuelle-bracelet/Bracelet-7.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SENSUELLE BRACELET - DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/recif-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/recif-bracelet/Sanstitre-2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>RÉCIF BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sapphire-single-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sapphire-single-bracelet/Sensuelle_blue_sapphire_bracelet_with_back_23f31774-652a-42fa-9254-d6b912fe8742.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SENSUELLE BRACELET - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tegula-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tegula-bracelet/BlaceletB_W.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TEGULA BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-double-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-bracelet/Bracelet-19.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE DOUBLE BRACELET - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-bracelet/Bracelet-18.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/white-black-blues-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/white-black-blues-bracelet/Braceletspirale.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>WHITE & BLACK BLUES BRACELET</h3>
+                </div>
+            </a></div>
+            <a href="produits/unbreakable/bracelet-unbreakable.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bracelet-unbreakable/3_e2d9b7f0-daf3-4f06-a6ee-2bff0d5254b0.png"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE BRACELET</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 4rem; margin-bottom: 2rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Essentials</h2></div>
+            <a href="produits/essentials/echo-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/echo-bangle/Echo_Bangle_Gold.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ECHO BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/essentiel-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/essentiel-bangle/Essentiel_Bangle_Gold.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ESSENTIEL BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/complice-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/complice-bangle/11.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>COMPLICE BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-black-gold-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-black-gold-copie/Bracelet-6.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie-copie/Bracelet-4.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-made-to-order-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet-bespoke.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-bespoke/Bracelet-4.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/l-anamour-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet/Bracelet-1.png"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L’ANAMOUR BRACELET</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 4rem; margin-bottom: 2rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">High Jewelry</h2></div>
+            <a href="produits/high-jewelry/amor-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amor-bangle/Amore_Bracelet_Gold.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AMOR BANGLE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sensuelle-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sensuelle-bracelet/Bracelet-7.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SENSUELLE BRACELET - DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/recif-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/recif-bracelet/Sanstitre-2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>RÉCIF BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sapphire-single-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sapphire-single-bracelet/Sensuelle_blue_sapphire_bracelet_with_back_23f31774-652a-42fa-9254-d6b912fe8742.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SENSUELLE BRACELET - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tegula-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tegula-bracelet/BlaceletB_W.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TEGULA BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-double-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-bracelet/Bracelet-19.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE DOUBLE BRACELET - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-bracelet/Bracelet-18.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM BRACELET</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/white-black-blues-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/white-black-blues-bracelet/Braceletspirale.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>WHITE & BLACK BLUES BRACELET</h3>
+                </div>
+            </a></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>UNBREAKABLE BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">840.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/echo-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/echo-bangle/Echo_Bangle_Gold.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>ECHO BANGLE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">4100.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/essentiel-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/essentiel-bangle/Essentiel_Bangle_Gold.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>ESSENTIEL BANGLE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">3150.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/amor-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amor-bangle/Amore_Bracelet_Gold.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>AMOR BANGLE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">4100.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/complice-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/complice-bangle/11.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>COMPLICE BANGLE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">4100.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/sensuelle-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sensuelle-bracelet/Bracelet-7.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>SENSUELLE BRACELET - DIAMOND</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">1900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/recif-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/recif-bracelet/Sanstitre-2.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>RÉCIF BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">7700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/sapphire-single-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sapphire-single-bracelet/Sensuelle_blue_sapphire_bracelet_with_back_23f31774-652a-42fa-9254-d6b912fe8742.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>SENSUELLE BRACELET - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">2000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tegula-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tegula-bracelet/BlaceletB_W.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>TEGULA BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">42000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-double-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-bracelet/Bracelet-19.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>TWILIGHT ELEGANCE DOUBLE BRACELET - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">5600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tandem-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-bracelet/Bracelet-18.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>TANDEM BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">5000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/white-black-blues-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/white-black-blues-bracelet/Braceletspirale.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>WHITE & BLACK BLUES BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">19600.00 CHF</p>
+                </div>
+            </a>
+        </div></section>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boucles d'oreilles Elke Berr Genève — ear cuffs, pendantes et créoles en or et pierres précieuses.">
+    <title>LES BOUCLES D'OREILLES — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    <section id="bagues-hero" class="reveal" style="padding-top: 18rem; padding-bottom: 8rem; text-align: center;">
+        <span class="kicker">Maison Elke Berr</span>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 0.25em; font-weight: 400; margin-bottom: 3rem;">LES BOUCLES D'OREILLES</h1>
+        <div style="width: 40px; height: 1px; background: var(--fg); margin: 0 auto 3rem;"></div>
+        <p style="max-width: 650px; margin: 0 auto; line-height: 2; color: var(--muted); font-weight: 300; font-size: 0.95rem; letter-spacing: 0.02em;">Des pièces majestueuses où la lumière danse à travers des gemmes rares.</p>
+    </section>
+    <section id="bagues-grid" class="reveal" style="padding: 0 8vw 15rem;">
+        <div class="grid-3"><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">High Jewelry</h2></div>
+            <a href="produits/high-jewelry/nefertity-earrings.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nefertity-earrings/BOnoires.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NEFERTITY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eclat-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eclat-earrings/2_e0f4b6b0-c52b-4874-a9ed-f776e616ba14.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ÉCLAT EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/douceur-earcuff.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/douceur-earcuff/24_4d183a94-935e-44b1-b5f8-03f4648a583d.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DOUCEUR EARCUFF</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/bond-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bond-earrings/47_9ed2fa9c-9ae6-4c34-809d-a82094a36a7e.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>BOND EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/link-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/link-earrings/1_a37c93ba-18fa-4651-b05e-14b60cadf428.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LINK EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/madame-iceberg-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/madame-iceberg-earrings/Screenshot2025-03-06at13.50.55.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ONDARA EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/loulou-earrings-1.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-earrings-1/Screenshot2025-02-24at14.38.40_ae269072-8598-4e3e-8c3c-6a4057634c9e.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ECLIPSE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/diabolo-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/diabolo-earrings/Sanstitre-10.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DIABOLO EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/icefall-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/icefall-earrings/Waveset2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ICEFALL EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/mermaid-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mermaid-earrings/Screenshot2025-01-30at14.45.07.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>MERMAID EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/calchedony-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calchedony-earrings/BO4.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>GRAZIA EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/calla-lily-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calla-lily-earrings/BO2_3262f8ee-f6e5-4119-9e01-6ccd9713f030.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CALLA LILY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/snake-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-earrings/BOHJ.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SNAKE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/orbis-lacteus-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orbis-lacteus-earrings/BO_ee7ec99a-bb09-4256-93f8-bc92ec9bbb37.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ORBIS LACTEUS EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/serenity-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-earrings/HauteJOparaiba.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SERENITY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/crimson-sunset-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/crimson-sunset-earrings/BO5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CRIMSON SUNSET EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-earrings/BO2_e3c8f5b8-ae20-4358-bb32-66bf8ff056d5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/dr-jekyll-mr-hyde-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dr-jekyll-mr-hyde-earrings/WhatsAppImage2025-02-18at12.44.44.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DR. JEKYLL & MR. HYDE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings/BO1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-earrings-studs.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings-studs/WhatsAppImage2025-02-19at13.47.08.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM EARRINGS STUDS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/les-inseparables-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/les-inseparables-earrings/EarcufforblancRNR_addd4305-db38-4711-a804-1e24c5d2f0de.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LES INSÉPARABLES EARRINGS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Unbreakable</h2></div>
+            <a href="produits/unbreakable/phoenix-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-earrings/5_2ebff012-615d-4ff7-8670-d561d31de8ee.png"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-earrings/BIJOUXZULAYSITE_3_e04e1f0d-8616-41bd-85b9-40edf0e44506.png"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE EARRINGS</h3>
+                </div>
+            </a></div>
+            <a href="produits/high-jewelry/nefertity-earrings.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nefertity-earrings/BOnoires.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NEFERTITY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eclat-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eclat-earrings/2_e0f4b6b0-c52b-4874-a9ed-f776e616ba14.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ÉCLAT EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/douceur-earcuff.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/douceur-earcuff/24_4d183a94-935e-44b1-b5f8-03f4648a583d.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DOUCEUR EARCUFF</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/bond-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bond-earrings/47_9ed2fa9c-9ae6-4c34-809d-a82094a36a7e.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>BOND EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/link-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/link-earrings/1_a37c93ba-18fa-4651-b05e-14b60cadf428.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LINK EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/madame-iceberg-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/madame-iceberg-earrings/Screenshot2025-03-06at13.50.55.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ONDARA EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/loulou-earrings-1.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-earrings-1/Screenshot2025-02-24at14.38.40_ae269072-8598-4e3e-8c3c-6a4057634c9e.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ECLIPSE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/diabolo-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/diabolo-earrings/Sanstitre-10.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DIABOLO EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/icefall-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/icefall-earrings/Waveset2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ICEFALL EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/mermaid-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mermaid-earrings/Screenshot2025-01-30at14.45.07.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>MERMAID EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/calchedony-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calchedony-earrings/BO4.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>GRAZIA EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/calla-lily-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calla-lily-earrings/BO2_3262f8ee-f6e5-4119-9e01-6ccd9713f030.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CALLA LILY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/snake-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-earrings/BOHJ.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SNAKE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/orbis-lacteus-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orbis-lacteus-earrings/BO_ee7ec99a-bb09-4256-93f8-bc92ec9bbb37.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ORBIS LACTEUS EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/serenity-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-earrings/HauteJOparaiba.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SERENITY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/crimson-sunset-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/crimson-sunset-earrings/BO5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CRIMSON SUNSET EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-earrings/BO2_e3c8f5b8-ae20-4358-bb32-66bf8ff056d5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/dr-jekyll-mr-hyde-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dr-jekyll-mr-hyde-earrings/WhatsAppImage2025-02-18at12.44.44.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DR. JEKYLL & MR. HYDE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings/BO1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-earrings-studs.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings-studs/WhatsAppImage2025-02-19at13.47.08.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM EARRINGS STUDS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/les-inseparables-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/les-inseparables-earrings/EarcufforblancRNR_addd4305-db38-4711-a804-1e24c5d2f0de.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LES INSÉPARABLES EARRINGS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Unbreakable</h2></div>
+            <a href="produits/unbreakable/phoenix-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-earrings/5_2ebff012-615d-4ff7-8670-d561d31de8ee.png"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-earrings.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-earrings/BIJOUXZULAYSITE_3_e04e1f0d-8616-41bd-85b9-40edf0e44506.png"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE EARRINGS</h3>
+                </div>
+            </a></div>
+            <a href="produits/high-jewelry/nefertity-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nefertity-earrings/BOnoires.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NEFERTITY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eclat-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eclat-earrings/2_e0f4b6b0-c52b-4874-a9ed-f776e616ba14.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ÉCLAT EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/douceur-earcuff.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/douceur-earcuff/24_4d183a94-935e-44b1-b5f8-03f4648a583d.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DOUCEUR EARCUFF</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/bond-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bond-earrings/47_9ed2fa9c-9ae6-4c34-809d-a82094a36a7e.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>BOND EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/link-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/link-earrings/1_a37c93ba-18fa-4651-b05e-14b60cadf428.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LINK EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/madame-iceberg-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/madame-iceberg-earrings/Screenshot2025-03-06at13.50.55.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ONDARA EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/loulou-earrings-1.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-earrings-1/Screenshot2025-02-24at14.38.40_ae269072-8598-4e3e-8c3c-6a4057634c9e.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ECLIPSE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/diabolo-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/diabolo-earrings/Sanstitre-10.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DIABOLO EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/icefall-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/icefall-earrings/Waveset2.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ICEFALL EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/mermaid-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mermaid-earrings/Screenshot2025-01-30at14.45.07.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>MERMAID EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/calchedony-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calchedony-earrings/BO4.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>GRAZIA EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/calla-lily-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calla-lily-earrings/BO2_3262f8ee-f6e5-4119-9e01-6ccd9713f030.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CALLA LILY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/snake-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-earrings/BOHJ.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SNAKE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/orbis-lacteus-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orbis-lacteus-earrings/BO_ee7ec99a-bb09-4256-93f8-bc92ec9bbb37.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ORBIS LACTEUS EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/serenity-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-earrings/HauteJOparaiba.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SERENITY EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/crimson-sunset-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/crimson-sunset-earrings/BO5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CRIMSON SUNSET EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-earrings/BO2_e3c8f5b8-ae20-4358-bb32-66bf8ff056d5.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/dr-jekyll-mr-hyde-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dr-jekyll-mr-hyde-earrings/WhatsAppImage2025-02-18at12.44.44.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DR. JEKYLL & MR. HYDE EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings/BO1.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-earrings-studs.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings-studs/WhatsAppImage2025-02-19at13.47.08.jpg"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TANDEM EARRINGS STUDS</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/les-inseparables-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/les-inseparables-earrings/EarcufforblancRNR_addd4305-db38-4711-a804-1e24c5d2f0de.png"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LES INSÉPARABLES EARRINGS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 4rem; margin-bottom: 2rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Unbreakable</h2></div>
+            <a href="produits/unbreakable/phoenix-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-earrings/5_2ebff012-615d-4ff7-8670-d561d31de8ee.png"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX EARRINGS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-earrings/BIJOUXZULAYSITE_3_e04e1f0d-8616-41bd-85b9-40edf0e44506.png"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE EARRINGS</h3>
+                </div>
+            </a></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">LINK EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3250.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/bond-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bond-earrings/47_9ed2fa9c-9ae6-4c34-809d-a82094a36a7e.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">BOND EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3150.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/eclat-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eclat-earrings/2_e0f4b6b0-c52b-4874-a9ed-f776e616ba14.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">ÉCLAT EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/douceur-earcuff.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/douceur-earcuff/24_4d183a94-935e-44b1-b5f8-03f4648a583d.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">DOUCEUR EARCUFF</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">800.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/diabolo-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/diabolo-earrings/Sanstitre-10.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">DIABOLO EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">7400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/icefall-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/daydreaming-necklace/Sanstitre-5_1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">ICEFALL EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/mermaid-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="https://cdn.shopify.com/s/files/1/0905/4394/8040/files/Sanstitre-3.png?v=1738071673"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">MERMAID EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">6500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/calchedony-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calchedony-earrings/BO4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">GRAZIA EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/calla-lily-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calla-lily-earrings/BO2_3262f8ee-f6e5-4119-9e01-6ccd9713f030.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">CALLA LILY EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">5900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/snake-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-earrings/BOHJ.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">SNAKE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">8950.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/orbis-lacteus-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orbis-lacteus-earrings/BO_ee7ec99a-bb09-4256-93f8-bc92ec9bbb37.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">ORBIS LACTEUS EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">8500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/serenity-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-earrings/Sanstitre-8.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">SERENITY EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">17900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/crimson-sunset-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/crimson-sunset-earrings/BO5.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">CRIMSON SUNSET EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">29000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/les-inseparables-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/les-inseparables-earrings/RNRstuds.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">LES INSÉPARABLES EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/elisa-ear-cuff.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/elisa-ear-cuff/WhatsAppImage2025-02-18at13.42.58.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">ELISA SINGLE EAR CUFF</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tandem-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings/BO1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">TANDEM EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-earrings/BO2_e3c8f5b8-ae20-4358-bb32-66bf8ff056d5.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">TWILIGHT ELEGANCE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">6000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/hold-up-ear-cuff.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/hold-up-ear-cuff/earcuff1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">HOLD UP SINGLE EAR CUFF</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/dr-jekyll-mr-hyde-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dr-jekyll-mr-hyde-earrings/WhatsAppImage2025-02-18at12.44.44.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">DR. JEKYLL & MR. HYDE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tandem-earrings-studs.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings-studs/WhatsAppImage2025-02-19at13.47.08.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">TANDEM EARRINGS STUDS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/nefertity-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nefertity-earrings/Screenshot2025-02-21at12.53.40.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">NEFERTITY EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/loulou-earrings-1.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-earrings-1/Screenshot2025-02-24at14.38.40_ae269072-8598-4e3e-8c3c-6a4057634c9e.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">ECLIPSE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">7200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/madame-iceberg-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/madame-iceberg-earrings/Screenshot2025-03-06at13.50.55.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">ONDARA EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/phoenix-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-earrings/5_2ebff012-615d-4ff7-8670-d561d31de8ee.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">PHOENIX EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">210.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/unbreakable-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-earrings/BIJOUXZULAYSITE_3_e04e1f0d-8616-41bd-85b9-40edf0e44506.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">BOUCLES D'OREILLES</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">120.00 CHF</p>
+                </div>
+            </a>
+        </div>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haute Joaillerie Elke Berr Genève — pièces d'exception serties de diamants et pierres rares, réalisées sur mesure.">
+    <meta property="og:title" content="Haute Joaillerie — Elke Berr Genève">
+    <meta property="og:description" content="Pièces d'exception serties de diamants, rubis, saphirs et émeraudes de collection. Créations uniques sur mesure.">
+    <meta property="og:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elkeberr.com/haute-joaillerie.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Haute Joaillerie — Elke Berr Genève">
+    <meta name="twitter:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <title>LES BRACELETS D'EXCEPTION — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+        <section class="reveal" style="padding-top: 18rem; padding-bottom: 8rem; text-align: center;">
+        <span class="kicker">HAUTE JOAILLERIE</span>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 0.25em; font-weight: 400; margin-bottom: 3rem;">LES BRACELETS D'EXCEPTION</h1>
+        <div style="width: 40px; height: 1px; background: var(--fg); margin: 0 auto 3rem;"></div>
+        <p style="max-width: 650px; margin: 0 auto; line-height: 2; color: var(--muted); font-weight: 300; font-size: 0.95rem; letter-spacing: 0.02em;">Des bracelets et parures de poignet uniques, où la fluidité du métal précieux sublime l'éclat des plus belles gemmes naturelles.</p>
+    </section>
+    <section id="catalog-grid" class="reveal" style="padding: 0 8vw 15rem;">
+        <div class="grid-3">
+            <a href="produits/high-jewelry/bubble-cufflinks-white-gold.html" style="text-decoration:none; color:inherit;" class="bg-white">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/bague_saphir.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>BUBBLE CUFFLINKS WHITE GOLD</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">5'100.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/amor-bangle.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amor-bangle/Amore_Bracelet_Gold.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>AMOR BANGLE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">4'100.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/turquoise-cufflinks.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/turquoise-cufflinks/BM10.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>TURQUOISE CUFFLINKS</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">980.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/onyx-cufflinks.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/onyx-cufflinks/BM12.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>ONYX CUFFLINKS</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">2'600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/bubble-cufflinks-yellow-gold.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bubble-cufflinks-yellow-gold/BM8.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>BUBBLE CUFFLINKS YELLOW GOLD</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">3'750.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sensuelle-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sensuelle-bracelet/Bracelet-7.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>SENSUELLE BRACELET - DIAMOND</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">1'900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/recif-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/recif-bracelet/Sanstitre-2.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>RÉCIF BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">7'700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sapphire-single-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sapphire-single-bracelet/Sensuelle_blue_sapphire_bracelet_with_back_23f31774-652a-42fa-9254-d6b912fe8742.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>SENSUELLE BRACELET - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">2'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tegula-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tegula-bracelet/BlaceletB_W.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>TEGULA BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">42'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-double-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-bracelet/Bracelet-19.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>TWILIGHT ELEGANCE DOUBLE BRACELET - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">5'600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/tandem-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-bracelet/Bracelet-18.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>TANDEM BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">5'000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/white-black-blues-bracelet.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/white-black-blues-bracelet/Braceletspirale.png"></div>
+                    <span class="kicker">BRACELETS</span>
+                    <h3>WHITE & BLACK BLUES BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top:0.5rem; letter-spacing:0.05em;">19'600.00 CHF</p>
+                </div>
+            </a>
+        </div>
+    </section>
+<footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

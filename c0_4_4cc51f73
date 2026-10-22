@@ -1,0 +1,1024 @@
+[
+    {
+        "handle": "bague-rubis-amore",
+        "title": "Bague Rubis Amore",
+        "collection": "High Jewelry",
+        "background": "White",
+        "type": NaN
+    },
+    {
+        "handle": "ubreakable-pendant-only",
+        "title": "UNBREAKABLE - PENDANT ONLY",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "phoenix-necklace-onyx",
+        "title": "PHOENIX NECKLACE - Black Spinel",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "unbreakable-necklace",
+        "title": "UNBREAKABLE NECKLACE",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "phoenix-necklace-copie",
+        "title": "PHOENIX NECKLACE - GOLD & DIAMONDS",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "unbreakable-necklace-gold-diamonds",
+        "title": "UNBREAKABLE NECKLACE - GOLD & DIAMONDS",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "imperium-necklace-gold",
+        "title": "IMPERIUM NECKLACE - GOLD & DIAMONDS",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "olympia-copie",
+        "title": "OLYMPIA NECKLACE - GOLD & DIAMONDS",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "olympia",
+        "title": "OLYMPIA",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "imperium",
+        "title": "IMPERIUM NECKLACE - SILVER",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "phoenix-ring",
+        "title": "PHOENIX RING",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "phoenix-earrings",
+        "title": "PHOENIX EARRINGS",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "phoenix",
+        "title": "PHOENIX NECKLACE",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "unbreakable-earrings",
+        "title": "UNBREAKABLE EARRINGS",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "ring-unbreakable",
+        "title": "UNBREAKABLE RING",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "bracelet-unbreakable",
+        "title": "UNBREAKABLE BRACELET",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "unbreakable-white-black",
+        "title": "UNBREAKABLE NECKLACE - SILVER & BLACK",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "unbreakable-silver",
+        "title": "UNBREAKABLE NECKLACE",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "unbreakable-black-white",
+        "title": "UNBREAKABLE NECKLACE - BLACK & SILVER",
+        "collection": "Unbreakable",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "epure-necklace",
+        "title": "ÉPURE NECKLACE",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "echo-bangle",
+        "title": "ECHO BANGLE",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "eclat-earrings",
+        "title": "ÉCLAT EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "linfini-necklace",
+        "title": "L'INFINI NECKLACE",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "douceur-earcuff",
+        "title": "DOUCEUR EARCUFF",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "alma-ring",
+        "title": "ALMA RING",
+        "collection": "Singular",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "essentiel-bangle",
+        "title": "ESSENTIEL BANGLE",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "amor-bangle",
+        "title": "AMOR BANGLE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "lueur-ring",
+        "title": "LUEUR RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "bond-earrings",
+        "title": "BOND EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "complice-bangle",
+        "title": "COMPLICE BANGLE",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "tresor-ring",
+        "title": "TRÉSOR RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "link-earrings",
+        "title": "LINK EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "zephyris-ring-1",
+        "title": "ZEPHYRIS RING",
+        "collection": "High Jewelry",
+        "background": "White",
+        "type": NaN
+    },
+    {
+        "handle": "turquoise-cufflinks",
+        "title": "TURQUOISE CUFFLINKS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "onyx-cufflinks",
+        "title": "ONYX CUFFLINKS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "bubble-cufflinks-yellow-gold",
+        "title": "BUBBLE CUFFLINKS YELLOW GOLD",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "bubble-cufflinks-white-gold",
+        "title": "BUBBLE CUFFLINKS WHITE GOLD",
+        "collection": "High Jewelry",
+        "background": "White",
+        "type": NaN
+    },
+    {
+        "handle": "lacryma-ring",
+        "title": "LACRYMA RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "deep-blue-pendant",
+        "title": "DEEP BLUE PENDANT",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "madame-iceberg-earrings",
+        "title": "ONDARA EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "deep-blue-ring",
+        "title": "DEEP BLUE RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "safari-neclace",
+        "title": "OPHIDIA  NECKLACE",
+        "collection": "Singular",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "loulou-earrings-1",
+        "title": "ECLIPSE EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "loulou-necklace",
+        "title": "LOULOU NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "stellar-bloom-ring",
+        "title": "STELLAR BLOOM RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "l-anamour-bracelet-made-to-order-black-gold-copie",
+        "title": "L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "l-anamour-bracelet-made-to-order-copie-copie",
+        "title": "L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "l-anamour-bracelet-made-to-order-copie",
+        "title": "L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "night-sky-ring-black",
+        "title": "NIGHT SKY RING - BLACK",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "night-sky-ring",
+        "title": "NIGHT SKY RING - WHITE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "stardust-finger-top-ring",
+        "title": "STARDUST FINGER-TOP RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "luna-ring",
+        "title": "LUNA RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "l-anamour-bracelet-bespoke",
+        "title": "L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "nova-phalanx-ring",
+        "title": "NOVA FINGER-TOP RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "yellow-and-gold-phalanx-ring",
+        "title": "SUPERNOVA RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "me-you-necklace-mini",
+        "title": "ME & YOU NECKLACE - MINI",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "me-you-necklace-original",
+        "title": "ME & YOU NECKLACE - ORIGINAL",
+        "collection": "Essentials",
+        "background": "Black",
+        "type": "Collier"
+    },
+    {
+        "handle": "twilight-elegance-single-ring-sapphire",
+        "title": "TWILIGHT ELEGANCE SINGLE RING - SAPPHIRE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "twilight-elegance-necklace-white-gold",
+        "title": "TWILIGHT ELEGANCE NECKLACE - SAPPHIRE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "rock-n-rose-necklace-diamond",
+        "title": "ROCK’N ROSE NECKLACE – DIAMOND",
+        "collection": "Rock'N Rose",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "me-you-necklace-mother-of-pearl-silver-1",
+        "title": "ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "me-you-necklace-mother-of-pearl",
+        "title": "ME & YOU NECKLACE - MOTHER-OF-PEARL",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "constellation-necklace",
+        "title": "CONSTELLATION NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "sensuelle-bracelet",
+        "title": "SENSUELLE BRACELET - DIAMOND",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "rock-n-rose-necklace-spinel",
+        "title": "ROCK’N ROSE NECKLACE – SPINEL",
+        "collection": "Rock'N Rose",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "la-belle-et-le-blues-ring",
+        "title": "LA BELLE ET LE BLUES RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "kiss-me-necklace",
+        "title": "KISS ME NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "diabolo-earrings",
+        "title": "DIABOLO EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "whisper-necklace",
+        "title": "WHISPER NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "sweetheart-necklace",
+        "title": "SWEETHEART NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "delicate-necklace",
+        "title": "DELICATE NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "eleganza-necklace",
+        "title": "ELEGANZA NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "recif-bracelet",
+        "title": "RÉCIF BRACELET",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bracelet"
+    },
+    {
+        "handle": "icefall-earrings",
+        "title": "ICEFALL EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "coral-ring",
+        "title": "CORAL RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "ondes-ring",
+        "title": "ONDES RING",
+        "collection": "Waves",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "mermaid-earrings",
+        "title": "MERMAID EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "aqua-necklace",
+        "title": "AQUA NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "cosmos-ring",
+        "title": "COSMOS RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "calchedony-earrings",
+        "title": "GRAZIA EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "caramelle-ring",
+        "title": "CARAMELLE RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "calla-lily-earrings",
+        "title": "CALLA LILY EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "aqua-ring",
+        "title": "AQUA RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "ouranos-ring",
+        "title": "OURANOS RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "sapphire-single-bracelet",
+        "title": "SENSUELLE BRACELET - SAPPHIRE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bracelet"
+    },
+    {
+        "handle": "amazonia-ring",
+        "title": "AMAZONIA RING",
+        "collection": "Singular",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "snake-earrings",
+        "title": "SNAKE EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "snake-necklace",
+        "title": "SNAKE NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "african-flame-ring",
+        "title": "AFRICAN FLAME RING",
+        "collection": "Singular",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "umba-ring",
+        "title": "UMBA RING",
+        "collection": "Singular",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "eternity-necklace",
+        "title": "ETERNITY NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "orbis-lacteus-ring",
+        "title": "ORBIS LACTEUS RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "lagoon-ring",
+        "title": "LAGOON RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "orbis-lacteus-earrings",
+        "title": "ORBIS LACTEUS EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "azura-necklace",
+        "title": "AZURA NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": NaN
+    },
+    {
+        "handle": "orchid-ring",
+        "title": "ORCHID RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "dolce-noche-ring",
+        "title": "DOLCE NOCHE RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "prunelle-ring",
+        "title": "PRUNELLE RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "dramatica-ring",
+        "title": "DRAMATICA RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "rosea-ring",
+        "title": "ROSEA RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "pink-opulence-ring",
+        "title": "PINK OPULENCE RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "pivoine-d-amour-ring",
+        "title": "PIVOINE RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "red-s-devotion-ring",
+        "title": "RED’S DEVOTION RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "nymphe-ring",
+        "title": "ANTHEA SPINEL RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "burmese-dream-ring",
+        "title": "BURMESES DREAM RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "crimson-charm-ring",
+        "title": "CRIMSON CHARM RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "serenity-earrings",
+        "title": "SERENITY EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "serenity-ring",
+        "title": "SERENITY RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "daydreaming-necklace",
+        "title": "DAYDREAMING NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "mogok-ring",
+        "title": "MOGOK RING",
+        "collection": "Singular",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "himalaya-ring",
+        "title": "HIMALAYA RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "love-potion-ring",
+        "title": "LOVE POTION RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "crimson-sunset-earrings",
+        "title": "CRIMSON SUNSET EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "tanzania-ring",
+        "title": "TANZANIA RING",
+        "collection": "Singular",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "tegula-bracelet",
+        "title": "TEGULA BRACELET",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bracelet"
+    },
+    {
+        "handle": "tella-necklace",
+        "title": "TELLA NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Black",
+        "type": "Collier"
+    },
+    {
+        "handle": "ombre-celeste-ring",
+        "title": "CELESTE RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "zephyris-ring",
+        "title": "ZEPHYRIS RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "twilight-elegance-double-bracelet",
+        "title": "TWILIGHT ELEGANCE DOUBLE BRACELET - SAPPHIRE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bracelet"
+    },
+    {
+        "handle": "twilight-elegance-earrings",
+        "title": "TWILIGHT ELEGANCE EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "twilight-elegance-single-ring",
+        "title": "TWILIGHT ELEGANCE SINGLE RING - DIAMOND",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "twilight-elegance-double-ring",
+        "title": "TWILIGHT ELEGANCE DOUBLE RING - SAPPHIRE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "twilight-elegance-necklace",
+        "title": "TWILIGHT ELEGANCE NECKLACE - YELLOW GOLD",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "mysteria-ring",
+        "title": "MYSTERIA RING - SAPPHIRE",
+        "collection": "Mysteria",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "nefertity-earrings",
+        "title": "NEFERTITY EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Black",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "hold-up-ear-cuff",
+        "title": "HOLD UP SINGLE EAR CUFF",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "elisa-ear-cuff",
+        "title": "ELISA SINGLE EAR CUFF",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "dr-jekyll-mr-hyde-earrings",
+        "title": "DR. JEKYLL & MR. HYDE EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "requiem-ring",
+        "title": "REQUIEM RING",
+        "collection": "High Jewelry",
+        "background": "White",
+        "type": "Bague"
+    },
+    {
+        "handle": "bonnie-clyde-ring",
+        "title": "BONNIE & CLYDE RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "tandem-ring",
+        "title": "TANDEM RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "tandem-earrings",
+        "title": "TANDEM EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "tandem-earrings-studs",
+        "title": "TANDEM EARRINGS STUDS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "tandem-bracelet",
+        "title": "TANDEM BRACELET",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bracelet"
+    },
+    {
+        "handle": "l-anamour-bracelet",
+        "title": "L’ANAMOUR BRACELET",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "ardoise-necklace",
+        "title": "ARDOISE NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "initials-s-g-necklace",
+        "title": "INITIALS S.G NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "melody-necklace",
+        "title": "MELODY NECKLACE-SOLD",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "negative-blues-necklace",
+        "title": "NEGATIVE BLUES NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "lanthracite-necklace",
+        "title": "L'ANTHRACITE NECKLACE",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "me-you-necklace",
+        "title": "ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS",
+        "collection": "Essentials",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "lotus-ring",
+        "title": "LOTUS RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    },
+    {
+        "handle": "les-inseparables-earrings",
+        "title": "LES INSÉPARABLES EARRINGS",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Boucle d'oreilles"
+    },
+    {
+        "handle": "white-black-blues-bracelet",
+        "title": "WHITE & BLACK BLUES BRACELET",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bracelet"
+    },
+    {
+        "handle": "tandem-choker",
+        "title": "TANDEM CHOKER",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Collier"
+    },
+    {
+        "handle": "white-black-blues-ring",
+        "title": "WHITE & BLACK BLUES RING",
+        "collection": "High Jewelry",
+        "background": "Lifestyle",
+        "type": "Bague"
+    }
+]

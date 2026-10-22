@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Colliers Elke Berr Genève — créations uniques en or et pierres précieuses, de l'essentiel à la haute joaillerie.">
+    <title>LES COLLIERS — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    
+    <section class="reveal" id="bagues-hero" style="padding-top: 18rem; text-align: center;">
+        <span class="kicker">COLLECTIONS</span>
+        <h1 style="font-size: 3.5rem; letter-spacing: 0.2em;">LES COLLIERS</h1>
+        <div style="width: 60px; height: 1px; background: var(--fg); margin: 3rem auto;"></div>
+        <p style="max-width: 700px; margin: 0 auto; line-height: 1.8; color: var(--muted); font-weight: 300;">
+            Découvrez notre sélection de colliers, alliant la délicatesse de l'or aux éclats vibrants de pierres précieuses soigneusement sourcées.
+        </p>
+    </section>
+    <section class="reveal" id="bagues-grid" style="padding: 6rem 5% 12rem;">
+        <div class="grid-3"><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Essentials</h2></div>
+            <a href="produits/essentials/me-you-necklace-original.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-original/Collier_Me_You_-_argent_zircons.jpg" alt="ME & YOU Necklace - Original — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - ORIGINAL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/epure-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/epure-necklace/3_044d8ac4-0add-4ede-b580-11ab554d4cce.png" alt="Épure Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ÉPURE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/linfini-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/linfini-necklace/28.png" alt="L'Infini Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L'INFINI NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mini.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mini/CollierEBpave.png" alt="ME & YOU Necklace - Mini — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MINI</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl-silver-1.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl-silver-1/CollierEB4.png" alt="ME & YOU Necklace - Mother-of-Pearl & Silver — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl/CollierEB3.png" alt="ME & YOU Necklace - Mother-of-Pearl — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace/Waveset4.png" alt="ME & YOU Necklace - Mother-of-Pearl & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">High Jewelry</h2></div>
+            <a href="produits/high-jewelry/tella-necklace.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tella-necklace/Tella.png" alt="Tella Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TELLA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/deep-blue-pendant.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/deep-blue-pendant/deepbluenecklace.png" alt="Deep Blue Pendant — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DEEP BLUE PENDANT</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/loulou-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-necklace/Screenshot2025-02-24at14.36.32.png" alt="Loulou Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LOULOU NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-necklace-white-gold.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace-white-gold/Twilightelegancenecklace2.png" alt="Twilight Elegance Necklace - Sapphire — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/constellation-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/constellation-necklace/Designsanstitre_16.png" alt="Constellation Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CONSTELLATION NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/kiss-me-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/kiss-me-necklace/Collir-3.png" alt="Kiss Me Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>KISS ME NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/whisper-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/whisper-necklace/CollierDonut4.png" alt="Whisper Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>WHISPER NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sweetheart-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sweetheart-necklace/CollierDonut3.png" alt="Sweetheart Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SWEETHEART NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/delicate-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/delicate-necklace/Donutbleucollier.png" alt="Delicate Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DELICATE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eleganza-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eleganza-necklace/CollierDonut1.png" alt="Eleganza Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ELEGANZA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/aqua-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/aqua-necklace/Screenshot2025-01-30at16.01.51.png" alt="Aqua Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AQUA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/snake-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-necklace/Bijouxsiteweb.png" alt="Snake Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SNAKE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eternity-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eternity-necklace/Collierprenite.png" alt="Eternity Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ETERNITY NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/azura-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/azura-necklace/Collier2.png" alt="Azura Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AZURA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/daydreaming-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/daydreaming-necklace/Sanstitre-5_1.png" alt="Daydreaming Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DAYDREAMING NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace/CollierSwangold1.png" alt="Twilight Elegance Necklace - Yellow Gold — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - YELLOW GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/ardoise-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ardoise-necklace/Collier-1.png" alt="Ardoise Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ARDOISE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/initials-s-g-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/initials-s-g-necklace/Collier-2.png" alt="Initials S.G Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>INITIALS S.G NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/melody-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/melody-necklace/Collier-5.png" alt="Melody Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>MELODY NECKLACE-SOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/negative-blues-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/negative-blues-necklace/Collier-6.png" alt="Negative Blues Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NEGATIVE BLUES NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lanthracite-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lanthracite-necklace/Collier-4.png" alt="L'Anthracite Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>L'ANTHRACITE NECKLACE</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Unbreakable</h2></div>
+            <a href="produits/unbreakable/ubreakable-pendant-only.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ubreakable-pendant-only/DSC_2911-2.jpg" alt="Unbreakable - Pendant Only — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE - PENDANT ONLY</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-onyx.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-onyx/Phoenixnecklaceonyx.png" alt="Phoenix Necklace - Black Spinel — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - Black Spinel</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace/1_b9b7b776-1c95-4e2e-a623-0a65abbdec74.png" alt="Unbreakable Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-copie/BIJOUXZULAYSITE.png" alt="Phoenix Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace-gold-diamonds.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace-gold-diamonds/CollierPaul4.png" alt="Unbreakable Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/imperium-necklace-gold.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium-necklace-gold/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png" alt="Imperium Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>IMPERIUM NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Rock'N Rose</h2></div>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-diamond.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-diamond/Collier-9.png" alt="Rock'N Rose Necklace - Diamond — Elke Berr Genève"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-spinel.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-spinel/Collier-8.png" alt="Rock'N Rose Necklace - Spinel — Elke Berr Genève"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – SPINEL</h3>
+                </div>
+            </a></div>
+            <a href="produits/essentials/me-you-necklace-original.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-original/Collier_Me_You_-_argent_zircons.jpg" alt="ME & YOU Necklace - Original — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - ORIGINAL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/epure-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/epure-necklace/3_044d8ac4-0add-4ede-b580-11ab554d4cce.png" alt="Épure Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ÉPURE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/linfini-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/linfini-necklace/28.png" alt="L'Infini Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L'INFINI NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mini.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mini/CollierEBpave.png" alt="ME & YOU Necklace - Mini — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MINI</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl-silver-1.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl-silver-1/CollierEB4.png" alt="ME & YOU Necklace - Mother-of-Pearl & Silver — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl/CollierEB3.png" alt="ME & YOU Necklace - Mother-of-Pearl — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace/Waveset4.png" alt="ME & YOU Necklace - Mother-of-Pearl & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">High Jewelry</h2></div>
+            <a href="produits/high-jewelry/tella-necklace.html" style="text-decoration:none; color:inherit;" class="bg-black">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tella-necklace/Tella.png" alt="Tella Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TELLA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/deep-blue-pendant.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/deep-blue-pendant/deepbluenecklace.png" alt="Deep Blue Pendant — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DEEP BLUE PENDANT</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/loulou-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-necklace/Screenshot2025-02-24at14.36.32.png" alt="Loulou Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LOULOU NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-necklace-white-gold.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace-white-gold/Twilightelegancenecklace2.png" alt="Twilight Elegance Necklace - Sapphire — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/constellation-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/constellation-necklace/Designsanstitre_16.png" alt="Constellation Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CONSTELLATION NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/kiss-me-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/kiss-me-necklace/Collir-3.png" alt="Kiss Me Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>KISS ME NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/whisper-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/whisper-necklace/CollierDonut4.png" alt="Whisper Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>WHISPER NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sweetheart-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sweetheart-necklace/CollierDonut3.png" alt="Sweetheart Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SWEETHEART NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/delicate-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/delicate-necklace/Donutbleucollier.png" alt="Delicate Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DELICATE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eleganza-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eleganza-necklace/CollierDonut1.png" alt="Eleganza Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ELEGANZA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/aqua-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/aqua-necklace/Screenshot2025-01-30at16.01.51.png" alt="Aqua Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AQUA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/snake-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-necklace/Bijouxsiteweb.png" alt="Snake Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SNAKE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eternity-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eternity-necklace/Collierprenite.png" alt="Eternity Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ETERNITY NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/azura-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/azura-necklace/Collier2.png" alt="Azura Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AZURA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/daydreaming-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/daydreaming-necklace/Sanstitre-5_1.png" alt="Daydreaming Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DAYDREAMING NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace/CollierSwangold1.png" alt="Twilight Elegance Necklace - Yellow Gold — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - YELLOW GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/ardoise-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ardoise-necklace/Collier-1.png" alt="Ardoise Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ARDOISE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/initials-s-g-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/initials-s-g-necklace/Collier-2.png" alt="Initials S.G Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>INITIALS S.G NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/melody-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/melody-necklace/Collier-5.png" alt="Melody Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>MELODY NECKLACE-SOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/negative-blues-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/negative-blues-necklace/Collier-6.png" alt="Negative Blues Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NEGATIVE BLUES NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lanthracite-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lanthracite-necklace/Collier-4.png" alt="L'Anthracite Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>L'ANTHRACITE NECKLACE</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Unbreakable</h2></div>
+            <a href="produits/unbreakable/ubreakable-pendant-only.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ubreakable-pendant-only/DSC_2911-2.jpg" alt="Unbreakable - Pendant Only — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE - PENDANT ONLY</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-onyx.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-onyx/Phoenixnecklaceonyx.png" alt="Phoenix Necklace - Black Spinel — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - Black Spinel</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace/1_b9b7b776-1c95-4e2e-a623-0a65abbdec74.png" alt="Unbreakable Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-copie.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-copie/BIJOUXZULAYSITE.png" alt="Phoenix Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace-gold-diamonds.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace-gold-diamonds/CollierPaul4.png" alt="Unbreakable Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/imperium-necklace-gold.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium-necklace-gold/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png" alt="Imperium Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>IMPERIUM NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 6rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Rock'N Rose</h2></div>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-diamond.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-diamond/Collier-9.png" alt="Rock'N Rose Necklace - Diamond — Elke Berr Genève"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-spinel.html" style="text-decoration:none; color:inherit;" class="bg-lifestyle">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-spinel/Collier-8.png" alt="Rock'N Rose Necklace - Spinel — Elke Berr Genève"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – SPINEL</h3>
+                </div>
+            </a></div>
+            <a href="produits/essentials/me-you-necklace-original.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-original/Collier_Me_You_-_argent_zircons.jpg" alt="ME & YOU Necklace - Original — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - ORIGINAL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/epure-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/epure-necklace/3_044d8ac4-0add-4ede-b580-11ab554d4cce.png" alt="Épure Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ÉPURE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/linfini-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/linfini-necklace/28.png" alt="L'Infini Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>L'INFINI NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mini.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mini/CollierEBpave.png" alt="ME & YOU Necklace - Mini — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MINI</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl-silver-1.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl-silver-1/CollierEB4.png" alt="ME & YOU Necklace - Mother-of-Pearl & Silver — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace-mother-of-pearl.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl/CollierEB3.png" alt="ME & YOU Necklace - Mother-of-Pearl — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL</h3>
+                </div>
+            </a>
+            <a href="produits/essentials/me-you-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace/Waveset4.png" alt="ME & YOU Necklace - Mother-of-Pearl & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">ESSENTIALS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 4rem; margin-bottom: 2rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">High Jewelry</h2></div>
+            <a href="produits/high-jewelry/tella-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tella-necklace/Tella.png" alt="Tella Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TELLA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/deep-blue-pendant.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/deep-blue-pendant/deepbluenecklace.png" alt="Deep Blue Pendant — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DEEP BLUE PENDANT</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/loulou-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-necklace/Screenshot2025-02-24at14.36.32.png" alt="Loulou Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>LOULOU NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-necklace-white-gold.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace-white-gold/Twilightelegancenecklace2.png" alt="Twilight Elegance Necklace - Sapphire — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - SAPPHIRE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/constellation-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/constellation-necklace/Designsanstitre_16.png" alt="Constellation Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>CONSTELLATION NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/kiss-me-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/kiss-me-necklace/Collir-3.png" alt="Kiss Me Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>KISS ME NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/whisper-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/whisper-necklace/CollierDonut4.png" alt="Whisper Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>WHISPER NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/sweetheart-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sweetheart-necklace/CollierDonut3.png" alt="Sweetheart Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SWEETHEART NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/delicate-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/delicate-necklace/Donutbleucollier.png" alt="Delicate Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DELICATE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eleganza-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eleganza-necklace/CollierDonut1.png" alt="Eleganza Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ELEGANZA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/aqua-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/aqua-necklace/Screenshot2025-01-30at16.01.51.png" alt="Aqua Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AQUA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/snake-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-necklace/Bijouxsiteweb.png" alt="Snake Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>SNAKE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/eternity-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eternity-necklace/Collierprenite.png" alt="Eternity Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ETERNITY NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/azura-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/azura-necklace/Collier2.png" alt="Azura Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>AZURA NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/daydreaming-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/daydreaming-necklace/Sanstitre-5_1.png" alt="Daydreaming Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>DAYDREAMING NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/twilight-elegance-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace/CollierSwangold1.png" alt="Twilight Elegance Necklace - Yellow Gold — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - YELLOW GOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/ardoise-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ardoise-necklace/Collier-1.png" alt="Ardoise Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>ARDOISE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/initials-s-g-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/initials-s-g-necklace/Collier-2.png" alt="Initials S.G Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>INITIALS S.G NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/melody-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/melody-necklace/Collier-5.png" alt="Melody Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>MELODY NECKLACE-SOLD</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/negative-blues-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/negative-blues-necklace/Collier-6.png" alt="Negative Blues Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>NEGATIVE BLUES NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/high-jewelry/lanthracite-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lanthracite-necklace/Collier-4.png" alt="L'Anthracite Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">HIGH JEWELRY</span>
+                    <h3>L'ANTHRACITE NECKLACE</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 4rem; margin-bottom: 2rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Unbreakable</h2></div>
+            <a href="produits/unbreakable/ubreakable-pendant-only.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ubreakable-pendant-only/DSC_2911-2.jpg" alt="Unbreakable - Pendant Only — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE - PENDANT ONLY</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-onyx.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-onyx/Phoenixnecklaceonyx.png" alt="Phoenix Necklace - Black Spinel — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - Black Spinel</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace/1_b9b7b776-1c95-4e2e-a623-0a65abbdec74.png" alt="Unbreakable Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/phoenix-necklace-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-copie/BIJOUXZULAYSITE.png" alt="Phoenix Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>PHOENIX NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/unbreakable-necklace-gold-diamonds.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace-gold-diamonds/CollierPaul4.png" alt="Unbreakable Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>UNBREAKABLE NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a>
+            <a href="produits/unbreakable/imperium-necklace-gold.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium-necklace-gold/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png" alt="Imperium Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">UNBREAKABLE</span>
+                    <h3>IMPERIUM NECKLACE - GOLD & DIAMONDS</h3>
+                </div>
+            </a><div style="grid-column: 1 / -1; margin-top: 4rem; margin-bottom: 2rem;"><h2 style="font-family:var(--font-serif); font-weight:400; letter-spacing:0.1em; opacity:0.8;">Rock'N Rose</h2></div>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-diamond.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-diamond/Collier-9.png" alt="Rock'N Rose Necklace - Diamond — Elke Berr Genève"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – DIAMOND</h3>
+                </div>
+            </a>
+            <a href="produits/rockn-rose/rock-n-rose-necklace-spinel.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-spinel/Collier-8.png" alt="Rock'N Rose Necklace - Spinel — Elke Berr Genève"></div>
+                    <span class="kicker">ROCK'N ROSE</span>
+                    <h3>ROCK’N ROSE NECKLACE – SPINEL</h3>
+                </div>
+            </a></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>UNBREAKABLE - PENDANT ONLY</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">250.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/phoenix-necklace-onyx.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-onyx/Phoenixnecklaceonyx.png" alt="Phoenix Necklace - Black Spinel — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>PHOENIX NECKLACE - Black Spinel</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">490.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/unbreakable-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-silver/1_b9b7b776-1c95-4e2e-a623-0a65abbdec74.png" alt="Unbreakable Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>UNBREAKABLE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">355.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/phoenix-necklace-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-copie/BIJOUXZULAYSITE.png" alt="Phoenix Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>PHOENIX NECKLACE - GOLD & DIAMONDS</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">4200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/unbreakable-necklace-gold-diamonds.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace-gold-diamonds/WhatsAppImage2025-07-30at12.39.57.jpg" alt="Unbreakable Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>UNBREAKABLE NECKLACE - GOLD & DIAMONDS</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">3900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/imperium-necklace-gold.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium-necklace-gold/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png" alt="Imperium Necklace - Gold & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>IMPERIUM NECKLACE - GOLD & DIAMONDS</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">39000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/epure-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/epure-necklace/3_044d8ac4-0add-4ede-b580-11ab554d4cce.png" alt="Épure Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ÉPURE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">3500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/linfini-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/linfini-necklace/28.png" alt="L'Infini Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>L'INFINI NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">7350.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/deep-blue-pendant.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/deep-blue-pendant/deepbluenecklace.png" alt="Deep Blue Pendant — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>DEEP BLUE PENDANT</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">6500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/loulou-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-necklace/Screenshot2025-02-24at14.36.32.png" alt="Loulou Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>LOULOU NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">0.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet-made-to-order-black-gold-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-6.png" alt="L'Anamour Bracelet - Made-to-Order - Black Gold — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">1830.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet-made-to-order-copie-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png" alt="L'Anamour Bracelet - Made-to-Order — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">1830.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet-made-to-order-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png" alt="L'Anamour Bracelet - Made-to-Order — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">1830.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet-bespoke.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png" alt="L'Anamour Bracelet - Made-to-Order — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">1830.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace-mini.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mini/CollierEBpave.png" alt="ME & YOU Necklace - Mini — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ME & YOU NECKLACE - MINI</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">150.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace-original.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-original/WhatsAppImage2025-02-19at13.57.16.jpg" alt="ME & YOU Necklace - Original — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ME & YOU NECKLACE - ORIGINAL</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">380.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-necklace-white-gold.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace-white-gold/collierswansaphire2.png" alt="Twilight Elegance Necklace - Sapphire — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">12000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/rock-n-rose-necklace-diamond.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-diamond/Collier-9.png" alt="Rock'N Rose Necklace - Diamond — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ROCK’N ROSE NECKLACE – DIAMOND</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">8200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace-mother-of-pearl-silver-1.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl-silver-1/CollierEB4.png" alt="ME & YOU Necklace - Mother-of-Pearl & Silver — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">180.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace-mother-of-pearl.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl/CollierEB3.png" alt="ME & YOU Necklace - Mother-of-Pearl — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">1600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/constellation-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="https://cdn.shopify.com/s/files/1/0905/4394/8040/files/colliermilkyway.png?v=1739460550" alt="Constellation Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>CONSTELLATION NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">2600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/rock-n-rose-necklace-spinel.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-spinel/Collier-8.png" alt="Rock'N Rose Necklace - Spinel — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ROCK’N ROSE NECKLACE – SPINEL</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">3900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/kiss-me-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/kiss-me-necklace/Collir-3.png" alt="Kiss Me Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>KISS ME NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">3000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/whisper-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/whisper-necklace/CollierDonut4.png" alt="Whisper Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>WHISPER NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">1200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/sweetheart-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sweetheart-necklace/CollierDonut3.png" alt="Sweetheart Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>SWEETHEART NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">1900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/delicate-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/delicate-necklace/Donutbleucollier.png" alt="Delicate Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>DELICATE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">2800.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/eleganza-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eleganza-necklace/CollierDonut1.png" alt="Eleganza Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ELEGANZA NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">2600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/snake-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-necklace/Bijouxsiteweb.png" alt="Snake Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>SNAKE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">7600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/eternity-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eternity-necklace/Collierprenite.png" alt="Eternity Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ETERNITY NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">15900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/azura-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/azura-necklace/Collier2.png" alt="Azura Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>AZURA NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">19500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/daydreaming-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/daydreaming-necklace/Sanstitre-5_1.png" alt="Daydreaming Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>DAYDREAMING NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">18500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tella-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tella-necklace/Tella.png" alt="Tella Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>TELLA NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">2000000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace/CollierSwangold1.png" alt="Twilight Elegance Necklace - Yellow Gold — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>TWILIGHT ELEGANCE NECKLACE - YELLOW GOLD</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">30500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet/Bracelet-1.png" alt="L'Anamour Bracelet — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>L’ANAMOUR BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">3400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/ardoise-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ardoise-necklace/Collier-1.png" alt="Ardoise Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ARDOISE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">2900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/initials-s-g-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/initials-s-g-necklace/Collier-2.png" alt="Initials S.G Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>INITIALS S.G NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">2900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/melody-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/melody-necklace/Collier-5.png" alt="Melody Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>MELODY NECKLACE-SOLD</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">3900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/negative-blues-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/negative-blues-necklace/Collier-6.png" alt="Negative Blues Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>NEGATIVE BLUES NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">9000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/lanthracite-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lanthracite-necklace/Collier-4.png" alt="L'Anthracite Necklace — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>L'ANTHRACITE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">3050.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace/WhatsAppImage2025-02-19at14.01.55.jpg" alt="ME & YOU Necklace - Mother-of-Pearl & Diamonds — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">1800.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tandem-choker.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-choker/WhatsAppImage2025-02-13at16.04.58.jpg" alt="Tandem Choker — Elke Berr Genève"></div>
+                    <span class="kicker">COLLIERS</span>
+                    <h3>TANDEM CHOKER</h3>
+                    <p style="color:var(--muted); font-size:0.8rem;">15600.00 CHF</p>
+                </div>
+            </a>
+        </div></section>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>

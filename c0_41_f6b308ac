@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez Elke Berr Genève — rue du Cendrier 12, Genève. Sur rendez-vous. Joaillerie privée et haute joaillerie.">
+    <meta property="og:title" content="Contact — Elke Berr Genève">
+    <meta property="og:description" content="Prenez rendez-vous au showroom genevois. Rue du Cendrier, Genève — création bespoke, haute joaillerie, consultation privée.">
+    <meta property="og:image" content="https://elkeberr.com/img/launch_elke.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elkeberr.com/contact.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Contact — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8rem;
+            padding: 18rem 8% 8rem;
+        }
+        .info-section h3 {
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+        .info-section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 4rem;
+            font-weight: 300;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1.5rem 0;
+            border: none;
+            border-bottom: 1px solid var(--border);
+            background: transparent;
+            font-family: inherit;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+            margin-bottom: 3rem;
+            outline: none;
+            transition: border-color 0.4s ease;
+        }
+        .contact-form input:focus, .contact-form textarea:focus {
+            border-color: var(--fg);
+        }
+        .social-links {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .social-links a {
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: var(--fg);
+            opacity: 0.6;
+            transition: opacity 0.4s ease;
+        }
+        .social-links a:hover { opacity: 1; }
+        @media (max-width: 1000px) {
+            .contact-grid { grid-template-columns: 1fr; gap: 6rem; padding: 12rem 5% 6rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+    <script>
+        (function(){
+            var p = new URLSearchParams(window.location.search).get('sujet');
+            if (p) {
+                document.addEventListener('DOMContentLoaded', function(){
+                    var f = document.getElementById('sujet-field');
+                    if (f) f.value = decodeURIComponent(p);
+                });
+            }
+        })();
+    </script>
+
+    <div class="contact-grid">
+        <div class="info-section">
+            <span class="kicker">PRENDRE CONTACT</span>
+            <h1 style="font-size: 3.5rem; margin-bottom: 5rem; letter-spacing: 0.1em;">NOUS JOINDRE</h1>
+            
+            <div class="info-block">
+                <h3>Showroom Genève</h3>
+                <p>Rue du Cendrier 12-14<br>1201 Genève, Suisse</p>
+            </div>
+            
+            <div class="info-block">
+                <h3>Contact Direct</h3>
+                <p>
+                    T. +41 22 310 61 10<br>
+                    W. +41 77 211 58 87<br>
+                    E. office@berrandpartners.ch
+                </p>
+            </div>
+            
+            <div class="info-block">
+                <h3>Horaires</h3>
+                <p>Lundi — Vendredi<br>09:00 — 18:30 (Sur rendez-vous)</p>
+            </div>
+
+            <div class="info-block" style="margin-top: 6rem;">
+                <h3>Suivez-nous</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener">X (Twitter)</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2 style="font-size: 1.8rem; margin-bottom: 4rem; font-family: var(--font-serif); font-weight: 300;">VOTRE DEMANDE</h2>
+            <form action="https://formspree.io/f/xdkopnqv" method="POST">
+                <input type="text" name="nom" placeholder="NOM COMPLET" required>
+                <input type="email" name="email" placeholder="ADRESSE EMAIL" required>
+                <input type="text" name="sujet" id="sujet-field" placeholder="SUJET (Ex: Création Bespoke, Collection...)">
+                <textarea name="message" placeholder="VOTRE MESSAGE" style="height: 120px;" required></textarea>
+                <button type="submit" class="btn-outline" style="width: 100%; margin-top: 2rem;">Envoyer le message</button>
+            </form>
+            <p style="margin-top: 3rem; font-size: 0.8rem; color: var(--muted); line-height: 1.6;">
+                En soumettant ce formulaire, vous acceptez que vos données soient traitées pour répondre à votre demande. 
+                Toutes nos créations sont disponibles sur rendez-vous dans notre showroom genevois.
+            </p>
+        </div>
+    </div>
+
+    <!-- Map Section -->
+    <section style="height: 60vh; border-top: 1px solid var(--border); overflow: hidden;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.5!2d6.1486!3d46.2044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c652b3f0a1e0f%3A0x0!2sRue+du+Cendrier%2C+Gen%C3%A8ve!5e0!3m2!1sfr!2sch!4v1"
+            width="100%"
+            height="100%"
+            style="border:0; display:block; filter: grayscale(30%) contrast(1.05);"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Elke Berr Genève — Rue du Cendrier">
+        </iframe>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>
