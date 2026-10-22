@@ -2,61 +2,101 @@
 
 Bienvenue **Arnaud** ! Ce dépôt contient l'intégralité de l'écosystème **Elke Berr Genève V2** :
 1. **Le site complet en local (`localhost_v2/`)** : Toutes les pages (Accueil, Maison, Haute Joaillerie, Joaillerie, Collection *Unbreakable* Paul & Zulay Pogba, Private Jeweller, 25 pages Presse, Événements et les **146 fiches produits** avec toutes les photos et vidéos HD).
-2. **Le Thème Shopify OS 2.0 (`shopify_theme_v2/`)** : La conversion en sections et templates Liquid prêts pour Shopify.
-3. **Les livrables & maquettes (`wireframes_pack/`)** : Les documents de conception et de validation.
+2. **Le Thème Shopify OS 2.0 (`shopify_theme_v2/`)** : La conversion en sections et templates Liquid prêts à être propulsés sur Shopify (`165n1t-bx.myshopify.com`).
+3. **Le compilateur automatique (`build_shopify_theme.py`)** : Synchronise tes modifications locales vers le thème Shopify et génère l'archive prête à déployer (`shopify_theme_v2_final.zip`).
 
 ---
 
-## 🤖 OPTION 1 : Commande Automatique pour ton Claude (Claude Code / Terminal IA)
+## 🤖 1. Commandes Automatiques pour ton Claude (Claude Code / Assistant IA)
 
-Copie-colle simplement ce bloc directement dans **Claude Code** (ou ton agent IA dans le terminal) pour qu'il installe, configure et ouvre tout le site automatiquement sur ta machine :
+### ▶️ A. Pour installer et ouvrir tout le site en Localhost automatiquement
+Copie-colle ce prompt dans **Claude Code** :
 
 ```text
 Clone le dépôt privé https://github.com/lili69008/elkeeshop.git (ou mets-le à jour si tu es déjà dedans avec git pull et git lfs pull), puis lance immédiatement le serveur web local depuis le dossier localhost_v2 sur le port 8080 et ouvre automatiquement http://localhost:8080/index.html dans mon navigateur par défaut. Vérifie que le serveur répond bien en HTTP 200.
 ```
 
+### 🎨 B. Pour modifier le site à ta guise puis le propulser sur Shopify & GitHub
+Quand tu veux faire des changements avec Claude et les envoyer sur Shopify, copie-colle ce prompt dans **Claude Code** :
+
+```text
+Applique mes modifications à la fois sur le site local (localhost_v2/) et sur les sections correspondantes du thème Shopify (shopify_theme_v2/sections/). Ensuite :
+1. Exécute `python build_shopify_theme.py` (ou `python3 build_shopify_theme.py`) pour synchroniser le CSS/JS et générer `shopify_theme_v2_final.zip`.
+2. Sauvegarde et pousse les modifications sur GitHub (`git add . && git commit -m "update: modifications Arnaud" && git push origin main`).
+3. Propulse le thème sur la boutique Shopify avec `npx @shopify/cli@latest theme push --path shopify_theme_v2 --store 165n1t-bx.myshopify.com --unpublished` (ou indique-moi que `shopify_theme_v2_final.zip` est prêt à être glissé dans Shopify Admin).
+```
+
 ---
 
-## ⚡ OPTION 2 : Installation & Lancement Automatique en 1 Seule Commande (Terminal)
+## ⚡ 2. Installation & Lancement en 1 Seule Commande (Sans passer par Claude)
 
 ### 🍎 Sur Mac / Linux (Terminal)
-Copie-colle cette commande unique dans ton terminal :
-
 ```bash
 git clone https://github.com/lili69008/elkeeshop.git && cd elkeeshop && (git lfs pull || true) && (open http://localhost:8080/index.html || xdg-open http://localhost:8080/index.html) && python3 -m http.server 8080 --directory localhost_v2
 ```
 
 ### 🪟 Sur Windows (PowerShell)
-Copie-colle cette commande unique dans PowerShell :
-
 ```powershell
 git clone https://github.com/lili69008/elkeeshop.git; cd elkeeshop; git lfs pull; Start-Process "http://localhost:8080/index.html"; python -m http.server 8080 -d localhost_v2
 ```
 
 ---
 
-## 🔄 Relancer le site plus tard (une fois déjà cloné)
+## ✏️ 3. Modifier le Site à ta Guise sur ta Machine
 
-Si le dossier `elkeeshop` est déjà sur ta machine, place-toi dedans et lance :
+Tu peux modifier librement n'importe quel aspect du site en local et voir le résultat en direct sur **`http://localhost:8080`** (il suffit de rafraîchir ton navigateur) :
 
-- **Sur Mac / Linux :**
-  ```bash
-  git pull && (open http://localhost:8080/index.html || true) && python3 -m http.server 8080 --directory localhost_v2
-  ```
-- **Sur Windows (PowerShell) :**
-  ```powershell
-  git pull; Start-Process "http://localhost:8080/index.html"; python -m http.server 8080 -d localhost_v2
-  ```
-- **Alternative avec Node.js (si Python n'est pas installé) :**
-  ```bash
-  npx --yes serve localhost_v2 -l 8080
-  ```
+- **Design, Couleurs, Typographies & Mise en page :**
+  - Fichier : `localhost_v2/css/style.css`
+- **Animations, Menu & Interactions :**
+  - Fichier : `localhost_v2/js/main.js`
+- **Textes, Visuels & Structure des Pages :**
+  - Accueil : `localhost_v2/index.html` (et `shopify_theme_v2/sections/` pour la version Liquid)
+  - La Maison : `localhost_v2/maison.html` (`shopify_theme_v2/sections/maison.liquid`)
+  - Haute Joaillerie : `localhost_v2/haute-joaillerie.html` (`shopify_theme_v2/sections/haute-joaillerie.liquid`)
+  - Unbreakable (Paul & Zulay) : `localhost_v2/unbreakable.html`, `unbreakable-paul.html`, `unbreakable-zulay.html` (`shopify_theme_v2/sections/unbreakable-*.liquid`)
+  - Private Jeweller : `localhost_v2/private-jeweller.html` (`shopify_theme_v2/sections/private-jeweller.liquid`)
+- **Catalogue Produits (146 pièces) :**
+  - Données sources : `localhost_v2/products.csv`
+  - Fiches HTML : `localhost_v2/produits/` (régénérables via `python localhost_v2/sync_products_v4.py`)
 
 ---
 
-## 🗺️ Pages Principales à Prévisualiser en Localhost
+## 🚀 4. Propulser le Site Modifié sur Shopify
 
-Une fois le serveur lancé, tout le site est navigable sur **`http://localhost:8080`** :
+Dès que tes modifications te conviennent en local, tu as **2 méthodes** pour les propulser sur Shopify :
+
+### Étape préalable (commune) : Compiler & Synchroniser le Thème
+Lance cette commande à la racine du projet :
+```bash
+python build_shopify_theme.py
+```
+*(Sur Mac/Linux : `python3 build_shopify_theme.py`)*
+👉 Ce script copie automatiquement ton `style.css` et ton `main.js` de `localhost_v2/` vers `shopify_theme_v2/assets/` et génère le fichier **`shopify_theme_v2_final.zip`** (44 Ko) contenant les 36 fichiers du thème OS 2.0.
+
+### Méthode A — Propulsion Directe en Ligne de Commande (Shopify CLI)
+1. Prévisualiser en direct sur Shopify (Hot-Reload) :
+   ```bash
+   npx @shopify/cli@latest theme dev --path shopify_theme_v2 --store 165n1t-bx.myshopify.com
+   ```
+2. Envoyer en tant que nouveau thème dans la bibliothèque Shopify (sans écraser le thème en ligne) :
+   ```bash
+   npx @shopify/cli@latest theme push --path shopify_theme_v2 --store 165n1t-bx.myshopify.com --unpublished
+   ```
+3. Publier directement en production :
+   ```bash
+   npx @shopify/cli@latest theme push --path shopify_theme_v2 --store 165n1t-bx.myshopify.com --live
+   ```
+
+### Méthode B — Import en 1 Clic dans l'Interface Shopify Admin (Sans CLI)
+1. Ouvre l'administration Shopify : **`https://admin.shopify.com/store/165n1t-bx/themes`**
+2. Clique sur **Ajouter un thème** (`Add theme`) ➡️ **Mettre en ligne un fichier zip** (`Upload zip file`).
+3. Glisse le fichier **`shopify_theme_v2_final.zip`** qui vient d'être généré à la racine du dossier.
+4. Clique sur **Personnaliser** ou **Publier** !
+
+---
+
+## 🗺️ Pages Principales à Prévisualiser en Localhost (`http://localhost:8080`)
 
 | Univers | URL Locale |
 | :--- | :--- |
@@ -70,43 +110,3 @@ Une fois le serveur lancé, tout le site est navigable sur **`http://localhost:8
 | **Private Jeweller & Sur-Mesure** | [http://localhost:8080/private-jeweller.html](http://localhost:8080/private-jeweller.html) / [http://localhost:8080/bespoke.html](http://localhost:8080/bespoke.html) |
 | **Presse (25 parutions dédiées)** | [http://localhost:8080/presse.html](http://localhost:8080/presse.html) |
 | **Événements (Cannes, GemGenève, Monaco...)** | [http://localhost:8080/evenements.html](http://localhost:8080/evenements.html) |
-
----
-
-## 📁 Structure du Dépôt
-
-```text
-elkeeshop/
-├── localhost_v2/               # 🌐 SITE COMPLET LOCAL (HTML/CSS/JS + Médias HD)
-│   ├── index.html              # Page d'accueil principale
-│   ├── css/style.css           # Feuille de style principale V2 ("Expert Suisse")
-│   ├── js/main.js              # Animations, Mega-Menu, filtres et interactions
-│   ├── produits/               # 146 fiches produits générées et synchronisées
-│   ├── img/                    # Visuels éditoriaux, Haute Joaillerie, Private Jeweller
-│   ├── shopify_media/          # Photos & vidéos HD du catalogue et de la collection Unbreakable
-│   └── proposition_client.md   # Proposition stratégique de déploiement Shopify
-│
-├── shopify_theme_v2/           # 🛍️ THÈME SHOPIFY OS 2.0 (Liquid + JSON Templates)
-│   ├── layout/theme.liquid
-│   ├── sections/               # 19 sections Liquid modulaires
-│   ├── templates/              # Templates JSON OS 2.0
-│   ├── config/
-│   └── assets/                 # style.css & main.js du thème
-│
-├── shopify_theme_v2_final.zip  # 📦 Archive légère prête à l'import dans Shopify Admin
-└── wireframes_pack/            # 📐 Maquettes et PDF de validation (via Git LFS)
-```
-
----
-
-## 🛠️ Instructions Contextuelles pour Claude (si Arnaud utilise Claude Code pour modifier le projet)
-
-Si tu demandes à **Claude** de faire des modifications sur le site :
-1. **Pour modifier le site local :** travailler directement dans `localhost_v2/` (`localhost_v2/css/style.css`, `localhost_v2/js/main.js`, et les fichiers `.html`).
-2. **Pour synchroniser ou régénérer les fiches produits :** utiliser les scripts Python présents dans `localhost_v2/` (`sync_products_v4.py`, `generate_collections.py`, `generate_hj_collections.py`).
-3. **Pour pousser les modifications sur GitHub :**
-   ```bash
-   git add .
-   git commit -m "update: description des modifications"
-   git push origin main
-   ```

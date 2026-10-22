@@ -1,0 +1,18 @@
+{
+  "general": {
+    "accessibility": {
+      "skip_to_text": "Aller au contenu"
+    },
+    "meta": {
+      "tags": "Étiqueté \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Ajouter au panier",
+      "sold_out": "Épuisé",
+      "unavailable": "Non disponible"
+    }
+  }
+}
