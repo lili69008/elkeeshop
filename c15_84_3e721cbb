@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Collection Waves Elke Berr — bijoux inspirés de la mer, formes organiques en or blanc et pierres bleues.">
+    <title>COLLECTION WAVES — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container" aria-label="Elke Berr — Accueil">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    <section id="bagues-hero" class="reveal" style="padding-top: 18rem; padding-bottom: 8rem; text-align: center;">
+        <span class="kicker">Maison Elke Berr</span>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 0.25em; font-weight: 400; margin-bottom: 3rem;">COLLECTION WAVES</h1>
+        <div style="width: 40px; height: 1px; background: var(--fg); margin: 0 auto 3rem;"></div>
+        <p style="max-width: 650px; margin: 0 auto; line-height: 2; color: var(--muted); font-weight: 300; font-size: 0.95rem; letter-spacing: 0.02em;">La fluidité du mouvement de l'eau immortalisée dans l'or.</p>
+    </section>
+
+    <section id="bagues-grid" class="reveal" style="padding: 0 8vw 15rem;">
+        <div class="grid-3">
+            <a href="produits/recif-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/recif-bracelet/Sanstitre-2.png" alt="Récif Bracelet" loading="lazy"></div>
+                    <span class="kicker">WAVES</span>
+                    <h3>RÉCIF BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top: 0.5rem;">7 700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/icefall-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/icefall-earrings/Waveset2.png" alt="Icefall Earrings" loading="lazy"></div>
+                    <span class="kicker">WAVES</span>
+                    <h3>ICEFALL EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top: 0.5rem;">4 900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/coral-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/coral-ring/BagueWave2.2.png" alt="Coral Ring" loading="lazy"></div>
+                    <span class="kicker">WAVES</span>
+                    <h3>CORAL RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top: 0.5rem;">4 400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/ondes-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ondes-ring/Sanstitre-4.png" alt="Ondes Ring" loading="lazy"></div>
+                    <span class="kicker">WAVES</span>
+                    <h3>ONDES RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top: 0.5rem;">5 700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/mermaid-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mermaid-earrings/Screenshot2025-01-30at14.45.07.png" alt="Mermaid Earrings" loading="lazy"></div>
+                    <span class="kicker">WAVES</span>
+                    <h3>MERMAID EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top: 0.5rem;">6 500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/aqua-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/aqua-ring/Bague2.png" alt="Aqua Ring" loading="lazy"></div>
+                    <span class="kicker">WAVES</span>
+                    <h3>AQUA RING</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top: 0.5rem;">16 000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/aqua-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/aqua-necklace/Screenshot2025-01-30at16.01.51.png" alt="Aqua Necklace" loading="lazy"></div>
+                    <span class="kicker">WAVES</span>
+                    <h3>AQUA NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.8rem; margin-top: 0.5rem;">3 750.00 CHF</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>

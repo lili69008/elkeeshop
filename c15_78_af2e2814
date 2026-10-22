@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soirée de lancement Unbreakable — Villa Forbes, Cannes. Une nuit d'exception avec Paul Pogba, Zulay Pogba, Adil Rami, Lorena Rae et Geoffrey Kondogbia.">
+    <meta property="og:title" content="Soirée de Lancement Unbreakable — Villa Forbes, Cannes">
+    <meta property="og:description" content="Une nuit d'exception à la Villa Forbes, Cannes. Le lancement de la collection Unbreakable avec Paul Pogba, Zulay Pogba et leurs invités.">
+    <meta property="og:image" content="https://elkeberr.com/img/launch_paul_zulay.jpg">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://elkeberr.com/unbreakable-villa.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Soirée de Lancement Unbreakable — Villa Forbes, Cannes">
+    <meta name="twitter:image" content="https://elkeberr.com/img/launch_paul_zulay.jpg">
+    <title>Lancement Villa Forbes — Unbreakable | Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .event-intro { padding: 10rem 15vw; text-align: center; }
+        .event-intro h1 { font-size: 3.5rem; margin-bottom: 2rem; }
+
+        .video-container { max-width: 1200px; margin: 0 auto; padding: 0 4vw 10rem; }
+        video { width: 100%; border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,0.1); }
+
+        .gallery-masonry { columns: 3; column-gap: 2rem; padding: 0 6vw 10rem; }
+        .gallery-item { break-inside: avoid; margin-bottom: 2rem; position: relative; overflow: hidden; border: 1px solid var(--border); }
+        .gallery-item img { width: 100%; transition: transform 0.6s ease; }
+        .gallery-item:hover img { transform: scale(1.05); }
+        .gallery-item p { position: absolute; bottom: 0; left: 0; width: 100%; padding: 1.5rem; background: linear-gradient(transparent, rgba(0,0,0,0.7)); color: #fff; font-size: 0.7rem; letter-spacing: 0.1em; opacity: 0; transition: opacity 0.4s; }
+        .gallery-item:hover p { opacity: 1; }
+
+        @media (max-width: 900px) { .gallery-masonry { columns: 2; } }
+        @media (max-width: 600px) { .gallery-masonry { columns: 1; } }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    
+
+    <div class="hero-video-container hero-collection" style="background: url('img/launch_hero.jpg') no-repeat center 20%; background-size: cover;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="kicker kicker--light">CANNES — VILLA FORBES</span>
+            <h1>SOIRÉE DE LANCEMENT<span>UNBREAKABLE</span></h1>
+            <div class="hero-divider"></div>
+            <p>Unbreakable Collection</p>
+        </div>
+    </div>
+
+    <section class="event-intro">
+        <span class="kicker">L'ÉVÉNEMENT</span>
+        <h1>UNE NUIT D'EXCEPTION</h1>
+        <p>C'est au cœur de la prestigieuse Villa Forbes à Cannes qu'Elke Berr, Zulay et Paul Pogba ont dévoilé leur collaboration exclusive. Une soirée placée sous le signe de la résilience et de l'éclat, réunissant amis de la maison et personnalités du monde entier.</p>
+    </section>
+
+    <div class="video-container" style="max-width: 100%; padding: 0; margin-bottom: 10rem; background: #000;">
+        <video id="launchVideo" autoplay muted loop playsinline poster="img/launch_hero.jpg" style="width: 100vw; height: 100vh; object-fit: cover; object-position: center 20%; display: block;">
+            <source src="img/launch_video.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+    </div>
+
+    <script>
+        const video = document.getElementById('launchVideo');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    video.play().catch(e => console.log("Autoplay prevented:", e));
+                } else {
+                    video.pause();
+                }
+            });
+        }, { threshold: 0.2 });
+        observer.observe(video);
+    </script>
+
+    <div class="gallery-masonry">
+        <div class="gallery-item">
+            <img src="img/launch_paul_zulay.jpg" alt="Paul & Zulay Pogba — Elke Berr Genève">
+            <p>Paul & Zulay Pogba</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/launch_rami.jpg" alt="Adil Rami — Elke Berr Genève">
+            <p>Adil Rami</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/launch_lorena.jpg" alt="Lorena Rae — Elke Berr Genève">
+            <p>Lorena Rae</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/launch_elke.jpg" alt="Elke Berr — Elke Berr Genève">
+            <p>Elke Berr</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/launch_kondogbia.jpg" alt="Geoffrey Kondogbia — Elke Berr Genève">
+            <p>Geoffrey Kondogbia</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/launch_showcase.jpg" alt="Showcase Unbreakable — Elke Berr Genève">
+            <p>Showcase Unbreakable</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/launch_florentin.jpg" alt="Florentin Pogba — Elke Berr Genève">
+            <p>Florentin Pogba</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/launch_zulay.jpg" alt="Zulay Pogba — Elke Berr Genève">
+            <p>Zulay Pogba</p>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>

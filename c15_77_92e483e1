@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unbreakable : L'Histoire — Elke Berr Genève</title>
+    <meta name="description" content="L'histoire de la collection Unbreakable — une collaboration exclusive entre Elke Berr, Zulay et Paul Pogba. Un symbole de force, de résilience et d'amour.">
+    <meta property="og:title" content="L'Histoire Unbreakable — Elke Berr × Zulay & Paul Pogba">
+    <meta property="og:description" content="La genèse d'une collaboration unique — quand la résilience devient bijou. L'histoire d'Elke Berr, Zulay et Paul Pogba.">
+    <meta property="og:image" content="https://elkeberr.com/img/launch_paul_zulay.jpg">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://elkeberr.com/unbreakable-story.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="L'Histoire Unbreakable — Elke Berr × Zulay & Paul Pogba">
+    <meta name="twitter:image" content="https://elkeberr.com/img/launch_paul_zulay.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+        /* ── HERO SPLIT ─────────────────────────────────────────── */
+        .story-hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 100vh;
+            max-height: 850px;
+        }
+        .story-hero-text {
+            background: var(--bg-alt);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 8vw;
+            padding-top: calc(80px + 6vw);
+        }
+        .story-hero-text h1 {
+            font-family: var(--font-display);
+            color: var(--fg);
+            font-size: clamp(2rem, 3.5vw, 4rem);
+            letter-spacing: 0.12em;
+            line-height: 1.15;
+            font-weight: 300;
+            margin: 2.5rem 0 3rem;
+        }
+        .story-hero-text h1 span {
+            display: block;
+            font-size: 0.6em;
+            letter-spacing: 0.28em;
+            color: var(--muted);
+            margin-top: 1rem;
+        }
+        .story-hero-text p {
+            font-size: 0.8rem;
+            color: var(--muted);
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            margin-top: 3rem;
+        }
+        .hero-gold-line {
+            width: 50px;
+            height: 1px;
+            background: var(--gold);
+        }
+        .story-hero-img {
+            position: relative;
+            overflow: hidden;
+        }
+        .story-hero-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            display: block;
+        }
+
+        /* ── ORIGIN TEXT ────────────────────────────────────────── */
+        .story-origin {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 3vw 4vw;
+            text-align: center;
+        }
+        .story-origin h2 {
+            font-size: clamp(1.6rem, 2.5vw, 2.8rem);
+            margin: 1.2rem 0 2rem;
+            line-height: 1.2;
+        }
+        .story-origin p {
+            font-size: 1rem;
+            color: var(--muted);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        /* ── PROCESS STRIP ──────────────────────────────────────── */
+        .story-process {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            background: var(--bg-alt);
+        }
+        .process-step {
+            padding: 5vw 3vw;
+            border-right: 1px solid var(--border);
+            text-align: center;
+        }
+        .process-step:last-child { border-right: none; }
+        .process-num {
+            display: block;
+            font-size: 0.55rem;
+            letter-spacing: 0.4em;
+            color: var(--gold);
+            margin-bottom: 2rem;
+        }
+        .process-step h4 {
+            font-size: 0.65rem;
+            letter-spacing: 0.18em;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+        .process-step p {
+            font-size: 0.75rem;
+            color: var(--muted);
+            line-height: 1.8;
+        }
+
+        /* ── SYMBOLE: 2 COL ─────────────────────────────────────── */
+        .story-symbole {
+            display: grid;
+            grid-template-columns: 55fr 45fr;
+            min-height: 75vh;
+        }
+        .symbole-text {
+            padding: 10vw 8vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-right: 1px solid var(--border);
+        }
+        .symbole-text h2 {
+            font-size: clamp(1.5rem, 2.2vw, 2.5rem);
+            margin: 2rem 0 3.5rem;
+            line-height: 1.2;
+        }
+        .symbole-text p {
+            font-size: 0.9rem;
+            color: var(--muted);
+            line-height: 1.95;
+            margin-bottom: 1.8rem;
+        }
+        .symbole-img {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 6vw;
+            padding-top: calc(10vw + 7rem);
+        }
+        .symbole-img img {
+            max-width: 360px;
+            width: 100%;
+        }
+
+        /* ── VIDEO ATMOSPHÉRIQUE ────────────────────────────────── */
+        .story-video-section {
+            position: relative;
+            height: 65vh;
+            overflow: hidden;
+            background: #080808;
+        }
+        .story-video-section video {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.5;
+        }
+        .story-video-section .video-caption {
+            position: relative;
+            z-index: 2;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 4vw;
+            color: #fff;
+        }
+        .story-video-section blockquote {
+            font-size: clamp(1rem, 2vw, 1.8rem);
+            font-weight: 300;
+            line-height: 1.7;
+            letter-spacing: 0.04em;
+            max-width: 800px;
+            color: rgba(255,255,255,0.85);
+            margin: 2rem 0 2.5rem;
+        }
+        .story-video-section cite {
+            font-size: 0.6rem;
+            letter-spacing: 0.35em;
+            color: rgba(255,255,255,0.4);
+            text-transform: uppercase;
+            font-style: normal;
+        }
+
+        /* ── ZULAY ──────────────────────────────────────────────── */
+        .story-zulay {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 80vh;
+        }
+        .zulay-img {
+            overflow: hidden;
+            position: relative;
+        }
+        .zulay-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 12%;
+            display: block;
+        }
+        .zulay-text {
+            background: var(--bg-alt);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 8vw;
+            border-left: 1px solid var(--border);
+        }
+        .zulay-text h2 {
+            font-size: clamp(1.5rem, 2.2vw, 2.5rem);
+            margin: 2rem 0 3.5rem;
+            line-height: 1.25;
+        }
+        .zulay-text p {
+            font-size: 0.9rem;
+            color: var(--muted);
+            line-height: 1.95;
+            margin-bottom: 1.8rem;
+        }
+        .story-cta-link {
+            display: inline-block;
+            margin-top: 3rem;
+            padding: 1.1rem 2.5rem;
+            border: 1px solid var(--fg);
+            font-size: 0.62rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--fg);
+            text-decoration: none;
+            transition: background 0.3s, color 0.3s;
+        }
+        .story-cta-link:hover {
+            background: var(--fg);
+            color: var(--bg);
+        }
+
+        /* ── PENDENTIF FOCUS ────────────────────────────────────── */
+        .story-pendant {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border-top: 1px solid var(--border);
+        }
+        .pendant-cell {
+            aspect-ratio: 4/5;
+            overflow: hidden;
+            border-right: 1px solid var(--border);
+            position: relative;
+        }
+        .pendant-cell:last-child { border-right: none; }
+        .pendant-cell img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            transition: transform 0.8s ease;
+        }
+        .pendant-cell:hover img { transform: scale(1.04); }
+
+        /* ── PAUL ───────────────────────────────────────────────── */
+        .story-paul {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 80vh;
+        }
+        .paul-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 8vw;
+            border-right: 1px solid var(--border);
+        }
+        .paul-text h2 {
+            font-size: clamp(1.5rem, 2.2vw, 2.5rem);
+            margin: 2rem 0 3.5rem;
+            line-height: 1.25;
+        }
+        .paul-text p {
+            font-size: 0.9rem;
+            color: var(--muted);
+            line-height: 1.95;
+            margin-bottom: 1.8rem;
+        }
+        .paul-img {
+            overflow: hidden;
+            position: relative;
+        }
+        .paul-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 8%;
+            display: block;
+        }
+
+        /* ── CTA FINAL ──────────────────────────────────────────── */
+        .story-footer-cta {
+            padding: 10vw;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            background: var(--bg-alt);
+        }
+        .story-footer-cta h3 {
+            font-size: clamp(1.2rem, 2vw, 1.8rem);
+            margin-bottom: 5rem;
+        }
+        .cta-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .cta-grid a {
+            padding: 2.5rem 1rem;
+            border: 1px solid var(--border);
+            font-size: 0.6rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--fg);
+            text-decoration: none;
+            transition: background 0.3s, color 0.3s;
+            display: block;
+            text-align: center;
+        }
+        .cta-grid a:hover {
+            background: var(--fg);
+            color: var(--bg);
+        }
+        .cta-grid a span {
+            display: block;
+            font-size: 1.2rem;
+            letter-spacing: 0.04em;
+            margin-bottom: 1rem;
+            font-family: var(--font-display);
+            font-weight: 300;
+        }
+
+        /* ── RESPONSIVE ─────────────────────────────────────────── */
+        @media (max-width: 900px) {
+            .story-hero,
+            .story-symbole,
+            .story-zulay,
+            .story-paul { grid-template-columns: 1fr; }
+
+            .story-hero-img { min-height: 60vw; }
+            .zulay-img,
+            .paul-img { min-height: 70vw; }
+            .story-hero-text { padding-top: calc(80px + 8vw); }
+
+            .story-process { grid-template-columns: 1fr 1fr; }
+            .process-step { border-bottom: 1px solid var(--border); }
+
+            .story-pendant { grid-template-columns: 1fr; }
+            .pendant-cell { border-right: none; border-bottom: 1px solid var(--border); }
+
+            .cta-grid { grid-template-columns: 1fr; }
+            .symbole-text { border-right: none; border-bottom: 1px solid var(--border); }
+            .paul-text { border-right: none; border-bottom: 1px solid var(--border); }
+            .zulay-text { border-left: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- HERO                                                       -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <div class="hero-video-container hero-collection" style="background: url('img/launch_paul_zulay.jpg') no-repeat center 30%; background-size: cover;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="kicker kicker--light">L'HISTOIRE UNBREAKABLE</span>
+            <h1>ELKE BERR<span>× ZULAY &amp; PAUL POGBA</span></h1>
+            <div class="hero-divider"></div>
+            <p>Unbreakable Collection</p>
+        </div>
+    </div>
+
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- ORIGINE                                                    -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <section class="reveal">
+        <div class="story-origin">
+            <span class="kicker">COMMENÇONS COMME ÇA</span>
+            <h2>UN SYMBOLE NÉ DU TRIOMPHE</h2>
+            <p>Unbreakable est né d'une envie de créer quelque chose qui dépasse l'accessoire. Il fallait exprimer une vérité — celle de ceux qui tombent, se relèvent, et avancent.</p>
+            <p>Une déclaration de force intérieure, enracinée dans la ténacité, l'amour et le triomphe. Chaque bijou en porte la trace — gravée dans l'argent massif, inscrite pour toujours.</p>
+            <p>Il ne s'agissait pas seulement de design. Il s'agissait de forger un symbole.</p>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- PROCESSUS CRÉATIF                                          -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <section class="story-process reveal">
+        <div class="process-step">
+            <span class="process-num">01</span>
+            <h4>Brief Créatif</h4>
+            <p>Définir l'énergie de la collection — ténacité, amour, triomphe.</p>
+        </div>
+        <div class="process-step">
+            <span class="process-num">02</span>
+            <h4>Exploration des Designs</h4>
+            <p>Explorer les formes, affiner l'équilibre, chercher l'harmonie.</p>
+        </div>
+        <div class="process-step">
+            <span class="process-num">03</span>
+            <h4>Sélection des Matériaux</h4>
+            <p>Chaque élément soigneusement choisi — intemporel et résistant.</p>
+        </div>
+        <div class="process-step">
+            <span class="process-num">04</span>
+            <h4>La Création</h4>
+            <p>Chaque motif façonné à la main par nos artisans genevois.</p>
+        </div>
+        <div class="process-step">
+            <span class="process-num">05</span>
+            <h4>La Touche Finale</h4>
+            <p>Un symbole de force. Intemporel. Inestimable.</p>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- LE SYMBOLE                                                 -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <section class="story-symbole reveal">
+        <div class="symbole-text">
+            <span class="kicker">LE SYMBOLE</span>
+            <h2>LE SIGNE P — TENSION ET HARMONIE</h2>
+            <p>Au cœur d'Unbreakable, une signature visuelle unique — deux formes entrelacées comme deux "P". Le symbole de la tension et de l'harmonie. Un emblème forgé pour la famille Pogba, conçu avec Elke Berr.</p>
+            <p>Deux formes, liées non pas par la forme, mais par le sens. Elles ont été façonnées pour symboliser un design qui se referme sur lui-même : sans commencement ni fin, chaque courbe rencontre l'autre dans un dialogue silencieux.</p>
+            <p>Pas de fioriture. De la substance. L'Unbreakable est une déclaration — discrète, inébranlable, inestimable.</p>
+            <img src="img/unbreakable_sketch.png" alt="Esquisse du symbole Unbreakable" style="margin-top: 4rem; max-width: 340px; width: 100%; border: 1px solid var(--border);">
+            <p style="font-size: 0.6rem; letter-spacing: 0.15em; color: var(--muted); margin-top: 1rem; text-transform: uppercase;">Le signe "P" — esquisse originale</p>
+        </div>
+        <div class="symbole-img">
+            <img src="img/produits/ubreakable-pendant-only/Designsanstitre-2.jpg" alt="Pendentif Unbreakable — argent massif">
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- VIDÉO ATMOSPHÉRIQUE                                        -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <section class="story-video-section reveal">
+        <video autoplay muted loop playsinline poster="img/launch_hero.jpg">
+            <source src="img/videos/78a9e26ace7b4160a614f82bf3b37297.mp4" type="video/mp4">
+        </video>
+        <div class="video-caption">
+            <span class="kicker" style="color: var(--gold);">LE DERNIER MOT</span>
+            <blockquote>
+                "Dans la force de s'exprimer — pas toujours de la même manière. Parfois elle s'exprime différemment. Mais toujours, la même force permanente."
+            </blockquote>
+            <cite>— ELKE BERR × ZULAY &amp; PAUL POGBA</cite>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- ZULAY POGBA                                                -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <section class="story-zulay reveal">
+        <div class="zulay-img">
+            <img src="img/launch_zulay.jpg" alt="Zulay Pogba — Collection Unbreakable">
+        </div>
+        <div class="zulay-text">
+            <span class="kicker">ÉDITION ZULAY POGBA</span>
+            <h2>LA FORCE,<br>PORTÉE DIFFÉREMMENT</h2>
+            <p>Être la force avec une confiance inchangée.</p>
+            <p>En elle, Unbreakable devient un hommage à la grâce — qui grandit par la présence, par l'amour et par la puissance que l'on porte en soi.</p>
+            <p>Des pièces de haute joaillerie en or 18k, conçues pour briller dans l'épreuve comme dans la lumière. Pour toutes celles qui choisissent de ne jamais plier.</p>
+            <a href="unbreakable-zulay.html" class="story-cta-link">Découvrir sa Collection</a>
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- TRIPTYQUE PENDENTIFS                                       -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <section class="story-pendant reveal">
+        <div class="pendant-cell">
+            <img src="img/produits/ubreakable-pendant-only/DSC_2911-2.jpg" alt="Unbreakable — pendentif, détail artisan">
+        </div>
+        <div class="pendant-cell">
+            <img src="img/produits/unbreakable-silver/1_7e5702ad-2f97-4021-b1e4-a3ea31f3e6db.png" alt="Unbreakable Necklace — argent massif">
+        </div>
+        <div class="pendant-cell">
+            <img src="img/produits/ubreakable-pendant-only/IMG_7223_copie.jpg" alt="Unbreakable — pendentif porté">
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- PAUL POGBA                                                 -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <section class="story-paul reveal">
+        <div class="paul-text">
+            <span class="kicker">ÉDITION PAUL POGBA</span>
+            <h2>PAR PAUL,<br>TOUJOURS</h2>
+            <p>Pour cette collection, son soin, son héritage.</p>
+            <p>Choisissez pour lui le témoignage qu'il mérite — une pièce que quelqu'un portera pour toujours. Une promesse taillée dans l'argent massif, façonnée pour traverser le temps.</p>
+            <p>Une expression qui transmet puissance, amour et l'esprit d'Unbreakable.</p>
+            <a href="unbreakable-paul.html" class="story-cta-link">Découvrir sa Collection</a>
+        </div>
+        <div class="paul-img">
+            <img src="img/unbreakable_hero.png" alt="Paul Pogba — Collection Unbreakable">
+        </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- CTA FINAL                                                  -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <section class="story-footer-cta reveal">
+        <span class="kicker">EXPLORER LA COLLECTION</span>
+        <h3>UNBREAKABLE</h3>
+        <div class="cta-grid">
+            <a href="unbreakable-paul.html">
+                <span>Paul</span>
+                Édition Paul Pogba
+            </a>
+            <a href="unbreakable-zulay.html">
+                <span>Zulay</span>
+                Édition Zulay Pogba
+            </a>
+            <a href="unbreakable-villa.html">
+                <span>Villa</span>
+                Lancement Villa Forbes
+            </a>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+                </a>
+            </div>
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+
+</body>
+</html>

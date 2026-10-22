@@ -1,0 +1,28 @@
+Keys under 'data': ['markdown', 'screenshot', 'branding', 'metadata', 'html', 'links', 'images', 'json', 'summary']
+
+data['json'] type: <class 'dict'>
+data['json'] keys: ['company_name', 'company_description']
+
+Key 'company_name' type: <class 'str'>
+Key 'company_description' type: <class 'str'>
+
+--- Search in data['json'] ---
+Found 1 matches in JSON content:
+Path: company_description
+Text snippet: Elke Berr specializes in high-end jewelry and offers collections featuring unique pieces crafted from carefully selected gemstones.
+
+
+--- Markdown headings ---
+# [![](https://elkeberr.com/cdn/shop/files/Olive_et_Blanc_Lumiere_Simple_Presentation_1.png?v=1738683428&width=214)](https://elkeberr.com/fr "Elke Berr")    [![](https://elkeberr.com/cdn/shop/files/Logo_seul.png?v=1737706927&width=120)](https://elkeberr.com/fr "Elke Berr")
+## Collections
+## Haute Joaillerie
+## Joaillier privé
+## EB ESSENTIELS
+## Achetez le look
+## Pour l'amour des pierres précieuses
+## Abonnez-vous à notre newsletter
+### Rester en contact
+## Votre panier
+### 🇺🇸 Attention for US customers
+# elkeberr.com is blocked
+# shop.app is blocked
