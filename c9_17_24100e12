@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraison & Retours — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .legal-content { max-width: 800px; margin: 0 auto; padding-top: 15rem; }
+        .legal-content h2 { margin-top: 3rem; margin-bottom: 1.5rem; font-size: 1.5rem; }
+        .legal-content p { margin-bottom: 1.5rem; color: var(--muted); }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    
+
+    <section class="legal-content">
+        <span class="kicker">SHIPPING &amp; RETURNS</span>
+        <h1>SHIPPING &amp; RETURN POLICY</h1>
+
+        <!-- RETURN POLICY -->
+        <h2>Return &amp; Exchange Policy</h2>
+        <p>At Elke Berr, we take pride in the craftsmanship and quality of our jewelry. If you are not completely satisfied with your purchase, we offer a seamless return and exchange process, tailored to different collections.</p>
+
+        <h3 style="font-size:0.85rem;letter-spacing:0.1em;margin:2rem 0 1rem;">High Jewelry &amp; Bespoke Creations</h3>
+        <p>High Jewelry and Bespoke pieces require special handling and authentication. These items are not eligible for refunds; however, they can be exchanged within 15 days of delivery for an item of equal or lesser value. To initiate an exchange, please contact our customer service team at <a href="mailto:office@berrandpartners.ch" style="color:var(--gold);">office@berrandpartners.ch</a> or +41 77 211 58 87 before proceeding.</p>
+
+        <h3 style="font-size:0.85rem;letter-spacing:0.1em;margin:2rem 0 1rem;">All Other Collections</h3>
+        <p>For all other pieces from our collections, we provide an automated return and exchange system. Returns &amp; exchanges must be initiated within 15 days of delivery.</p>
+
+        <ul style="color:var(--muted);line-height:2;padding-left:1.5rem;margin-bottom:1.5rem;">
+            <li>Returns &amp; exchanges must be initiated within 15 days of delivery.</li>
+            <li>Items must be returned in their original, unworn condition with all accompanying packaging, certificates, and tags intact.</li>
+            <li>Personalized, engraved, special-sized, or bespoke items are not eligible for refunds but may be exchanged for an item of equal or lesser value.</li>
+            <li>Pre-order and semi-customized items (such as variations in gold color, gemstone color, and size) are eligible for returns and exchanges, as specified on the product page.</li>
+        </ul>
+
+        <h3 style="font-size:0.85rem;letter-spacing:0.1em;margin:2rem 0 1rem;">Exchanges</h3>
+        <ul style="color:var(--muted);line-height:2;padding-left:1.5rem;margin-bottom:1.5rem;">
+            <li>High Jewelry &amp; Bespoke Creations can only be exchanged for an item of equal or lesser value within 15 days by contacting our customer service team.</li>
+            <li>For all other collections, exchanges can be processed through our automated return portal. If the new item is of greater value, the price difference must be paid before the exchange is processed.</li>
+            <li>If the exchanged item is of lesser value, a store credit will be issued for the remaining balance with no expiration date.</li>
+        </ul>
+
+        <!-- SHIPPING POLICY -->
+        <h2 style="margin-top:5rem;">Shipping Policy</h2>
+        <p>We only accept orders for delivery to the country or countries that are identified during the Order Process. Please note that we do not ship to certain addresses, such as military, certain restricted areas, pick-up points, or PO boxes. For further information, please contact the Client Relations Center.</p>
+        <p>Geneva Showroom pick-up may be offered, free of charge. Please call the Client Relations Center for more information. We will inform you by e-mail or by telephone when the product is ready for pick-up at the boutique.</p>
+        <p>If you order several products, we will ship the order only once all products are available (there will be no partial shipments unless otherwise communicated to you).</p>
+
+        <h3 style="font-size:0.85rem;letter-spacing:0.1em;margin:2rem 0 1rem;">Confirmation of Order &amp; Shipment</h3>
+        <p>Upon shipment of your order, we will send you a Confirmation of Order &amp; Shipment in writing (by e-mail or otherwise). This Confirmation of Order &amp; Shipment constitutes our acceptance of your order and indicates the existence of a binding sales contract.</p>
+
+        <h3 style="font-size:0.85rem;letter-spacing:0.1em;margin:2rem 0 1rem;">Delivery</h3>
+        <p>We will use reasonable efforts to ensure delivery by the carrier within the estimated delivery lead time from the date of our written Confirmation of Order &amp; Shipment and in any event within thirty (30) days after that date, except if your purchase relates to a product or service that will take additional time to deliver (for example, personalized or bespoke items).</p>
+        <p>If delivery of products is delayed by an event outside our control, we will inform you as soon as possible and will use reasonable efforts to minimise the effect of the delay. If we do not deliver within thirty (30) days from the date of the written Confirmation of Order &amp; Shipment, you may contact the Client Relations Center to cancel the relevant order and get a refund of any sums you pre-paid for products which you have not received.</p>
+        <p>We will require a handwritten or electronic signature by you, or a person at the nominated delivery address, to confirm the delivery of each product, at which point risk and responsibility for your purchased goods passes to you.</p>
+        <p>We reserve the right to deliver products only to the person who is the intended recipient of the order as stated on the label of the parcel and to request ID check for verification purposes at the time of delivery for certain categories of products.</p>
+
+        <h2>Contact</h2>
+        <p>
+            Client Relations Center — Elke Berr<br>
+            Rue du Cendrier 12-14, 1201 Genève, Switzerland<br>
+            <a href="mailto:office@berrandpartners.ch" style="color:var(--gold);">office@berrandpartners.ch</a><br>
+            +41 77 211 58 87 · +41 22 310 61 10
+        </p>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>

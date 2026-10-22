@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Idées cadeaux Elke Berr — bijoux pour elle et pour lui, sélections cadeaux en or et pierres précieuses.">
+    <title>SÉLECTION POUR ELLE — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container" aria-label="Elke Berr — Accueil">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    <section id="bagues-hero" class="reveal" style="padding-top: 18rem; padding-bottom: 8rem; text-align: center;">
+        <span class="kicker">Maison Elke Berr</span>
+        <h1 style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 0.25em; font-weight: 400; margin-bottom: 3rem;">SÉLECTION POUR ELLE</h1>
+        <div style="width: 40px; height: 1px; background: var(--fg); margin: 0 auto 3rem;"></div>
+        <p style="max-width: 650px; margin: 0 auto; line-height: 2; color: var(--muted); font-weight: 300; font-size: 0.95rem; letter-spacing: 0.02em;">Le cadeau parfait pour sublimer sa féminité.</p>
+    </section>
+    <section id="bagues-grid" class="reveal" style="padding: 0 8vw 15rem;">
+        <div class="grid-3">
+            <a href="produits/bague-rubis-amore.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bague-rubis-amore/4b96a6e6-4186-4339-9bae-0defe7647b962.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">Bague Rubis Amore</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">8000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/zephyris-ring-1.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/bague_saphir.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ZEPHYRIS RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">Sur demande</p>
+                </div>
+            </a>
+            <a href="produits/requiem-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/bague_saphir.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">REQUIEM RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">8900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/amor-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amor-bangle/Amore_Bracelet_Gold.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">AMOR BANGLE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4100.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/echo-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/echo-bangle/Echo_Bangle_Gold.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ECHO BANGLE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4100.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/essentiel-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/essentiel-bangle/Essentiel_Bangle_Gold.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ESSENTIEL BANGLE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3150.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/link-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/link-earrings/1_a37c93ba-18fa-4651-b05e-14b60cadf428.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LINK EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3250.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/bond-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bond-earrings/47_9ed2fa9c-9ae6-4c34-809d-a82094a36a7e.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">BOND EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3150.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/complice-bangle.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/complice-bangle/11.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">COMPLICE BANGLE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4100.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/eclat-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eclat-earrings/2_e0f4b6b0-c52b-4874-a9ed-f776e616ba14.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ÉCLAT EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/douceur-earcuff.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/douceur-earcuff/24_4d183a94-935e-44b1-b5f8-03f4648a583d.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">DOUCEUR EARCUFF</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">800.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/alma-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/alma-ring/47.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ALMA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/lueur-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lueur-ring/32.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LUEUR RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1750.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tresor-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tresor-ring/8.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TRÉSOR RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1850.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/linfini-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/linfini-necklace/28.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">L'INFINI NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">7350.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/epure-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/epure-necklace/3_044d8ac4-0add-4ede-b580-11ab554d4cce.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ÉPURE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/constellation-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="https://cdn.shopify.com/s/files/1/0905/4394/8040/files/colliermilkyway.png?v=1739460550"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">CONSTELLATION NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/lacryma-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lacryma-ring/WhatsAppImage2025-03-11at13.07.20.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LACRYMA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">10000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/deep-blue-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/deep-blue-ring/deepbluering.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">DEEP BLUE RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">6700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/stellar-bloom-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/stellar-bloom-ring/WhatsAppImage2025-02-18at12.47.04.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">STELLAR BLOOM RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">680.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/night-sky-ring-black.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/night-sky-ring-black/bague3_7fb11904-5024-4904-ba93-8e33423c92a9.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">NIGHT SKY RING - BLACK</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/night-sky-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/night-sky-ring/baguemilkyway2_d5979336-311f-4b9e-9fd4-780fe581def2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">NIGHT SKY RING - WHITE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/stardust-finger-top-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/stardust-finger-top-ring/stardust_pink_gold_new.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">STARDUST FINGER-TOP RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">360.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/luna-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/luna-ring/bague4_7abb52ed-0ae3-4623-b132-07763db4630b.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LUNA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/nova-phalanx-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nova-phalanx-ring/BagueMilkyWay.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">NOVA FINGER-TOP RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">680.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/yellow-and-gold-phalanx-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/yellow-and-gold-phalanx-ring/BagueMilkyway2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">SUPERNOVA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">Sur demande</p>
+                </div>
+            </a>
+            <a href="produits/diabolo-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/diabolo-earrings/Sanstitre-10.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">DIABOLO EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">7400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/recif-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/recif-bracelet/Sanstitre-2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">RÉCIF BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">7700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/icefall-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/daydreaming-necklace/Sanstitre-5_1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ICEFALL EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/coral-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/coral-ring/BagueWave2.2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">CORAL RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/ondes-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ondes-ring/Sanstitre-4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ONDES RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">5700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/mermaid-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="https://cdn.shopify.com/s/files/1/0905/4394/8040/files/Sanstitre-3.png?v=1738071673"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">MERMAID EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">6500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/calchedony-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calchedony-earrings/BO4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">GRAZIA EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/caramelle-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/caramelle-ring/Bague11.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">CARAMELLE RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">29000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/calla-lily-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/calla-lily-earrings/BO2_3262f8ee-f6e5-4119-9e01-6ccd9713f030.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">CALLA LILY EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">5900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/aqua-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/aqua-ring/Bague2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">AQUA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">16000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/ouranos-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-ring/Bague-2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">OURANOS RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">9200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/amazonia-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/amazonia-ring/Sanstitre-3_1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">AMAZONIA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">25000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/snake-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-earrings/BOHJ.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">SNAKE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">8950.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/african-flame-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/african-flame-ring/Sanstitre-6.2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">AFRICAN FLAME RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">6400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/umba-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/umba-ring/Bague3.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UMBA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">21500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/orbis-lacteus-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-ring/Bagueparaiba2views.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ORBIS LACTEUS RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">22900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/lagoon-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lagoon-ring/BagueHJ4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LAGOON RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">11000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/orbis-lacteus-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orbis-lacteus-earrings/BO_ee7ec99a-bb09-4256-93f8-bc92ec9bbb37.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ORBIS LACTEUS EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">8500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/orchid-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/orchid-ring/orchidbluewhite.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ORCHID RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">7200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/dolce-noche-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dolce-noche-ring/BagueHJ3.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">DOLCE NOCHE RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">19900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/prunelle-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/prunelle-ring/BagueHJ2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">PRUNELLE RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">9900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/rosea-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rosea-ring/Bague12.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ROSEA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">13000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/pink-opulence-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/pink-opulence-ring/BagueHJ5.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">PINK OPULENCE RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">16000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/pivoine-d-amour-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/pivoine-d-amour-ring/Sanstitre-4_1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">PIVOINE RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">39000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/red-s-devotion-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/red-s-devotion-ring/Sanstitre-2_1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">RED’S DEVOTION RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">70000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/nymphe-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nymphe-ring/Bague9.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ANTHEA SPINEL RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">34900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/burmese-dream-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/burmese-dream-ring/Bague7.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">BURMESES DREAM RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">26000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/crimson-charm-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/crimson-charm-ring/Bague5.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">CRIMSON CHARM RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">32000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/serenity-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-earrings/Sanstitre-8.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">SERENITY EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">17900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/serenity-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-ring/Sanstitre-1.2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">SERENITY RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">15900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/mogok-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mogok-ring/Bague4.2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">MOGOK RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">27000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/himalaya-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/himalaya-ring/WhatsApp_Image_2025-02-19_at_18.08.26.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">HIMALAYA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">46500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/love-potion-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/love-potion-ring/Bague6.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LOVE POTION RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">70000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/crimson-sunset-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/crimson-sunset-earrings/BO5.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">CRIMSON SUNSET EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">29000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tanzania-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tanzania-ring/Sanstitre-7.2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TANZANIA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">28000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tegula-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tegula-bracelet/BlaceletB_W.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TEGULA BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">42000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/zephyris-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/zephyris-ring/singularbague3_1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ZEPHYRIS RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace-mini.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mini/CollierEBpave.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ME & YOU NECKLACE - MINI</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">150.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace-mother-of-pearl.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl/CollierEB3.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ME & YOU NECKLACE - MOTHER-OF-PEARL</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/aqua-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/serenity-ring/Sanstitre-1.2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">AQUA NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3750.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace/WhatsAppImage2025-02-19at14.01.55.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ME & YOU NECKLACE - MOTHER-OF-PEARL & DIAMONDS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1800.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/daydreaming-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/daydreaming-necklace/Sanstitre-5_1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">DAYDREAMING NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">18500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/azura-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/azura-necklace/Collier2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">AZURA NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">19500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace-mother-of-pearl-silver-1.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-mother-of-pearl-silver-1/CollierEB4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ME & YOU NECKLACE - MOTHER-OF-PEARL & SILVER</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">180.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/delicate-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/delicate-necklace/Donutbleucollier.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">DELICATE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2800.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/eleganza-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eleganza-necklace/CollierDonut1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ELEGANZA NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/sweetheart-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sweetheart-necklace/CollierDonut3.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">SWEETHEART NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/snake-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/snake-necklace/Bijouxsiteweb.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">SNAKE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">7600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/whisper-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/whisper-necklace/CollierDonut4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">WHISPER NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/eternity-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/eternity-necklace/Collierprenite.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ETERNITY NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">15900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/deep-blue-pendant.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/deep-blue-pendant/deepbluenecklace.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">DEEP BLUE PENDANT</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">6500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/me-you-necklace-original.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/me-you-necklace-original/WhatsAppImage2025-02-19at13.57.16.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ME & YOU NECKLACE - ORIGINAL</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">380.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-necklace-white-gold.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace-white-gold/collierswansaphire2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TWILIGHT ELEGANCE NECKLACE - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">12000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/les-inseparables-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/les-inseparables-earrings/RNRstuds.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LES INSÉPARABLES EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1700.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/elisa-ear-cuff.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/elisa-ear-cuff/WhatsAppImage2025-02-18at13.42.58.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ELISA SINGLE EAR CUFF</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-necklace/CollierSwangold1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TWILIGHT ELEGANCE NECKLACE - YELLOW GOLD</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">30500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tandem-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings/BO1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TANDEM EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-earrings/BO2_e3c8f5b8-ae20-4358-bb32-66bf8ff056d5.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TWILIGHT ELEGANCE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">6000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/hold-up-ear-cuff.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/hold-up-ear-cuff/earcuff1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">HOLD UP SINGLE EAR CUFF</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/dr-jekyll-mr-hyde-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dr-jekyll-mr-hyde-earrings/WhatsAppImage2025-02-18at12.44.44.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">DR. JEKYLL & MR. HYDE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tandem-choker.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-choker/WhatsAppImage2025-02-13at16.04.58.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TANDEM CHOKER</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">15600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-single-ring-sapphire.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-single-ring-sapphire/BagueTwilight.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TWILIGHT ELEGANCE SINGLE RING - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2950.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tandem-earrings-studs.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-earrings-studs/WhatsAppImage2025-02-19at13.47.08.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TANDEM EARRINGS STUDS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/white-black-blues-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/white-black-blues-bracelet/Braceletspirale.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">WHITE & BLACK BLUES BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">19600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet-made-to-order-black-gold-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-6.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">L’ANAMOUR BRACELET - MADE-TO-ORDER - BLACK GOLD</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1830.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet-made-to-order-copie-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie) (Copie)</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1830.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet-made-to-order-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">L’ANAMOUR BRACELET - MADE-TO-ORDER (Copie)</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1830.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet-bespoke.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet-made-to-order-copie/Bracelet-4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">L’ANAMOUR BRACELET - MADE-TO-ORDER - WHITE GOLD</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1830.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/sensuelle-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sensuelle-bracelet/Bracelet-7.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">SENSUELLE BRACELET - DIAMOND</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">1900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/la-belle-et-le-blues-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/la-belle-et-le-blues-ring/Bague-3.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LA BELLE ET LE BLUES RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-double-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-bracelet/Bracelet-19.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TWILIGHT ELEGANCE DOUBLE BRACELET - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">5600.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-single-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-single-ring/Bague-4Gold.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TWILIGHT ELEGANCE SINGLE RING - DIAMOND</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2950.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/twilight-elegance-double-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/twilight-elegance-double-ring/Bague.5.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TWILIGHT ELEGANCE DOUBLE RING - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/bonnie-clyde-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bonnie-clyde-ring/Bague-1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">BONNIE & CLYDE RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tandem-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-ring/Bague-2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TANDEM RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tandem-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tandem-bracelet/Bracelet-18.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TANDEM BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">5000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/l-anamour-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/l-anamour-bracelet/Bracelet-1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">L’ANAMOUR BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/sapphire-single-bracelet.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/sapphire-single-bracelet/Sensuelle_blue_sapphire_bracelet_with_back_23f31774-652a-42fa-9254-d6b912fe8742.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">SENSUELLE BRACELET - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/initials-s-g-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/initials-s-g-necklace/Collier-2.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">INITIALS S.G NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/kiss-me-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/kiss-me-necklace/Collir-3.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">KISS ME NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/negative-blues-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/negative-blues-necklace/Collier-6.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">NEGATIVE BLUES NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">9000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/rock-n-rose-necklace-diamond.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-diamond/Collier-9.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ROCK’N ROSE NECKLACE – DIAMOND</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">8200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/ardoise-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ardoise-necklace/Collier-1.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ARDOISE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/melody-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/melody-necklace/Collier-5.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">MELODY NECKLACE-SOLD</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/rock-n-rose-necklace-spinel.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/rock-n-rose-necklace-spinel/Collier-8.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ROCK’N ROSE NECKLACE – SPINEL</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/lanthracite-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lanthracite-necklace/Collier-4.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">L'ANTHRACITE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3050.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/cosmos-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/cosmos-ring/Designsanstitre_15.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">COSMOS RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">Sur demande</p>
+                </div>
+            </a>
+            <a href="produits/safari-neclace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/safari-neclace/Screenshot2025-03-06at13.49.42.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">OPHIDIA  NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">6900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/ombre-celeste-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ombre-celeste-ring/Screenshot2025-02-24at15.52.30.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">CELESTE RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">6200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/mysteria-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/mysteria-ring/Screenshot2025-02-24at15.51.36.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">MYSTERIA RING - SAPPHIRE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">12800.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/nefertity-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/nefertity-earrings/Screenshot2025-02-21at12.53.40.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">NEFERTITY EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2400.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/loulou-earrings-1.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-earrings-1/Screenshot2025-02-24at14.38.40_ae269072-8598-4e3e-8c3c-6a4057634c9e.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ECLIPSE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">7200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/madame-iceberg-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/madame-iceberg-earrings/Screenshot2025-03-06at13.50.55.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">ONDARA EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/dramatica-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/dramatica-ring/WhatsAppImage2025-02-25at12.28.18.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">DRAMATICA RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">18000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/lotus-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/lotus-ring/WhatsAppImage2025-02-25at12.28.18_1.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LOTUS RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2550.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/loulou-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/loulou-necklace/Screenshot2025-02-24at14.36.32.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">LOULOU NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">Sur demande</p>
+                </div>
+            </a>
+            <a href="produits/phoenix-necklace-onyx.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-onyx/Phoenixnecklaceonyx.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">PHOENIX NECKLACE - Black Spinel</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">490.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/imperium-necklace-gold.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium-necklace-gold/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">IMPERIUM NECKLACE - GOLD & DIAMONDS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">39000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/imperium.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/imperium-necklace-gold/3_63d4f54a-a0e0-4aa7-b77a-b6d97ef40bcd.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">IMPERIUM NECKLACE - SILVER</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">887.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/unbreakable-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-silver/1_b9b7b776-1c95-4e2e-a623-0a65abbdec74.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">355.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/phoenix-necklace-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-copie/BIJOUXZULAYSITE.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">PHOENIX NECKLACE - GOLD & DIAMONDS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">4200.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/phoenix.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-necklace-copie/BIJOUXZULAYSITE.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">PHOENIX NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">420.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/unbreakable-white-black.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-white-black/9_ecfbc702-9d06-4d9b-84b6-41a1985678ab.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE NECKLACE - SILVER & BLACK</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">355.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/unbreakable-silver.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-silver/1_b9b7b776-1c95-4e2e-a623-0a65abbdec74.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">355.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/unbreakable-black-white.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-black-white/5_843956db-98ff-42b9-94ce-54c003d49c8a.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE NECKLACE - BLACK & SILVER</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">355.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/unbreakable-necklace-gold-diamonds.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-necklace-gold-diamonds/WhatsAppImage2025-07-30at12.39.57.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE NECKLACE - GOLD & DIAMONDS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3900.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/tella-necklace.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/tella-necklace/Tella.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">TELLA NECKLACE</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">2000000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/phoenix-ring.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-ring/6_a0fc6cea-1726-4b5f-bf4f-1d0086e6129d.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">PHOENIX RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">340.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/phoenix-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/phoenix-earrings/5_2ebff012-615d-4ff7-8670-d561d31de8ee.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">PHOENIX EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">210.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/unbreakable-earrings.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/unbreakable-earrings/BIJOUXZULAYSITE_3_e04e1f0d-8616-41bd-85b9-40edf0e44506.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE EARRINGS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">120.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/ring-unbreakable.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ring-unbreakable/1_9ba496c6-bf4a-4cfa-be5d-e1710fcff119.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE RING</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">300.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/bracelet-unbreakable.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/bracelet-unbreakable/3_e2d9b7f0-daf3-4f06-a6ee-2bff0d5254b0.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE BRACELET</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">840.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/olympia-copie.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/olympia/2_733f4f82-3fac-416f-bee6-53a55fcaf7bb.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">OLYMPIA NECKLACE - GOLD & DIAMONDS</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">220000.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/olympia.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/olympia/2_733f4f82-3fac-416f-bee6-53a55fcaf7bb.png"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">OLYMPIA</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">3500.00 CHF</p>
+                </div>
+            </a>
+            <a href="produits/ubreakable-pendant-only.html" style="text-decoration:none; color:inherit;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper"><img src="img/produits/ubreakable-pendant-only/Designsanstitre-2.jpg"></div>
+                    <span class="kicker" style="font-size: 0.6rem; letter-spacing: 0.3em; opacity: 0.7;">POUR ELLE</span>
+                    <h3 style="margin-top: 0.5rem;">UNBREAKABLE - PENDANT ONLY</h3>
+                    <p style="color:var(--muted); font-size:0.7rem; margin-top: 0.5rem; opacity: 0.8;">250.00 CHF</p>
+                </div>
+            </a>
+        </div>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="footer-social">
+            <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+        </div>
+
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+</body>
+</html>

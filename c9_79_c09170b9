@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPLICE BANGLE — Elke Berr Genève</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .product-container {
+            display: flex;
+            align-items: stretch;
+            min-height: calc(100vh - 80px);
+            margin-top: 80px;
+            background-color: var(--bg);
+            padding: 0;
+        }
+        .product-gallery-custom {
+            flex: 0 0 50%;
+            background-color: var(--bg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            box-sizing: border-box;
+            position: sticky;
+            top: 80px;
+            height: calc(100vh - 80px);
+            align-self: flex-start;
+        }
+        .product-gallery-wrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            width: 100%;
+            height: 70vh;
+            max-height: 600px;
+        }
+        .gallery-thumbnails {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 80px;
+            flex-shrink: 0;
+            justify-content: center;
+            overflow-y: auto;
+            scrollbar-width: none; /* Firefox */
+        }
+        .gallery-thumbnails::-webkit-scrollbar {
+            display: none; /* Safari and Chrome */
+        }
+        .thumbnail-item {
+            width: 80px;
+            height: 80px;
+            border: 1px solid var(--border);
+            cursor: pointer;
+            opacity: 0.6;
+            transition: all 0.3s var(--ease-out);
+            background-color: var(--bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.25rem;
+            box-sizing: border-box;
+        }
+        .thumbnail-item:hover {
+            opacity: 0.9;
+            border-color: rgba(28, 26, 22, 0.4);
+        }
+        .thumbnail-item.active {
+            opacity: 1;
+            border-color: var(--fg);
+        }
+        .thumbnail-item img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .gallery-main-view {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            border: 1px solid var(--border);
+            background-color: var(--bg);
+            overflow: hidden;
+            height: 100%;
+        }
+        .gallery-main-view img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            position: absolute;
+            opacity: 0;
+            transition: opacity 0.4s var(--ease-out), transform 0.4s var(--ease-out);
+            transform: scale(0.98);
+            pointer-events: none;
+        }
+        .gallery-main-view img.active {
+            opacity: 1;
+            transform: scale(1);
+            pointer-events: auto;
+            position: relative;
+        }
+        .product-info {
+            flex: 0 0 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 4rem 8% 4rem 4rem;
+            box-sizing: border-box;
+        }
+        .product-collection {
+            font-size: 0.7rem;
+            letter-spacing: 0.35em;
+            color: var(--accent);
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+        .product-title {
+            font-size: clamp(2rem, 3vw, 2.6rem);
+            font-family: var(--font-serif);
+            margin-bottom: 1rem;
+            font-weight: 400;
+            line-height: 1.25;
+            letter-spacing: 0.04em;
+            color: var(--fg);
+        }
+        .product-price {
+            font-size: 1.2rem;
+            color: var(--muted);
+            margin-bottom: 2rem;
+            font-weight: 300;
+            letter-spacing: 0.08em;
+            font-family: var(--font-sans);
+        }
+        .product-description {
+            font-size: 0.9rem;
+            line-height: 1.9;
+            color: var(--fg);
+            margin-bottom: 2.5rem;
+            font-weight: 300;
+            max-width: 440px;
+        }
+        .product-description p {
+            margin-bottom: 0.8rem;
+        }
+        .variant-selection {
+            margin-bottom: 2.5rem;
+            max-width: 420px;
+            border-top: 1px solid var(--border);
+            padding-top: 1.5rem;
+        }
+        .selector-group {
+            margin-bottom: 1.5rem;
+        }
+        .selector-group:last-child {
+            margin-bottom: 0;
+        }
+        .selector-label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--muted);
+            margin-bottom: 0.75rem;
+            font-family: var(--font-sans);
+        }
+        .selector-label span {
+            color: var(--fg);
+            font-weight: 400;
+        }
+        .swatches-row {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .swatch-item {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s var(--ease-out);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        .swatch-item::after {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            transition: all 0.3s var(--ease-out);
+        }
+        .swatch-item:hover::after {
+            border-color: rgba(28, 26, 22, 0.2);
+        }
+        .swatch-item.active::after {
+            border-color: var(--fg);
+        }
+        .options-row {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .option-btn {
+            padding: 0.75rem 1.5rem;
+            border: 1px solid var(--border);
+            background-color: transparent;
+            color: var(--fg);
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-family: var(--font-sans);
+            cursor: pointer;
+            transition: all 0.3s var(--ease-out);
+        }
+        .option-btn:hover:not(:disabled) {
+            border-color: var(--fg);
+        }
+        .option-btn.active {
+            border-color: var(--fg);
+            background-color: var(--fg);
+            color: var(--bg);
+        }
+        .option-btn:disabled {
+            cursor: default;
+            opacity: 0.8;
+        }
+        .actions-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+            max-width: 420px;
+            margin-bottom: 2.5rem;
+        }
+        .btn-add-cart {
+            padding: 1.25rem;
+            background-color: var(--fg);
+            color: var(--bg);
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            font-size: 0.65rem;
+            transition: all 0.4s var(--ease-out);
+            cursor: pointer;
+            border: 1px solid var(--fg);
+            font-family: var(--font-sans);
+            font-weight: 400;
+        }
+        .btn-add-cart:hover {
+            background-color: transparent;
+            color: var(--fg);
+        }
+        .btn-bespoke {
+            padding: 1.25rem;
+            background-color: transparent;
+            color: var(--fg);
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            font-size: 0.65rem;
+            transition: all 0.4s var(--ease-out);
+            cursor: pointer;
+            border: 1px solid var(--border);
+            font-family: var(--font-sans);
+            font-weight: 400;
+        }
+        .btn-bespoke:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        .spec-list {
+            margin-top: 3rem;
+            border-top: 1px solid var(--border);
+            padding-top: 2rem;
+            max-width: 420px;
+        }
+        .spec-item {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            margin-bottom: 1.2rem;
+            color: var(--muted);
+            font-family: var(--font-sans);
+        }
+        .spec-item span:last-child {
+            color: var(--fg);
+            font-weight: 400;
+            text-align: right;
+        }
+        @media (max-width: 900px) {
+            .product-container { 
+                flex-direction: column; 
+                height: auto;
+                margin-top: 80px;
+            }
+            .product-gallery-custom { 
+                width: 100%; 
+                height: auto; 
+                padding: 2rem; 
+                position: relative;
+                top: auto;
+            }
+            .product-gallery-wrapper {
+                flex-direction: column-reverse;
+                height: auto;
+                gap: 1.5rem;
+            }
+            .gallery-thumbnails {
+                flex-direction: row;
+                width: 100%;
+                justify-content: center;
+            }
+            .gallery-main-view {
+                aspect-ratio: 1;
+                height: 50vh;
+                width: 100%;
+            }
+            .product-info { 
+                width: 100%;
+                height: auto;
+                padding: 3rem 8%; 
+            }
+            .product-description,
+            .variant-selection,
+            .actions-group,
+            .spec-list {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION BAR MARKER (will be replaced by update_horizontal_v2.py) -->
+                                <nav class="nav-bar">
+        <a href="../index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="../index.html">Accueil</a></li>
+            <li>
+                <a href="../unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="../unbreakable.html">Unbreakable</a>
+                    <a href="../unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="../unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="../unbreakable-story.html">L'Histoire</a>
+                    <a href="../unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="../private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="../haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="../haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="../haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="../haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="../haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="../haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="../bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="../bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="../bagues.html">Bagues</a></li>
+                            <li><a href="../colliers.html">Colliers</a></li>
+                            <li><a href="../boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="../bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="../rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="../rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="../singular.html">Singular</a></li>
+                            <li><a href="../mysteria.html">Mysteria</a></li>
+                            <li><a href="../waves.html">Waves</a></li>
+                            <li><a href="../dolce.html">Dolce</a></li>
+                            <li><a href="../me-you.html">Me & You</a></li>
+                            <li><a href="../milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="../gift-idea-1.html">Idées Cadeaux</a></li>
+                            <li><a href="../pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="../news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="../news.html">Actualités</a>
+                    <a href="../presse.html">Presse</a>
+                    <a href="../evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="../maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="../maison.html">La Maison</a>
+                    <a href="../maison-histoire.html">Notre Histoire</a>
+                    <a href="../maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="../private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="../js/main.js"></script>
+
+    <div class="product-container">
+        <!-- Gallery -->
+        <div class="product-gallery-custom">
+            <div class="product-gallery-wrapper">
+                <div class="gallery-thumbnails">
+                                        <div class="thumbnail-item active" data-index="0">
+                        <img src="../img/produits/complice-bangle/11.png" alt="COMPLICE BANGLE miniature 1">
+                    </div>
+                    <div class="thumbnail-item " data-index="1">
+                        <img src="../img/produits/complice-bangle/12.png" alt="COMPLICE BANGLE miniature 2">
+                    </div>
+                    <div class="thumbnail-item " data-index="2">
+                        <img src="https://cdn.shopify.com/s/files/1/0905/4394/8040/files/13.png?v=1746694244" alt="COMPLICE BANGLE miniature 3">
+                    </div>
+                    <div class="thumbnail-item " data-index="3">
+                        <img src="https://cdn.shopify.com/s/files/1/0905/4394/8040/files/7_d361df11-e9d9-4b6e-9ddb-16eea1ebf7c9.png?v=1747216543" alt="COMPLICE BANGLE miniature 4">
+                    </div>
+
+                </div>
+                <div class="gallery-main-view">
+                                        <img src="../img/produits/complice-bangle/11.png" id="main-img-0" class="active" alt="COMPLICE BANGLE vue 1">
+                    <img src="../img/produits/complice-bangle/12.png" id="main-img-1" class="" alt="COMPLICE BANGLE vue 2">
+                    <img src="https://cdn.shopify.com/s/files/1/0905/4394/8040/files/13.png?v=1746694244" id="main-img-2" class="" alt="COMPLICE BANGLE vue 3">
+                    <img src="https://cdn.shopify.com/s/files/1/0905/4394/8040/files/7_d361df11-e9d9-4b6e-9ddb-16eea1ebf7c9.png?v=1747216543" id="main-img-3" class="" alt="COMPLICE BANGLE vue 4">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Info -->
+        <div class="product-info reveal">
+            <span class="product-collection">BIJOUX</span>
+            <h1 class="product-title">COMPLICE BANGLE</h1>
+            <div class="product-price" id="variant-price-display">4,100.00 CHF</div>
+            
+            <div class="product-description">
+                <p class="cvGsUA direction-ltr align-justify para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Un élégant bracelet en or 18 carats avec 0,18 carats de diamants, doté d'un fermoir astucieusement caché pour une silhouette épurée et moderne.</span><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap"> </span></p>
+<p class="cvGsUA direction-ltr align-justify para-style-body"><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">Porté près du poignet, ce bracelet nécessite une taille précise pour garantir un ajustement parfait et sur mesure. <strong>Veuillez ajouter la taille de votre poignet lors du paiement dans la zone de note</strong></span></p>
+<p><em>Veuillez noter que les pierres précieuses naturelles étant intrinsèquement uniques, de légères variations de poids, de couleur et de forme peuvent survenir (veuillez nous contacter pour toute demande spécifique).</em></p>
+<p><em><meta charset="utf-8">Veuillez noter que cette pièce nécessite 4 à 6 semaines de travail artisanal avant la livraison.</em></p>
+            </div>
+            
+            <!-- Options de Personnalisation -->
+            <div class="variant-selection" id="variant-selector-container"></div>
+            
+            <div class="actions-group">
+                <button class="btn-add-cart" onclick="alert('Simulation: Produit ajouté au panier')">Acheter en ligne</button>
+                <button class="btn-bespoke" onclick="location.href='../contact.html'">Prendre rendez-vous</button>
+            </div>
+            
+            <div class="spec-list">
+                <div class="spec-item">
+                    <span>Provenance</span>
+                    <span>Ateliers Genevois</span>
+                </div>
+                <div class="spec-item">
+                    <span>Métal</span>
+                    <span id="spec-metal-val">Gold</span>
+                </div>
+                <div class="spec-item">
+                    <span>Pierres</span>
+                    <span>Diamant</span>
+                </div>
+            </div>
+            
+            <p style="margin-top: 4rem; font-size: 0.65rem; color: var(--muted); line-height: 1.6; font-style: italic;">
+                Chaque création est unique. Des variations de couleur et de texture peuvent apparaître sur les pierres naturelles.
+            </p>
+        </div>
+    </div>
+
+        <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="../haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="../unbreakable.html">Unbreakable</a></li>
+                    <li><a href="../bijoux.html">Bijoux</a></li>
+                    <li><a href="../private-jeweller.html">Joaillerie Privée</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="../maison.html">Notre Histoire</a></li>
+                    <li><a href="../maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="../news.html">Actualités</a></li>
+                    <li><a href="../presse.html">Presse</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="../mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="../confidentialite.html">Confidentialité</a></li>
+                    <li><a href="../cgv.html">CGV</a></li>
+                    <li><a href="../livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+                </a>
+            </div>
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+
+    <script id="product-variants-data" type="application/json">
+        {
+  "hasColors": true,
+  "hasSizes": false,
+  "hasOther": false,
+  "otherName": "",
+  "colors": [
+    {
+      "value": "rose-gold",
+      "label": "Ou Rose 18ct",
+      "hex": "#EBC4B7",
+      "spec": "Or Rose 18k",
+      "imageIndex": 2
+    },
+    {
+      "value": "or",
+      "label": "Ou Jaune 18ct",
+      "hex": "#DCA637",
+      "spec": "Or Jaune 18k",
+      "imageIndex": 0
+    },
+    {
+      "value": "argent",
+      "label": "Argent 925",
+      "hex": "#CCCCCC",
+      "spec": "Argent 925 Rhodié",
+      "imageIndex": 1
+    },
+    {
+      "value": "gold-white-gold",
+      "label": "Ou Blanc 18ct",
+      "hex": "#DCDCDC",
+      "spec": "Or Blanc 18k",
+      "imageIndex": 3
+    }
+  ],
+  "sizes": [],
+  "otherOptions": [],
+  "variants": [
+    {
+      "color": "rose-gold",
+      "size": null,
+      "other": null,
+      "price": "4,100.00 CHF",
+      "imageIndex": 2
+    },
+    {
+      "color": "or",
+      "size": null,
+      "other": null,
+      "price": "4,100.00 CHF",
+      "imageIndex": 0
+    },
+    {
+      "color": "argent",
+      "size": null,
+      "other": null,
+      "price": "4,100.00 CHF",
+      "imageIndex": 1
+    },
+    {
+      "color": "gold-white-gold",
+      "size": null,
+      "other": null,
+      "price": "4,100.00 CHF",
+      "imageIndex": 3
+    }
+  ]
+}
+    </script>
+
+    <script>
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('reveal');
+            });
+        }, observerOptions);
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Moteur de Variantes & Galerie Universelle
+        document.addEventListener('DOMContentLoaded', () => {
+            const thumbnails = document.querySelectorAll('.thumbnail-item');
+            const mainImages = document.querySelectorAll('.gallery-main-view img');
+            
+            function showImage(index) {
+                if (index === null || index === undefined || index === -1 || index === "") return;
+                thumbnails.forEach(thumb => thumb.classList.remove('active'));
+                mainImages.forEach(img => img.classList.remove('active'));
+                
+                const selectedThumb = document.querySelector(`.thumbnail-item[data-index="${index}"]`);
+                const selectedImg = document.getElementById(`main-img-${index}`);
+                
+                if (selectedThumb) selectedThumb.classList.add('active');
+                if (selectedImg) selectedImg.classList.add('active');
+            }
+            
+            thumbnails.forEach(thumb => {
+                thumb.addEventListener('click', () => {
+                    const index = thumb.getAttribute('data-index');
+                    showImage(index);
+                });
+            });
+
+            // Parse variants data
+            const rawData = document.getElementById('product-variants-data').textContent;
+            let variantsData = null;
+            try {
+                variantsData = JSON.parse(rawData);
+            } catch (e) {
+                console.log('No variant data or failed parsing:', e);
+            }
+
+            if (variantsData) {
+                const container = document.getElementById('variant-selector-container');
+                const priceDisplay = document.getElementById('variant-price-display');
+                const metalSpec = document.getElementById('spec-metal-val');
+                
+                let selectedColor = null;
+                let selectedSize = null;
+                let selectedOther = null;
+
+                function updateSelection() {
+                    if (!variantsData.variants) return;
+                    
+                    // Find matching variant
+                    const match = variantsData.variants.find(v => {
+                        let colorMatch = !variantsData.hasColors || v.color === selectedColor;
+                        let sizeMatch = !variantsData.hasSizes || v.size === selectedSize;
+                        let otherMatch = !variantsData.hasOther || v.other === selectedOther;
+                        return colorMatch && sizeMatch && otherMatch;
+                    });
+
+                    if (match) {
+                        if (priceDisplay && match.price) {
+                            priceDisplay.textContent = match.price;
+                        }
+                        if (match.imageIndex !== undefined && match.imageIndex !== -1 && match.imageIndex !== "") {
+                            showImage(match.imageIndex);
+                        }
+                    }
+                }
+
+                // 1. Build Colors swatch group
+                if (variantsData.hasColors && variantsData.colors && variantsData.colors.length > 0) {
+                    const grp = document.createElement('div');
+                    grp.className = 'selector-group';
+                    
+                    const lbl = document.createElement('div');
+                    lbl.className = 'selector-label';
+                    lbl.innerHTML = `Couleur de l'or : <span id="color-name-label"></span>`;
+                    grp.appendChild(lbl);
+                    
+                    const row = document.createElement('div');
+                    row.className = 'swatches-row';
+                    
+                    variantsData.colors.forEach((c, idx) => {
+                        const item = document.createElement('div');
+                        item.className = 'swatch-item';
+                        if (idx === 0) {
+                            item.classList.add('active');
+                            selectedColor = c.value;
+                            lbl.querySelector('span').textContent = c.label;
+                            if (metalSpec && c.spec) metalSpec.textContent = c.spec;
+                        }
+                        item.style.backgroundColor = c.hex || '#D4AF37';
+                        item.title = c.label;
+                        
+                        item.addEventListener('click', () => {
+                            row.querySelectorAll('.swatch-item').forEach(s => s.classList.remove('active'));
+                            item.classList.add('active');
+                            selectedColor = c.value;
+                            lbl.querySelector('span').textContent = c.label;
+                            
+                            // Specific gold type mapping to spec metal
+                            if (metalSpec) {
+                                if (c.value.includes('rose')) metalSpec.textContent = 'Or Rose 18K';
+                                else if (c.value.includes('jaune') || c.value.includes('yellow')) metalSpec.textContent = 'Or Jaune 18K';
+                                else if (c.value.includes('blanc') || c.value.includes('white')) metalSpec.textContent = 'Or Blanc 18K';
+                                else if (c.spec) metalSpec.textContent = c.spec;
+                            }
+                            
+                            if (c.imageIndex !== undefined && c.imageIndex !== -1 && c.imageIndex !== "") {
+                                showImage(c.imageIndex);
+                            }
+                            
+                            updateSelection();
+                        });
+                        row.appendChild(item);
+                    });
+                    grp.appendChild(row);
+                    container.appendChild(grp);
+                }
+
+                // 2. Build Other Options (e.g. Chain Design)
+                if (variantsData.hasOther && variantsData.otherOptions && variantsData.otherOptions.length > 0) {
+                    const grp = document.createElement('div');
+                    grp.className = 'selector-group';
+                    
+                    const lbl = document.createElement('div');
+                    lbl.className = 'selector-label';
+                    lbl.innerHTML = `${variantsData.otherName || 'Option'} : <span id="other-name-label"></span>`;
+                    grp.appendChild(lbl);
+                    
+                    const row = document.createElement('div');
+                    row.className = 'options-row';
+                    
+                    variantsData.otherOptions.forEach((o, idx) => {
+                        const btn = document.createElement('button');
+                        btn.className = 'option-btn';
+                        if (idx === 0) {
+                            btn.classList.add('active');
+                            selectedOther = o.value;
+                            lbl.querySelector('span').textContent = o.label;
+                        }
+                        btn.textContent = o.label;
+                        
+                        btn.addEventListener('click', () => {
+                            row.querySelectorAll('.option-btn').forEach(b => b.classList.remove('active'));
+                            btn.classList.add('active');
+                            selectedOther = o.value;
+                            lbl.querySelector('span').textContent = o.label;
+                            
+                            if (o.imageIndex !== undefined && o.imageIndex !== -1 && o.imageIndex !== "") {
+                                showImage(o.imageIndex);
+                            }
+                            
+                            updateSelection();
+                        });
+                        row.appendChild(btn);
+                    });
+                    grp.appendChild(row);
+                    container.appendChild(grp);
+                }
+
+                // 3. Build Sizes buttons
+                if (variantsData.hasSizes && variantsData.sizes && variantsData.sizes.length > 0) {
+                    const grp = document.createElement('div');
+                    grp.className = 'selector-group';
+                    
+                    const lbl = document.createElement('div');
+                    lbl.className = 'selector-label';
+                    lbl.innerHTML = `Taille : <span id="size-name-label"></span>`;
+                    grp.appendChild(lbl);
+                    
+                    const row = document.createElement('div');
+                    row.className = 'options-row';
+                    
+                    variantsData.sizes.forEach((s, idx) => {
+                        const btn = document.createElement('button');
+                        btn.className = 'option-btn';
+                        if (idx === 0) {
+                            btn.classList.add('active');
+                            selectedSize = s.value;
+                            lbl.querySelector('span').textContent = s.label;
+                        }
+                        btn.textContent = s.label;
+                        
+                        btn.addEventListener('click', () => {
+                            row.querySelectorAll('.option-btn').forEach(b => b.classList.remove('active'));
+                            btn.classList.add('active');
+                            selectedSize = s.value;
+                            lbl.querySelector('span').textContent = s.label;
+                            
+                            updateSelection();
+                        });
+                        row.appendChild(btn);
+                    });
+                    grp.appendChild(row);
+                    container.appendChild(grp);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

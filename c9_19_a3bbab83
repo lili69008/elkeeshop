@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savoir-Faire — Maison Elke Berr Genève</title>
+    <meta name="description" content="Découvrez l'excellence de l'artisanat genevois et l'œil de l'expert gemmologue Elke Berr.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap">
+</head>
+<body class="bg-white">
+
+    <!-- Header Navigation -->
+    <nav class="nav reveal">
+        <div class="nav-logo">
+            <a href="index.html">
+                <span class="logo-main">ELKE BERR</span>
+                <span class="logo-sub">GENÈVE</span>
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li class="has-mega">
+                <a href="unbreakable.html">Collections</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Unbreakable</h4>
+                        <ul>
+                            <li><a href="unbreakable.html">L'Univers Unbreakable</a></li>
+                            <li><a href="unbreakable-story.html">L'Histoire</a></li>
+                            <li><a href="unbreakable-zulay.html">Édition Zulay</a></li>
+                            <li><a href="unbreakable-paul.html">Édition Paul</a></li>
+                            <li><a href="unbreakable-villa.html">Lancement Villa Forbes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Toute la Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    <!-- Hero Section -->
+    <div class="hero-video-container hero-collection">
+        <video autoplay muted loop playsinline class="video-full-bg">
+            <source src="img/videos/78a9e26ace7b4160a614f82bf3b37297.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="kicker kicker--light">MAISON ELKE BERR GENÈVE</span>
+            <h1>SAVOIR-FAIRE</h1>
+            <div class="hero-divider"></div>
+        </div>
+    </div>
+
+    <!-- Intro Section -->
+    <section class="story-section airy-section reveal">
+        <span class="kicker">PHILOSOPHIE</span>
+        <h2 style="font-size: 3.5rem; margin-bottom: 4rem;">L'ART DE RÉVÉLER LA PIERRE</h2>
+        <div style="width: 1px; height: 100px; background: var(--border); margin: 0 auto 5rem;"></div>
+        <p style="font-size: 1.4rem; line-height: 2; max-width: 850px; margin: 0 auto; color: var(--fg); font-family: var(--font-serif); font-style: italic;">
+            "Chaque gemme est une œuvre d'art brute façonnée par la nature durant des millions d'années. Notre mission est d'écouter sa structure, sa couleur et sa lumière pour lui offrir une monture qui sublime son essence sans jamais l'étouffer."
+        </p>
+    </section>
+
+    <!-- Expert Section -->
+    <section class="airy-section reveal" style="background: var(--bg-alt);">
+        <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 8vw; align-items: center; max-width: 1400px; margin: 0 auto; padding: 0 5vw;">
+            <div style="position: relative;">
+                <video autoplay muted loop playsinline style="width: 100%; box-shadow: 0 50px 100px rgba(0,0,0,0.1);">
+                    <source src="img/videos/78a9e26ace7b4160a614f82bf3b37297.mp4" type="video/mp4">
+                </video>
+                <div style="position: absolute; top: -30px; right: -30px; width: 50%; height: 50%; border: 1px solid var(--accent); z-index: -1;"></div>
+            </div>
+            <div>
+                <span class="kicker">GEMMOLOGIE</span>
+                <h2 style="font-size: 2.8rem; margin-bottom: 2.5rem; font-family: var(--font-serif);">L'Œil de l'Expert</h2>
+                <p style="color: var(--muted); font-size: 1.05rem; line-height: 2.2; margin-bottom: 3rem;">
+                    Fille de diamantaire et gemmologue diplômée, Elke Berr sélectionne personnellement chaque pierre à travers le monde. Cette expertise scientifique permet de garantir non seulement l'authenticité et la qualité exceptionnelle des gemmes, mais aussi leur provenance éthique.
+                </p>
+                <ul style="list-style: none; display: flex; flex-direction: column; gap: 1.5rem; color: var(--fg); font-size: 0.9rem; letter-spacing: 0.05em;">
+                    <li>— Sélection rigoureuse à la source</li>
+                    <li>— Analyse spectrale et inclusions</li>
+                    <li>— Certification par les laboratoires les plus prestigieux</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artisanat Section -->
+    <section class="airy-section reveal">
+        <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 8vw; align-items: center; max-width: 1400px; margin: 0 auto; padding: 0 5vw;">
+            <div>
+                <span class="kicker">ARTISANAT</span>
+                <h2 style="font-size: 2.8rem; margin-bottom: 2.5rem; font-family: var(--font-serif);">L'Excellence Genevoise</h2>
+                <p style="color: var(--muted); font-size: 1.05rem; line-height: 2.2; margin-bottom: 3rem;">
+                    Nos pièces sont façonnées à la main dans le respect des traditions de la Haute Joaillerie suisse. Chaque sertissage est une prouesse technique visant à maximiser le passage de la lumière à travers la pierre, créant un éclat incomparable.
+                </p>
+                <div style="width: 60px; height: 1px; background: var(--accent); margin-bottom: 2rem;"></div>
+                <p style="font-weight: 500; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.2em;">Fait main à Genève</p>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <img src="img/launch_elke.jpg" style="width: 100%; aspect-ratio: 1; object-fit: cover; box-shadow: 0 20px 40px rgba(0,0,0,0.05);">
+                <img src="img/unbreakable_sketch.png" style="width: 100%; aspect-ratio: 1; object-fit: cover; margin-top: 4rem; box-shadow: 0 20px 40px rgba(0,0,0,0.05);">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-col">
+                    <h4>Collections</h4>
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                    <a href="bijoux.html">Bijoux</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Maison</h4>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html" class="active">Savoir-Faire</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ELKE BERR GENÈVE. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

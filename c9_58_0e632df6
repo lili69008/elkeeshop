@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elke Berr Genève dans la presse — revue de presse complète, parutions et couvertures médias de la Maison de joaillerie.">
+    <title>Revue de Presse — Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* ── HERO ── */
+        .press-hero {
+            position: relative;
+            height: 60vh;
+            min-height: 450px;
+            overflow: hidden;
+            background-color: var(--bg-alt); /* Harmony ivory tint fallback */
+        }
+        .press-hero-img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+            filter: brightness(0.9);
+        }
+        .press-hero-overlay {
+            position: absolute; inset: 0;
+            background: linear-gradient(to bottom, rgba(250,250,247,0.1) 0%, var(--bg) 100%);
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: flex-end;
+            padding-bottom: 6rem; text-align: center;
+        }
+        .press-hero-overlay .kicker { 
+            color: var(--accent, #2A6355); 
+            letter-spacing: 0.5em;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+        .press-hero-overlay h1 {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            letter-spacing: 0.25em;
+            color: var(--fg, #1C1A16);
+            font-family: var(--font-serif);
+            font-weight: 300;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        /* ── INTRO ── */
+        .press-intro {
+            max-width: 800px;
+            margin: 7rem auto;
+            text-align: center;
+            padding: 0 5%;
+        }
+        .press-intro p {
+            color: var(--muted, #7A7166);
+            font-weight: 300;
+            line-height: 2.1;
+            font-size: 1.15rem;
+            letter-spacing: 0.02em;
+        }
+        .press-divider {
+            width: 50px; height: 1px;
+            background: var(--accent, #2A6355);
+            margin: 3.5rem auto;
+        }
+
+        /* ── FEATURED ── */
+        .press-featured {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 0;
+            max-width: 1400px;
+            margin: 0 auto 9rem;
+            padding: 0 5%;
+            background: var(--bg-alt, #F2EFE7);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.04);
+            border: 1px solid var(--border, #E2DDD6);
+        }
+        .press-featured-img {
+            aspect-ratio: 16/10;
+            overflow: hidden;
+            position: relative;
+        }
+        .press-featured-img img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            transition: transform 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+        .press-featured:hover .press-featured-img img { transform: scale(1.04); }
+        .press-featured-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5rem 6rem;
+        }
+        .press-featured-text .press-pub {
+            font-size: 0.7rem;
+            letter-spacing: 0.5em;
+            color: var(--accent, #2A6355);
+            text-transform: uppercase;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+        }
+        .press-featured-text .press-date {
+            font-size: 0.7rem;
+            letter-spacing: 0.25em;
+            color: var(--muted, #7A7166);
+            text-transform: uppercase;
+            margin-bottom: 2.5rem;
+        }
+        .press-featured-text h2 {
+            font-family: var(--font-serif);
+            font-size: clamp(1.8rem, 3vw, 2.6rem);
+            font-weight: 300;
+            line-height: 1.35;
+            letter-spacing: 0.02em;
+            margin-bottom: 2.2rem;
+            color: var(--fg, #1C1A16);
+        }
+        .press-featured-text p {
+            color: var(--muted, #7A7166);
+            font-size: 0.95rem;
+            line-height: 2;
+            font-style: normal;
+            margin-bottom: 3rem;
+        }
+        .press-btn {
+            align-self: flex-start;
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            color: var(--fg, #1C1A16);
+            text-decoration: none;
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            font-weight: 500;
+            border-bottom: 1px solid var(--accent, #2A6355);
+            padding-bottom: 0.6rem;
+            transition: all 0.4s ease;
+        }
+        .press-btn:hover {
+            color: var(--accent, #2A6355);
+            border-color: var(--fg, #1C1A16);
+            padding-left: 0.5rem;
+        }
+
+        /* ── GRID ── */
+        .press-section-title {
+            text-align: center;
+            padding: 0 5% 5rem;
+        }
+        .press-section-title h2 {
+            font-family: var(--font-serif);
+            font-size: 2.2rem;
+            font-weight: 300;
+            letter-spacing: 0.08em;
+            color: var(--fg, #1C1A16);
+            margin-top: 0.5rem;
+        }
+        .press-section-title .kicker {
+            font-size: 0.7rem;
+            letter-spacing: 0.4em;
+            color: var(--accent, #2A6355);
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .press-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 5% 9rem;
+        }
+        .press-card {
+            background: #ffffff;
+            border: 1px solid var(--border, #E2DDD6);
+            padding: 1.5rem;
+            opacity: 0;
+            transform: translateY(30px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+            transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), background 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+        }
+        .press-card.reveal { opacity: 1; transform: translateY(0); }
+        .press-card:hover {
+            background: var(--bg-alt, #F2EFE7);
+            border-color: var(--accent-light, #3D7E6E);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+        }
+        .press-card-img {
+            width: 100%;
+            aspect-ratio: 3/4;
+            overflow: hidden;
+            position: relative;
+            background: #f7f7f7;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+        .press-card-img img {
+            width: 100%; height: 100%;
+            object-fit: cover;
+            transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+        .press-card:hover .press-card-img img { transform: scale(1.05); }
+        .press-card-meta {
+            padding: 2rem 0.5rem 0.5rem;
+        }
+        .press-card-meta .pub {
+            font-size: 0.6rem;
+            letter-spacing: 0.4em;
+            color: var(--accent, #2A6355);
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 0.4rem;
+            font-weight: 600;
+        }
+        .press-card-meta .date {
+            font-size: 0.6rem;
+            letter-spacing: 0.25em;
+            color: var(--muted, #7A7166);
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 1.5rem;
+        }
+        .press-card-meta h3 {
+            font-family: var(--font-serif);
+            font-size: 1.3rem;
+            font-weight: 300;
+            letter-spacing: 0.03em;
+            line-height: 1.4;
+            margin-bottom: 1.2rem;
+            color: var(--fg, #1C1A16);
+        }
+        .press-card-meta p {
+            font-size: 0.88rem;
+            color: var(--muted, #7A7166);
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        /* ── PRODUCT EDITORIAL ROW ── */
+        .press-product-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            max-width: 1400px;
+            margin: 0 auto 9rem;
+            padding: 0 5%;
+        }
+        .press-product-item {
+            padding: 1.5rem;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease, transform 0.8s ease, background 0.4s ease, border-color 0.4s ease;
+            background: #ffffff;
+            border: 1px solid var(--border, #E2DDD6);
+        }
+        .press-product-item.reveal { opacity: 1; transform: translateY(0); }
+        .press-product-item img {
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: contain;
+            background: #f7f7f7;
+            padding: 1.5rem;
+            transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+        }
+        .press-product-item:hover img {
+            transform: scale(1.05);
+        }
+        .press-product-item span {
+            display: block;
+            margin-top: 1.5rem;
+            font-size: 0.65rem;
+            letter-spacing: 0.3em;
+            text-transform: uppercase;
+            color: var(--fg, #1C1A16);
+            font-weight: 500;
+        }
+        .press-product-item:hover {
+            background: var(--bg-alt, #F2EFE7);
+            border-color: var(--accent, #2A6355);
+        }
+
+        /* ── CONTACT PRESSE ── */
+        .press-contact {
+            background: var(--bg-alt, #F2EFE7);
+            text-align: center;
+            padding: 9rem 5%;
+            border-top: 1px solid var(--border, #E2DDD6);
+        }
+        .press-contact h2 {
+            font-family: var(--font-serif);
+            font-size: 2.2rem;
+            font-weight: 300;
+            letter-spacing: 0.08em;
+            margin-bottom: 2.5rem;
+            color: var(--fg, #1C1A16);
+        }
+        .press-contact p {
+            color: var(--muted, #7A7166);
+            line-height: 2.2;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+        .press-contact a {
+            color: var(--accent, #2A6355);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .press-contact a:hover {
+            border-color: var(--accent, #2A6355);
+            padding-bottom: 0.2rem;
+        }
+
+        @media (max-width: 1100px) {
+            .press-grid { grid-template-columns: repeat(2, 1fr); }
+            .press-product-row { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .press-featured { grid-template-columns: 1fr; }
+            .press-featured-text { padding: 4rem 5%; }
+            .press-grid { grid-template-columns: 1fr; }
+            .press-product-row { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="selections.html">Idées Cadeaux</a></li>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    <!-- HERO -->
+    <div class="press-hero">
+        <img class="press-hero-img" src="img/presse/incolor_2025.png" alt="Revue de presse Elke Berr">
+        <div class="press-hero-overlay">
+            <span class="kicker">MÉDIAS &amp; PARUTIONS</span>
+            <h1>PRESSE</h1>
+        </div>
+    </div>
+
+    <!-- INTRO -->
+    <div class="press-intro">
+        <p>L'excellence créative et l'expertise gemmologique de la Maison Elke Berr célébrées par la presse internationale de luxe et de haute spécialité. Une rétrospective éditoriale témoignant d'un savoir-faire unique.</p>
+        <div class="press-divider"></div>
+    </div>
+
+    <!-- FEATURED ARTICLE -->
+    <div class="press-featured">
+        <div class="press-featured-img">
+            <img src="img/presse/incolor_2025.png" alt="INCOLOR 2025">
+        </div>
+        <div class="press-featured-text">
+            <span class="press-pub">À la Une / InColor Magazine</span>
+            <span class="press-date">Début 2025</span>
+            <h2>INCOLOR 2025 — « La joaillerie et la musique s'unissent pour donner une voix aux talents de demain. »</h2>
+            <p>Elke Berr Créations s'associe fièrement à l'organisation Opera for Peace pour soutenir et propulser les talents artistiques émergents à travers le monde. Cette collaboration unique explore la synergie créatrice et le pouvoir transformateur de la musique classique et de la haute joaillerie, célébrant l'excellence et la transmission du savoir-faire.</p>
+            <a href="presse-incolor-2025.html" class="press-btn">Lire l'article &rarr;</a>
+        </div>
+    </div>
+
+    <!-- PRESS GRID -->
+    <div class="press-section-title">
+        <span class="kicker">ARCHIVES ÉDITORIALES</span>
+        <h2>Revue de Presse</h2>
+        <div class="press-divider"></div>
+    </div>
+
+    <div class="press-grid">
+        
+        <div class="press-card">
+            <a href="presse-luxury-magazine-2024.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/luxury_magazine_2024.jpg" alt="Luxury Magazine 2024" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Luxury Magazine</span>
+                    <span class="date">Automne 2024</span>
+                    <h3>Luxury Magazine 2024</h3>
+                    <p>La Maison Elke Berr a été mise à l'honneur dans un grand portrait de huit pages au sein du prestigieux Luxury Magazine. Cet article exclusif...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-most-influential-women-of-the-world-2024.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/most_influential_women_of_the_world_2024.png" alt="Most Influential Women of the World 2024" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Most Influential Women</span>
+                    <span class="date">Été 2024</span>
+                    <h3>Most Influential Women of the World 2024</h3>
+                    <p>Ce dossier spécial met en lumière la brillante carrière d'Elke Berr en tant que gemmologue et visionnaire créative. Il souligne ses contribu...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-collectissm-magazine-2023.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/collectissm_magazine_2023.png" alt="Collectissm Magazine 2023" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Collectissim Magazine</span>
+                    <span class="date">Fin 2023</span>
+                    <h3>Collectissm Magazine 2023</h3>
+                    <p>Dans une double page exclusive (pages 26 et 27), Collectissim Magazine célèbre le parcours d'Elke Berr en tant que gemmologue et designer jo...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-gala-2023.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/gala_2023.png" alt="Gala 2023" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Gala</span>
+                    <span class="date">Automne 2023</span>
+                    <h3>Gala 2023</h3>
+                    <p>Elke Berr figure en place d'honneur dans la section très convoitée « Carnet d'Adresses » du magazine Gala. La publication recommande chaleur...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-bilan-2023.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/bilan_2023.png" alt="Bilan 2023" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Bilan Magazine</span>
+                    <span class="date">Printemps 2023</span>
+                    <h3>Bilan 2023</h3>
+                    <p>Le marché mondial de la joaillerie fine a connu d'importantes mutations. Dans cette interview approfondie pour le magazine économique suisse...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-europa-star-2022.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/europa_star_2022.jpg" alt="Europa Star 2022" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Europa Star</span>
+                    <span class="date">Fin 2022</span>
+                    <h3>Europa Star 2022</h3>
+                    <p>Dans cet entretien exclusif pour Europa Star, la gemmologue Elke Berr partage ses précieux secrets pour sélectionner les pierres les plus pu...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-incolor-2022.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/incolor_2022.jpg" alt="InColor 2022" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">InColor Magazine</span>
+                    <span class="date">Automne 2022</span>
+                    <h3>InColor 2022</h3>
+                    <p>Dans ce numéro spécial d'InColor, Elke Berr apporte son éclairage d'experte sur la restructuration des chaînes d'approvisionnement mondiales...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-tiempo-de-relojes-2022.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/tiempo_de_relojes_2022.png" alt="Tiempo de Relojes 2022" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Tiempo de Relojes</span>
+                    <span class="date">Printemps 2022</span>
+                    <h3>Tiempo de Relojes 2022</h3>
+                    <p>Pour la revue Tiempo de Relojes, Elke Berr explore avec objectivité l'essor des diamants de synthèse dans le paysage du luxe. Elle décrypte ...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-incolor-aw-2020.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/incolor_aw_2020.jpg" alt="InColor AW 2020" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">InColor Magazine</span>
+                    <span class="date">Hiver 2020</span>
+                    <h3>InColor AW 2020</h3>
+                    <p>L'édition Automne/Hiver d'InColor consacre un dossier aux pièces de la Maison Elke Berr. Les critiques saluent son habileté à marier des str...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-incolor-ss-2020.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/incolor_ss_2020.jpg" alt="InColor SS 2020" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">InColor Magazine</span>
+                    <span class="date">Été 2020</span>
+                    <h3>InColor SS 2020</h3>
+                    <p>Le numéro de prestige d'InColor met en scène les créations estivales d'Elke Berr. L'accent est mis sur son génie chromatique et sa capacité ...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-bilan-2019.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/bilan_2019.jpg" alt="Bilan 2019" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Bilan Magazine</span>
+                    <span class="date">Fin 2019</span>
+                    <h3>Bilan 2019</h3>
+                    <p>Elke Berr livre une analyse pointue dans les colonnes de Bilan sur la baisse globale de la demande pour les diamants bruts standard. Elle me...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-gala-croisette-2019.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/gala_croisette_2019.jpg" alt="Gala Croisette 2019" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Gala Croisette</span>
+                    <span class="date">Mai 2019</span>
+                    <h3>Gala Croisette 2019</h3>
+                    <p>Les parures de haute joaillerie signées Elke Berr ont fait sensation sur la Croisette. Portées avec grâce par la célèbre actrice Frédérique ...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-incolor-aw-2019.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/incolor_aw_2019.jpg" alt="InColor AW 2019" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">InColor Magazine</span>
+                    <span class="date">Automne 2019</span>
+                    <h3>InColor AW 2019</h3>
+                    <p>Pour célébrer la couleur Pantone de l'année, InColor met en avant les créations audacieuses d'Elke Berr sublimant les gemmes aux nuances cor...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-incolor-aw-2018.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/incolor_aw_2018.png" alt="InColor AW 2018" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">InColor Magazine</span>
+                    <span class="date">Hiver 2018</span>
+                    <h3>InColor AW 2018</h3>
+                    <p>L'édition de fin d'année d'InColor magazine explore la beauté mystique et la rareté infinie des rubis. La bague rubis étoilé d'Elke Berr y e...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-bk-le-mag-2017.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/bk_le_mag_2017.jpg" alt="BK Le Mag 2017" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">BK Le Mag</span>
+                    <span class="date">Automne 2017</span>
+                    <h3>BK Le Mag 2017</h3>
+                    <p>Dans une interview portrait exclusive, BK Le Mag retrace le parcours inspirant d'Elke Berr, de ses débuts de gemmologue exploratrice à la fo...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-rapaport-2017.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/rapaport_2017.jpg" alt="Rapaport 2017" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Rapaport</span>
+                    <span class="date">Printemps 2017</span>
+                    <h3>Rapaport 2017</h3>
+                    <p>Interrogée par le prestigieux groupe Rapaport, Elke Berr partage son coup de cœur absolu pour un saphir birman de 118,88 carats adjugé chez ...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-sur-la-terre-2014.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/sur_la_terre_2014.jpg" alt="Sur La Terre 2014" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Sur La Terre</span>
+                    <span class="date">Automne 2014</span>
+                    <h3>Sur La Terre 2014</h3>
+                    <p>Dans cette tribune libre pour Sur la Terre, Elke Berr analyse avec lucidité la restructuration et la concentration de l'industrie du luxe de...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-trends-and-colours-2014.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/trends_and_colours_2014.jpg" alt="Trends & Colours 2014" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Trends & Colours</span>
+                    <span class="date">Été 2014</span>
+                    <h3>Trends & Colours 2014</h3>
+                    <p>La revue de référence internationale met en avant la bague en calcédoine d'Elke Berr. Issue de la collection Mysteria, cette pièce est salué...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-day-and-night-2013.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/day_and_night_2013.jpg" alt="Day & Night 2013" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Day & Night</span>
+                    <span class="date">Printemps 2013</span>
+                    <h3>Day & Night 2013</h3>
+                    <p>Le magazine de luxe Day & Night consacre un grand focus à Elke Berr. L'article célèbre son double talent de gemmologue et de designer, souli...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-trends-and-colours-2013.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/trends_and_colours_2013.jpg" alt="Trends & Colours 2013" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">Trends & Colours</span>
+                    <span class="date">Hiver 2013</span>
+                    <h3>Trends & Colours 2013</h3>
+                    <p>Trends & Colours consacre un article à l'extraordinaire bague spinelle rouge signée Elke Berr. Le magazine loue le choix de cette gemme rare...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-the-new-diner-scope-2013.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/the_new_diner_scope_2013.jpg" alt="The New Diner Scope 2013" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">The New Diner Scope</span>
+                    <span class="date">Printemps 2013</span>
+                    <h3>The New Diner Scope 2013</h3>
+                    <p>Dans ce grand article de fond, The New Diner Scope met en lumière la collection signature 'Aqua Bubble' d'Elke Berr, caractérisée par ses ge...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-the-new-diner-scope-2013-iris.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/the_new_diner_scope_2013_iris.jpg" alt="The New Diner Scope 2013 (Iris)" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">The New Diner Scope</span>
+                    <span class="date">Hiver 2013</span>
+                    <h3>The New Diner Scope 2013 (Iris)</h3>
+                    <p>La prestigieuse publication zoome sur la collection Iris d'Elke Berr. Les critiques s'émerveillent de l'accord subtil de saphirs pastel, de ...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-the-new-diner-scope-2011.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/the_new_diner_scope_2011.jpg" alt="The New Diner Scope 2011" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">The New Diner Scope</span>
+                    <span class="date">Automne 2011</span>
+                    <h3>The New Diner Scope 2011</h3>
+                    <p>Un grand panorama des premières collections iconiques d'Elke Berr. L'article explore comment chaque ligne ('Laguna' pour la sérénité aquatiq...</p>
+                </div>
+            </a>
+        </div>
+        <div class="press-card">
+            <a href="presse-the-new-diner-scope-2011-onde.html" style="text-decoration: none; color: inherit;">
+                <div class="press-card-img">
+                    <img src="img/presse/the_new_diner_scope_2011_onde.jpg" alt="The New Diner Scope 2011 (Onde)" loading="lazy">
+                </div>
+                <div class="press-card-meta">
+                    <span class="pub">The New Diner Scope</span>
+                    <span class="date">Printemps 2011</span>
+                    <h3>The New Diner Scope 2011 (Onde)</h3>
+                    <p>Cet article retrace les innovations techniques majeures introduites par Elke Berr, notamment la taille 'Onde' brevetée qui fait danser la lu...</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- PRODUCT EDITORIAL -->
+    <div class="press-section-title" style="padding-top: 2rem;">
+        <span class="kicker">VUS EN PRESSE</span>
+        <h2>Pièces Remarquées</h2>
+        <div class="press-divider"></div>
+    </div>
+
+    <div class="press-product-row">
+        <div class="press-product-item">
+            <a href="produits/zp-unbreakable/zp_unbreakable_linfini_necklace.html" style="text-decoration: none; color: inherit;">
+                <img src="img/zp_unbreakable_linfini_necklace.png" alt="L'Infini Necklace">
+                <span>Collier L'Infini — Unbreakable</span>
+            </a>
+        </div>
+        <div class="press-product-item">
+            <a href="produits/zp-unbreakable/zp_unbreakable_link_earrings.html" style="text-decoration: none; color: inherit;">
+                <img src="img/zp_unbreakable_link_earrings.png" alt="Link Earrings">
+                <span>Boucles Link — Unbreakable</span>
+            </a>
+        </div>
+        <div class="press-product-item">
+            <a href="produits/zp-unbreakable/zp_unbreakable_complice_bangle.html" style="text-decoration: none; color: inherit;">
+                <img src="img/zp_unbreakable_complice_bangle.png" alt="Complice Bangle">
+                <span>Bracelet Complice — Unbreakable</span>
+            </a>
+        </div>
+        <div class="press-product-item">
+            <a href="produits/zp-unbreakable/zp_unbreakable_tresor_ring.html" style="text-decoration: none; color: inherit;">
+                <img src="img/zp_unbreakable_tresor_ring.png" alt="Trésor Ring">
+                <span>Bague Trésor — Unbreakable</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- PRESSE CONTACT -->
+    <div class="press-contact">
+        <span class="kicker">RELATIONS MÉDIAS</span>
+        <h2>Contact Presse</h2>
+        <p>
+            Pour toute demande d'interview, d'accréditation ou de prêt de bijoux d'exception,<br>
+            notre département relations médias est à votre entière disposition.<br><br>
+            <a href="mailto:office@berrandpartners.ch">office@berrandpartners.ch</a><br>
+            +41 22 310 61 10<br><br>
+            Maison Elke Berr Creations · Rue du Cendrier 12-14 · 1201 Genève
+        </p>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                    <li><a href="bespoke.html">Bespoke</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+                </a>
+            </div>
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal');
+                }
+            });
+        }, { threshold: 0.08 });
+        document.querySelectorAll('.press-card, .press-product-item').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elke Berr — Gemmologue et créatrice de haute joaillerie à Genève depuis 1989. Haute Joaillerie, Collection Unbreakable, Joaillerie Privée sur-mesure.">
+    <meta property="og:title" content="Elke Berr — L'Âme des Pierres | Haute Joaillerie Genève">
+    <meta property="og:description" content="Gemmologue et créatrice de haute joaillerie à Genève depuis 1989. Pierres de collection, Unbreakable, création sur mesure.">
+    <meta property="og:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elkeberr.com/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Elke Berr — L'Âme des Pierres | Haute Joaillerie Genève">
+    <meta name="twitter:description" content="Gemmologue et créatrice de haute joaillerie à Genève depuis 1989.">
+    <meta name="twitter:image" content="https://elkeberr.com/img/bague_saphir.png">
+    <title>Elke Berr — L'Âme des Pierres</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="logo-container" aria-label="Elke Berr — Accueil">
+            <span class="logo-main">ELKE BERR</span>
+            <span class="logo-sub">GENÈVE</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="unbreakable.html">Unbreakable</a>
+                <div class="dropdown-menu">
+                    <a href="unbreakable.html">Unbreakable</a>
+                    <a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+                    <a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+                    <a href="unbreakable-story.html">L'Histoire</a>
+                    <a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+                </div>
+            </li>
+            <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+            <li class="has-mega">
+                <a href="haute-joaillerie.html">Haute Joaillerie</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                            <li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+                            <li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+                            <li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="has-mega">
+                <a href="bijoux.html">Bijoux</a>
+                <div class="mega-menu">
+                    <div class="mega-column">
+                        <h4>Catégorie</h4>
+                        <ul>
+                            <li><a href="bijoux.html">Tous les Bijoux</a></li>
+                            <li><a href="bagues.html">Bagues</a></li>
+                            <li><a href="colliers.html">Colliers</a></li>
+                            <li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Collection</h4>
+                        <ul>
+                            <li><a href="rockn-rose.html">Rock'N Rose</a></li>
+                            <li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+                            <li><a href="singular.html">Singular</a></li>
+                            <li><a href="mysteria.html">Mysteria</a></li>
+                            <li><a href="waves.html">Waves</a></li>
+                            <li><a href="dolce.html">Dolce</a></li>
+                            <li><a href="me-you.html">Me &amp; You</a></li>
+                            <li><a href="milky-way.html">Milky Way</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-column">
+                        <h4>Idées Cadeaux</h4>
+                        <ul>
+                            <li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="news.html">Actualités</a>
+                <div class="dropdown-menu">
+                    <a href="news.html">Actualités</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                </div>
+            </li>
+            <li>
+                <a href="maison.html">La Maison</a>
+                <div class="dropdown-menu">
+                    <a href="maison.html">La Maison</a>
+                    <a href="maison-histoire.html">Notre Histoire</a>
+                    <a href="maison-savoir-faire.html">Savoir-Faire</a>
+                    <a href="private-jeweller.html">Joaillerie Privée</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="js/main.js"></script>
+
+    <!-- 1. HERO CINÉMATIQUE -->
+    <div class="hero-video-container" role="banner">
+        <video autoplay muted loop playsinline class="video-full-bg" aria-hidden="true">
+            <source src="shopify_media/5dcc0929850b4fbea015c0e5b29ea8a4.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <span class="kicker kicker--light fade-in" style="font-size:1.95rem;">MAISON ELKE BERR — GENÈVE</span>
+            <div style="width:60px;height:1px;background:rgba(255,255,255,0.4);margin:0 auto 3.5rem;" class="fade-in fade-in-delay-1"></div>
+            <a href="bijoux.html" class="btn-outline btn-outline--light fade-in fade-in-delay-2">Découvrir le Showroom</a>
+        </div>
+        <div class="hero-scroll-cue" aria-hidden="true">
+            <div class="scroll-line"></div>
+            <span>Défiler</span>
+        </div>
+    </div>
+
+    <!-- 2. MARQUEE HÉRITAGE -->
+    <div class="marquee-strip" aria-hidden="true">
+        <div class="marquee-track">
+            <span class="marquee-item">Gemmologue<span class="marquee-dot"></span></span>
+            <span class="marquee-item">Depuis 1989<span class="marquee-dot"></span></span>
+            <span class="marquee-item">Haute Joaillerie<span class="marquee-dot"></span></span>
+            <span class="marquee-item">3 Générations de Passion<span class="marquee-dot"></span></span>
+            <span class="marquee-item">Ateliers Genevois<span class="marquee-dot"></span></span>
+            <span class="marquee-item">Pierres de Collection<span class="marquee-dot"></span></span>
+            <span class="marquee-item">Sur-Mesure<span class="marquee-dot"></span></span>
+            <span class="marquee-item">Savoir-Faire Transmis<span class="marquee-dot"></span></span>
+            <span class="marquee-item">L'Indiana Jane des Pierres<span class="marquee-dot"></span></span>
+            <span class="marquee-item">Genève<span class="marquee-dot"></span></span>
+        </div>
+    </div>
+
+    <!-- 3. TRANSMISSION — PHILOSOPHIE PATEK PHILIPPE STYLE -->
+    <section class="reveal" style="padding:0;">
+        <div class="transmission-block">
+            <span class="kicker" style="text-align:center;display:block;">L'HÉRITAGE</span>
+            <p class="large-serif">
+                Vous ne portez pas seulement un bijou Elke Berr.<br>
+                <em>Vous portez 35 ans d'exploration des mines du monde.</em>
+            </p>
+            <div class="eb-divider" style="margin:4rem auto;">
+                <span>EB</span>
+            </div>
+            <p style="font-size:1rem;line-height:2;color:var(--muted);max-width:620px;margin:0 auto 4rem;font-family:var(--font-serif);font-style:italic;">
+                Gemmologue avant d'être créatrice — telle est la singularité d'Elke Berr. Depuis trois décennies, elle parcourt les mines du monde entier pour sélectionner, pierre par pierre, des gemmes d'une rareté absolue. Chaque bijou commence par l'écoute de la pierre elle-même.
+            </p>
+            <a href="maison.html" class="btn-outline">Découvrir la Maison</a>
+        </div>
+    </section>
+
+    <!-- 4. SPLIT — DE LA GEMMOLOGUE À LA CRÉATRICE -->
+    <section class="reveal alt-section" style="padding:12rem var(--pad-x);">
+        <div class="split-section">
+            <div class="split-img-container">
+                <img src="img/launch_elke.jpg" alt="Atelier Elke Berr Genève — Sertissage de précision" loading="lazy">
+            </div>
+            <div class="split-text">
+                <span class="kicker">ARTISANAT D'EXCELLENCE</span>
+                <h2 style="font-size:clamp(2rem,3.5vw,3rem);font-family:var(--font-serif);margin:1.5rem 0 2.5rem;line-height:1.2;">
+                    Gemmologue<br><em style="font-family:var(--font-display);font-size:1.2em;font-weight:300;">avant d'être créatrice</em>
+                </h2>
+                <p>
+                    Elke Berr est souvent surnommée <strong>« l'Indiana Jane des pierres précieuses »</strong>. Formée à la gemmologie depuis l'enfance, elle a fondé sa Maison en 2003 après plus de 35 ans d'exploration des plus grandes mines du monde.
+                </p>
+                <p>
+                    Une passion transmise de génération en génération — gemmologie, science des pierres précieuses et amour du beau travail. Chaque création naît de cette expertise unique : d'abord la pierre, ensuite le bijou.
+                </p>
+                <a href="maison-histoire.html" class="link-arrow" style="margin-top:3rem;">Notre Histoire</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. VIDEO SECTION — UNBREAKABLE -->
+    <section class="reveal flush-section" style="padding:0;background:#000;height:80vh;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;">
+        <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.45;" aria-hidden="true">
+            <source src="shopify_media/78a9e26ace7b4160a614f82bf3b37297.mp4" type="video/mp4">
+        </video>
+        <div style="position:relative;z-index:1;text-align:center;color:#fff;padding:0 10vw;">
+            <span class="kicker kicker--light">CO-CRÉATION EXCLUSIVE</span>
+            <h2 style="font-family:var(--font-display);color:#fff;font-size:clamp(3rem,8vw,6.5rem);font-weight:300;letter-spacing:0.15em;text-transform:uppercase;margin:1.5rem 0;">Unbreakable</h2>
+            <p style="color:rgba(255,255,255,0.65);margin:0 0 3.5rem;letter-spacing:0.35em;text-transform:uppercase;font-size:0.75rem;">La Résilience Transformée en Éclat</p>
+            <a href="unbreakable.html" class="btn-outline btn-outline--light">Voir la Collection</a>
+        </div>
+    </section>
+
+    <!-- 6. COLLECTIONS EDITORIALES -->
+    <section class="reveal" style="padding:14rem var(--pad-x);">
+        <div style="text-align:center;margin-bottom:8rem;">
+            <span class="kicker">NOS UNIVERS</span>
+            <h2 style="font-size:clamp(2rem,4vw,3.5rem);font-weight:400;margin-top:1rem;">L'Expression du Luxe</h2>
+        </div>
+        <div class="grid-3">
+            <a href="haute-joaillerie.html" style="text-decoration:none;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper">
+                        <img src="img/bague_saphir.png" alt="Haute Joaillerie Elke Berr — Bague saphir" loading="lazy">
+                    </div>
+                    <span class="kicker">HAUTE JOAILLERIE</span>
+                    <h3>Pierres de Collection</h3>
+                    <p>Créations Uniques & Gemmes Rares</p>
+                </div>
+            </a>
+            <a href="unbreakable.html" style="text-decoration:none;">
+                <div class="card reveal" style="margin-top:4rem;">
+                    <div class="card-img-wrapper">
+                        <video autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;" aria-hidden="true">
+                            <source src="img/video_42f4.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <span class="kicker">COLLECTION</span>
+                    <h3>Unbreakable</h3>
+                    <p>Le Lien Éternel entre Force et Grâce</p>
+                </div>
+            </a>
+            <a href="private-jeweller.html" style="text-decoration:none;">
+                <div class="card reveal">
+                    <div class="card-img-wrapper">
+                        <img src="img/launch_elke.jpg" alt="Joaillerie Privée — Création sur-mesure" loading="lazy">
+                    </div>
+                    <span class="kicker">SUR-MESURE</span>
+                    <h3>Joaillerie Privée</h3>
+                    <p>Votre Vision, Notre Savoir-Faire</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- 7. L'ÂME DES PIERRES — SECTION SOMBRE SYMBOLIQUE -->
+    <section class="reveal dark-section flush-section" style="padding:0;">
+        <div style="padding:10rem var(--pad-x) 6rem;text-align:center;">
+            <span class="kicker kicker--gold">LES PIERRES PRÉCIEUSES</span>
+            <h2 style="font-family:var(--font-display);font-size:clamp(2.5rem,5vw,4.5rem);color:#FDFCF8;font-weight:300;margin-top:1.5rem;letter-spacing:0.08em;">
+                Chaque gemme porte<br><em>une mémoire géologique</em>
+            </h2>
+            <p style="max-width:580px;margin:3rem auto 0;font-size:0.95rem;line-height:2;color:rgba(253,252,248,0.5);font-weight:300;">
+                Elke Berr sélectionne chaque pierre à la source, dans les mines de Birmanie, du Sri Lanka, de Colombie et d'Afrique. Une conviction absolue : la beauté d'un bijou commence sous terre.
+            </p>
+        </div>
+        <div class="stone-grid">
+            <div class="stone-entry reveal">
+                <span class="stone-origin">Birmanie · Mogok</span>
+                <h3 class="stone-name">Rubis</h3>
+                <p>Depuis des millénaires, la flamme intérieure du rubis birman incarne la passion inaltérable. Les mines de Mogok produisent les spécimens les plus rares — couleur « sang de pigeon », translucides et vivants. Elke les sélectionne une par une.</p>
+            </div>
+            <div class="stone-entry reveal">
+                <span class="stone-origin">Sri Lanka · Ratnapura</span>
+                <h3 class="stone-name">Saphir</h3>
+                <p>Pierre de sagesse, de fidélité et de profondeur céleste. Les saphirs ceylanais révèlent dans leur bleu une sérénité millénaire. Chaque spécimen porte en lui la mémoire géologique d'une île ancienne et la lumière de mers tropicales.</p>
+            </div>
+            <div class="stone-entry reveal">
+                <span class="stone-origin">Colombie · Muzo</span>
+                <h3 class="stone-name">Émeraude</h3>
+                <p>L'éclat de la nature à l'état pur, né des Andes colombiennes. L'inclusion naturelle de l'émeraude — son « jardin » — témoigne de son authenticité absolue. Pour Elke, ces imperfections sont des signatures uniques, jamais des défauts.</p>
+            </div>
+        </div>
+        <div style="text-align:center;padding:6rem var(--pad-x) 10rem;">
+            <a href="maison-savoir-faire.html" class="btn-outline btn-outline--gold">Le Savoir-Faire Gemmologique</a>
+        </div>
+    </section>
+
+    <!-- 8. UNBREAKABLE DUO — PAUL & ZULAY ÉGAUX -->
+    <section class="reveal flush-section" style="padding:0;">
+        <div style="text-align:center;padding:10rem var(--pad-x) 6rem;background:var(--bg-alt);">
+            <span class="kicker">COLLABORATION EXCLUSIVE</span>
+            <h2 style="font-size:clamp(2rem,4vw,3.2rem);font-weight:400;margin-top:1rem;">Deux Âmes,<br>Une Collection</h2>
+            <p style="max-width:600px;margin:2.5rem auto 0;font-size:0.95rem;line-height:2;color:var(--muted);">La collection Unbreakable est née d'une rencontre entre la vision d'Elke Berr et deux personnalités d'exception. Deux éditions distinctes, deux expressions d'une même résilience.</p>
+        </div>
+        <div class="duo-split">
+            <a href="unbreakable-paul.html" class="duo-panel">
+                <img src="img/unbreakable_hero.png" alt="Edition Paul Pogba — Unbreakable par Elke Berr" loading="lazy">
+                <div class="duo-panel-text">
+                    <span class="kicker kicker--light">ÉDITION MASCULINE</span>
+                    <h3>Paul<br>Pogba</h3>
+                    <p style="font-size:0.85rem;color:rgba(255,255,255,0.6);line-height:1.8;margin-bottom:1.5rem;">Argent massif, spinelles noirs. La puissance à l'état pur — une force qui ne plie jamais.</p>
+                    <span class="link-arrow" style="color:#fff;font-size:0.6rem;">Explorer l'Édition</span>
+                </div>
+            </a>
+            <a href="unbreakable-zulay.html" class="duo-panel">
+                <img src="img/launch_zulay.jpg" alt="Edition Zulay Pogba — Unbreakable par Elke Berr" loading="lazy">
+                <div class="duo-panel-text">
+                    <span class="kicker kicker--light">ÉDITION FÉMININE</span>
+                    <h3>Zulay<br>Pogba</h3>
+                    <p style="font-size:0.85rem;color:rgba(255,255,255,0.6);line-height:1.8;margin-bottom:1.5rem;">Or 18 carats, diamants de haute joaillerie. La grâce lumineuse qui transcende l'adversité.</p>
+                    <span class="link-arrow" style="color:#fff;font-size:0.6rem;">Explorer l'Édition</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- 9. JOAILLERIE PRIVÉE CTA -->
+    <section class="reveal" style="padding:14rem var(--pad-x);">
+        <div class="split-section reverse">
+            <div class="split-img-container">
+                <img src="img/launch_showcase.jpg" alt="Showroom Elke Berr — Rue du Cendrier, Genève" loading="lazy">
+            </div>
+            <div class="split-text">
+                <span class="kicker">L'ÉCRIN GENEVOIS</span>
+                <h2 style="font-size:clamp(1.8rem,3vw,2.8rem);line-height:1.2;margin:1.5rem 0 2.5rem;">Un Showroom<br>Confidentiel</h2>
+                <p>Situé au cœur de Genève, notre showroom est un espace de confidentialité et de découverte. Elke vous y accueille sur rendez-vous pour partager sa passion des pierres et concevoir votre bijou bespoke.</p>
+                <p>Du premier croquis à la révélation finale : un accompagnement d'exception, à la hauteur de votre histoire.</p>
+                <a href="contact.html" class="btn-outline" style="margin-top:3.5rem;">Prendre Rendez-vous</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER — injected by JS -->
+        <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="footer-logo-main">ELKE BERR</div>
+                <div class="footer-logo-sub">GENÈVE</div>
+                <p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+                <p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+                    <li><a href="unbreakable.html">Unbreakable</a></li>
+                    <li><a href="bijoux.html">Bijoux</a></li>
+                    <li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>La Maison</h4>
+                <ul>
+                    <li><a href="maison.html">Notre Histoire</a></li>
+                    <li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="presse.html">Presse</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-col">
+                <h4>Informations</h4>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                    <li><a href="confidentialite.html">Confidentialité</a></li>
+                    <li><a href="cgv.html">CGV</a></li>
+                    <li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-social">
+                <a href="https://www.instagram.com/elkeberr_official/" target="_blank" rel="noopener" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://x.com/elkeberr_off" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+                </a>
+            </div>
+            <p>&copy; 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+        </div>
+    </footer>
+
+</body>
+</html>

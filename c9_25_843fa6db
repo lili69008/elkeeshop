@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elke Berr a été honorée du prestigieux titre de « Femme la plus influente » lors de la cérémonie de remise des prix à Paris.">
+    <title>Femmes influentes du monde 2024 — Événements | Elke Berr Genève</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .event-intro { padding: 8rem 15vw 6rem; text-align: center; }
+        .event-intro h1 { font-size: 3rem; margin-bottom: 2rem; font-family: 'Playfair Display', serif; font-weight: 400; }
+        .event-intro p { font-size: 1.1rem; line-height: 1.8; color: #444; margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto; }
+        
+        .gallery-masonry { columns: 2; column-gap: 2.5rem; padding: 0 6vw 10rem; max-width: 1400px; margin: 0 auto; }
+        .gallery-item { break-inside: avoid; margin-bottom: 2.5rem; position: relative; overflow: hidden; border: 1px solid var(--border); }
+        .gallery-item img { width: 100%; display: block; transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
+        .gallery-item:hover img { transform: scale(1.05); }
+        .gallery-item p { position: absolute; bottom: 0; left: 0; width: 100%; padding: 1.5rem; background: linear-gradient(transparent, rgba(0,0,0,0.8)); color: #fff; font-size: 0.75rem; letter-spacing: 0.1em; opacity: 0; transition: opacity 0.4s; margin: 0; font-family: 'Inter', sans-serif; text-transform: uppercase; }
+        .gallery-item:hover p { opacity: 1; }
+        
+        @media (max-width: 1024px) { .gallery-masonry { columns: 2; } }
+        @media (max-width: 600px) { .gallery-masonry { columns: 1; } }
+    </style>
+</head>
+<body>
+    <nav aria-label="Navigation principale" class="nav-bar" role="navigation">
+<a aria-label="Elke Berr — Accueil" class="logo-container" href="index.html">
+<span class="logo-main">ELKE BERR</span>
+<span class="logo-sub">GENÈVE</span>
+</a>
+<ul class="nav-links">
+<li><a href="index.html">Accueil</a></li>
+<li>
+<a href="unbreakable.html">Unbreakable</a>
+<div class="dropdown-menu">
+<a href="unbreakable.html">Unbreakable</a>
+<a href="unbreakable-paul.html">Elke Berr × Paul Pogba</a>
+<a href="unbreakable-zulay.html">Elke Berr × Zulay Pogba</a>
+<a href="unbreakable-story.html">L'Histoire</a>
+<a href="unbreakable-villa.html">Lancement Villa Forbes</a>
+</div>
+</li>
+<li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+<li class="has-mega">
+<a href="haute-joaillerie.html">Haute Joaillerie</a>
+<div class="mega-menu">
+<div class="mega-column">
+<h4>Catégories</h4>
+<ul>
+<li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+<li><a href="haute-joaillerie-colliers.html">Colliers</a></li>
+<li><a href="haute-joaillerie-bagues.html">Bagues</a></li>
+<li><a href="haute-joaillerie-boucles-doreilles.html">Boucles d'oreilles</a></li>
+<li><a href="haute-joaillerie-bracelets.html">Bracelets</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="has-mega">
+<a href="bijoux.html">Bijoux</a>
+<div class="mega-menu">
+<div class="mega-column">
+<h4>Catégorie</h4>
+<ul>
+<li><a href="bijoux.html">Tous les Bijoux</a></li>
+<li><a href="bagues.html">Bagues</a></li>
+<li><a href="colliers.html">Colliers</a></li>
+<li><a href="boucles-doreilles.html">Boucles d'oreilles</a></li>
+<li><a href="bracelets.html">Bracelets</a></li>
+</ul>
+</div>
+<div class="mega-column">
+<h4>Collection</h4>
+<ul>
+<li><a href="rockn-rose.html">Rock'N Rose</a></li>
+<li><a href="rockn-rose-summer.html">Rock'N Rose Été</a></li>
+<li><a href="singular.html">Singular</a></li>
+<li><a href="mysteria.html">Mysteria</a></li>
+<li><a href="waves.html">Waves</a></li>
+<li><a href="dolce.html">Dolce</a></li>
+<li><a href="me-you.html">Me &amp; You</a></li>
+<li><a href="milky-way.html">Milky Way</a></li>
+</ul>
+</div>
+<div class="mega-column">
+<h4>Idées Cadeaux</h4>
+<ul>
+<li><a href="pour-elle.html">Pour Elle/Lui</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<a href="news.html">Actualités</a>
+<div class="dropdown-menu">
+<a href="news.html">Actualités</a>
+<a href="presse.html">Presse</a>
+<a href="evenements.html">Événements</a>
+</div>
+</li>
+<li>
+<a href="maison.html">La Maison</a>
+<div class="dropdown-menu">
+<a href="maison.html">La Maison</a>
+<a href="maison-histoire.html">Notre Histoire</a>
+<a href="maison-savoir-faire.html">Savoir-Faire</a>
+<a href="private-jeweller.html">Joaillerie Privée</a>
+</div>
+</li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+      <div class="hero-video-container hero-collection" style="background: url('img/evenements/most-influential-women.jpg') no-repeat center top; background-size: cover; background-color: #0c0f0a;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="kicker kicker--light">FEMMES INFLUENTES DU MONDE — LE RITZ</span>
+            <h1>Femmes influentes du monde <span>2024</span></h1>
+            <div class="hero-divider"></div>
+            <p>Événements Elke Berr Genève</p>
+        </div>
+    </div>
+
+    <section class="event-intro">
+        <span class="kicker">PARIS 2024</span>
+        <h1>Femmes influentes du monde 2024</h1>
+        <p>Elke Berr a été honorée du prestigieux titre de « Femme la plus influente » lors de la cérémonie de remise des prix à Paris.</p>
+        <a href="evenements.html" class="btn btn--secondary">← Retour aux événements</a>
+    </section>
+
+    <div class="gallery-masonry">
+        <div class="gallery-item">
+            <img src="img/evenements/most-influential-women-of-the-world/Ritz_09-2024-986_cf4873f1-e4b9-48a0-88dd-f373bdaf032c.jpg" alt="Femmes influentes du monde — Elke Berr Genève" loading="lazy">
+            <p>Femmes influentes du monde</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/evenements/most-influential-women-of-the-world/Ritz_09-2024-724_1.jpg" alt="PARIS 2024 — Elke Berr Genève" loading="lazy">
+            <p>PARIS 2024</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/evenements/most-influential-women-of-the-world/Ritz_09-2024-360_1.jpg" alt="PARIS 2024 — Elke Berr Genève" loading="lazy">
+            <p>PARIS 2024</p>
+        </div>
+        <div class="gallery-item">
+            <img src="img/evenements/most-influential-women-of-the-world/Ritz_09-2024-753.jpg" alt="PARIS 2024 — Elke Berr Genève" loading="lazy">
+            <p>PARIS 2024</p>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+<div class="footer-inner">
+<div class="footer-brand">
+<div class="footer-logo-main">ELKE BERR</div>
+<div class="footer-logo-sub">GENÈVE</div>
+<p class="footer-tagline">L'Âme des Pierres Dicte l'Œuvre</p>
+<p class="footer-address">Rue du Cendrier · Genève · Sur rendez-vous</p>
+</div>
+<div class="footer-nav-col">
+<h4>Collections</h4>
+<ul>
+<li><a href="haute-joaillerie.html">Haute Joaillerie</a></li>
+<li><a href="unbreakable.html">Unbreakable</a></li>
+<li><a href="bijoux.html">Tous les Bijoux</a></li>
+<li><a href="private-jeweller.html">Joaillerie Privée</a></li>
+<li><a href="bespoke.html">Bespoke</a></li>
+</ul>
+</div>
+<div class="footer-nav-col">
+<h4>La Maison</h4>
+<ul>
+<li><a href="maison.html">Notre Histoire</a></li>
+<li><a href="maison-savoir-faire.html">Savoir-Faire</a></li>
+<li><a href="news.html">Actualités</a></li>
+<li><a href="presse.html">Presse</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-nav-col">
+<h4>Informations</h4>
+<ul>
+<li><a href="mentions-legales.html">Mentions Légales</a></li>
+<li><a href="confidentialite.html">Confidentialité</a></li>
+<li><a href="cgv.html">CGV</a></li>
+<li><a href="livraison-retours.html">Livraison &amp; Retours</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="footer-social">
+<a aria-label="Instagram" href="https://www.instagram.com/elkeberr_official/" rel="noopener" target="_blank">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" fill="currentColor" r="0.5" stroke="none"></circle></svg>
+</a>
+<a aria-label="LinkedIn" href="https://www.linkedin.com/company/elke-berr-cr-ations/?originalSubdomain=ch" rel="noopener" target="_blank">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewbox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect height="12" width="4" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+</a>
+<a aria-label="X (Twitter)" href="https://x.com/elkeberr_off" rel="noopener" target="_blank">
+<svg fill="currentColor" viewbox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L2.25 2.25h6.222l4.265 5.638L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"></path></svg>
+</a>
+</div>
+<p>© 2026 Elke Berr Creations SA. Tous droits réservés. · Genève, Suisse</p>
+</div>
+</footer>
+</body>
+</html>
